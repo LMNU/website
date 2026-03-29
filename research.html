@@ -186,7 +186,7 @@
     presentation:    'Presentation',
     conferencePaper: 'Conference paper',
   };
-  const RESEARCH_TYPES = ['report','journalArticle','book','bookSection','conferencePaper'];
+  const RESEARCH_TYPES = ['journalArticle','bookSection','report','conferencePaper'];
 
   function typeLabel(t) { return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1); }
   function pubHref(p)   { return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#'); }
@@ -230,10 +230,10 @@
   }
 
   function buildFilters(pubs) {
-    // Type buttons
-    const types = [...new Set(pubs.map(p => p.type))];
+    // Type buttons — fixed order from RESEARCH_TYPES, only show types present in data
+    const presentTypes = new Set(pubs.map(p => p.type));
     const typeContainer = document.getElementById('type-filters');
-    types.forEach(t => {
+    RESEARCH_TYPES.filter(t => presentTypes.has(t)).forEach(t => {
       const btn = document.createElement('button');
       btn.className = 'filter-btn';
       btn.dataset.filterType = t;
