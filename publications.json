@@ -11,7 +11,7 @@
     "url": "",
     "source": "Trends",
     "abstract": "",
-    "cover_image": "",
+    "cover_image": "assets/covers/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.jpg",
     "url_or_download": "download",
     "pdf": "assets/pdfs/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.pdf"
   },
@@ -27,7 +27,7 @@
     "url": "",
     "source": "",
     "abstract": "",
-    "cover_image": "",
+    "cover_image": "assets/covers/ai-maakt-zichtbaar-wat-al-lang-scheef-zit.jpg",
     "url_or_download": "download",
     "pdf": "assets/pdfs/ai-maakt-zichtbaar-wat-al-lang-scheef-zit.pdf"
   },
@@ -43,7 +43,7 @@
     "url": "",
     "source": "",
     "abstract": "",
-    "cover_image": "",
+    "cover_image": "assets/covers/technologie-verandert-werk-maar-wij-bepalen-hoe.jpg",
     "url_or_download": "download",
     "pdf": "assets/pdfs/technologie-verandert-werk-maar-wij-bepalen-hoe.pdf"
   },
@@ -78,7 +78,7 @@
     "url": "https://www.elgaronline.com/edcollchap-oa/book/9781035373659/chapter8.xml",
     "source": "Edward Elgar Publishing",
     "abstract": "There is a need to better understand the potential and the misconceptions surrounding upskilling, reskilling, and broader skill development. While skills have taken centre stage in the EU policy debate, misunderstandings about their role persist. First, skills are fundamentally about people, and as such, they play a crucial role in fostering innovation-driven competitiveness. Innovation is not just about capital; it is also shaped by people and the places in which they work. Second, skills have the potential to support social mobility and reduce labour market inequalities. However, while skilling can improve access to opportunities, it alone cannot resolve deeper structural inequalities. Finally, skills should not be seen as fixed assets but as dynamic capabilities that evolve over time. Education and training are important, but skills are primarily shaped through work environments. This has important implications for the design of skill policies and their intended purpose.",
-    "cover_image": "",
+    "cover_image": "assets/covers/skills-between-reality-and-misconceptions-what-they-can-and-cannot-solve.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -117,7 +117,7 @@
     "url": "https://www.ceps.eu/ceps-publications/building-a-european-ai-ecosystem-of-excellence/",
     "source": "Centre for European Policy Studies",
     "abstract": "We conducted a foresight exercise to explore how AI could reshape Europe’s innovation systems and labour markets by 2045, for the CEPS project on a European Eco",
-    "cover_image": "",
+    "cover_image": "assets/covers/building-a-european-ai-ecosystem-of-excellence-foresight-report.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -133,7 +133,7 @@
     "url": "https://www.eurofound.europa.eu/en/publications/all/implications-of-ai-for-work-employment-and-social-dialogue-literature-review",
     "source": "Eurofound",
     "abstract": "This literature review assesses the implications of artificial intelligence (AI) for work organisation, job quality, employment, and social dialogue. It defines AI as any system that autonomously performs cognitive tasks – such as prediction, decision-making, or content generation. It is distinguished from algorithmic management (AM), which is reviewed in a parallel report. Drawing on task-level studies, the review finds that AI’s productivity impacts depend on the interplay between the type of task and the type of AI. Realising these gains requires investments in organisational and human capital. AI’s effects on job quality are mixed – enhancing skill use and autonomy in some contexts, while raising cognitive or emotional demands in others. Labour market outcomes are similarly ambiguous: while exposure is highest in managerial, professional and clerical roles, both substitution and augmentation effects are observed. Finally, while social dialogue can shape AI’s implementation, its scope and effectiveness vary widely across countries, underscoring the need for institutional adaptation and new participatory tools.",
-    "cover_image": "",
+    "cover_image": "assets/covers/implications-of-ai-for-work-employment-and-social-dialogue-literature-review-a-s.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -150,7 +150,7 @@
     "url": "https://www.ceps.eu/ceps-publications/preparedness-in-the-labour-market-a-toolkit-for-anticipating-the-future-of-work/",
     "source": "Centre for European Policy Studies",
     "abstract": "Recent shocks and disruptions – from pandemics to technological breakthroughs – have made clear that simply waiting until a crisis hits is no longer an option.",
-    "cover_image": "",
+    "cover_image": "assets/covers/preparedness-in-the-labour-market-a-toolkit-for-anticipating-the-future-of-work.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -187,7 +187,7 @@
     "url": "https://www.ceps.eu/ceps-publications/solving-europes-ai-talent-equation/",
     "source": "CEPS & interface",
     "abstract": "As Europe scales up its ambition to lead in AI, understanding the structure of AI labour markets becomes essential. This study offers a comparative mapping of AI job vacancies and AI talent across European countries, using a novel three-tiered classification system that distinguishes between AI literacy (Tier 0), software and data proficiency (Tier 1), and advanced AI research and engineering (Tier 2). This approach recognises that skills are not isolated units but form-nested hierarchies and that actionable workforce policy must target coherent skill bundles rather than individual skills.\n\nDrawing on online job vacancy data from Lightcast and workforce profile data from Revelio Labs, the study quantifies AI demand and supply across 31 countries, revealing both surpluses and shortages at different proficiency levels. Tier 1 talent dominates both demand and supply, while talent shortages are most visible at the foundational (Tier 0) and advanced (Tier 2) levels. These patterns vary significantly across countries, reflecting diverse national strategies, migration flows and educational capacities. In many countries, the supply of qualified talent per vacancy is limited – especially at the high and low ends of the proficiency spectrum – indicating tight labour markets for both AI engineering and AI literacy.\n\nThe findings call for geographically differentiated and proficiency-sensitive AI skills strategies. Rather than assuming a linear pipeline from AI novice to AI expert, upskilling efforts should focus on horizontally integrating AI capabilities within existing roles. A structured, level-based understanding of AI skills can guide the implementation of key EU initiatives – from the AI Continent Action Plan to the Union of Skills strategy – by providing a clearer picture of where, and at what depth, AI skills are most needed.",
-    "cover_image": "",
+    "cover_image": "assets/covers/solving-europs-ai-talent-equation-supply-demand-and-missing-pieces.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -221,7 +221,7 @@
     "url": "https://cdn.ceps.eu/wp-content/uploads/2025/03/20250128_GPAI_GenAI_FoW_report_final_VOECD.pdf",
     "source": "OECD/Global Partnership on AI",
     "abstract": "",
-    "cover_image": "",
+    "cover_image": "assets/covers/generative-ai-and-the-future-of-work-global-dialogue-perceptions-and-prospects-r.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -238,7 +238,7 @@
     "url": "https://www.intereconomics.eu/contents/year/2025/number/1/article/how-to-ensure-a-skills-based-future-for-european-competitiveness.html",
     "source": "Intereconomics",
     "abstract": "Competitiveness is a multifaceted concept and in today’s highly competitive global economy, skills are an essential component in how a country or region can become – and remain – competitive. This contribution focuses on bolstering strategies that aim to close the EU’s skills gap, with an emphasis on utilising skills intelligence, targeting adults, SMEs and managers, and strengthening policy instruments that aim to tackle consistent underinvestment in training.  \n\nThe contribution recognises that the demand for skills is not only driven by firms’ competitive strategies but also by policies and regional contexts. Well-designed policies can help regions build on their unique strengths while responding to the evolving needs of the labour market. This approach can not only enhance competitiveness but also ensure a more equitable distribution of the benefits of innovation, while preparing the EU workforce to meet the future challenges that they will inevitably have to face.",
-    "cover_image": "",
+    "cover_image": "assets/covers/how-to-ensure-a-skills-based-future-for-european-competitiveness.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -257,7 +257,7 @@
     "url": "https://data.europa.eu/doi/10.2767/4609973",
     "source": "Publications Office",
     "abstract": "Key megatrends – including technological, environmental, geopolitical, and demographic changes – are likely to reshape labour markets and social inclusion in Europe over the next decade. This study explores projected shifts in labour and skills demand and supply, the structural drivers influencing equality of opportunity, and the challenges these trends pose for the sustainable development of inclusive societies. The study anticipates major sectoral and occupational transformations, with a declining working-age population and persistent mismatches and shortages likely to exacerbate labour market pressures. Technological change, especially AI advances, is expected to alter task composition within occupations, with uneven impacts by gender, region and skill level.\n\nBeyond employment, megatrends are likely to affect job quality, access to services, and the adequacy of social protection systems, creating further risks for inclusion and equality. The study also identifies three self-reinforcing vicious cycles linked to intergenerational poverty and social exclusion, low-quality employment, and skills underutilisation, stressing the need for targeted – yet systemic – interventions. The findings aim to inform future programming of the European Social Fund Plus (ESF+).",
-    "cover_image": "",
+    "cover_image": "assets/covers/study-on-the-challenges-and-impacts-to-a-social-and-inclusive-europe-in-the-next.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -276,7 +276,7 @@
     "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC141451",
     "source": "",
     "abstract": "This report provides a comprehensive analysis of the impact of digital technologies on work and occupations in Europe, critically reassessing dominant narratives of mass unemployment and job polarisation. The report synthesises work done by the JRC Employment team over the last years. Drawing on a wide range of empirical research, the report introduces an analytical framework distinguishing three main vectors of change: automation, the replacement of labour by machines; digitisation, the increasing use of digital tools in work processes; and platformisation, the use of digital platforms for coordinating work. Contrary to widespread fears, our research finds that the impact of automation, such as industrial robots, on net employment levels in recent decades has been modest and often positive. While specific tasks are automated, this has primarily boosted productivity and led to a reallocation of labour rather than a net destruction of jobs. The most profound transformation stems from digitisation. This process, while enhancing efficiency, has fundamentally altered work organisation by enabling unprecedented levels of standardisation, monitoring, and managerial control. This creates a central paradox: while employment shifts away from routine occupations, work processes within many non-routine professional roles are becoming increasingly routinised and subject to digital control, impacting worker autonomy and job quality. Finally, the report identifies the rise of platformisation, not just in the gig economy, but as a logic of algorithmic management and surveillance extending into traditional workplaces. This trend is reshaping the nature of workplace control across the economy. Analysis of occupational structures reveals that job upgrading, rather than job polarisation, has been the most common pattern of change across the EU, driven largely by the growth of high-skilled service sector jobs. The report concludes that the primary impact of the digital era on work is a qualitative transformation in its nature, focusing on coordination, control, and job quality. The effects of technology are not deterministic; they are strongly mediated by institutional frameworks, with regulation and collective bargaining playing a crucial role in shaping outcomes for workers in the digital age.",
-    "cover_image": "",
+    "cover_image": "assets/covers/work-in-the-digital-era-how-technology-is-transforming-work-and-occupations.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -327,7 +327,7 @@
     "url": "",
     "source": "",
     "abstract": "",
-    "cover_image": "",
+    "cover_image": "assets/covers/5-methodes-om-de-toekomst-van-werk-te-verkennen-en-te-voorspellen.jpg",
     "url_or_download": "download",
     "pdf": "assets/pdfs/5-methodes-om-de-toekomst-van-werk-te-verkennen-en-te-voorspellen.pdf"
   },
@@ -362,7 +362,7 @@
     "url": "https://www.ceps.eu/ceps-publications/ai-at-work/",
     "source": "Centre for European Policy Studies",
     "abstract": "To better understand AI’s possible impact on jobs and employment, a task perspective is a good starting point – it provides insights into the automation potential of the current task content of occupations. However, it isn’t sufficient for a holistic understanding because it ignores several important concepts that lie in between individual tasks and labour market outcomes. Jobs, processes and organisations mediate technology’s impact on workers which is not captured by the task model of the labour market.\n\nThis CEPS Explainer provides a comprehensive framework for analysing AI’s impact on work by moving through the concepts of tasks, jobs, processes and organisations. It highlights how AI is not only an automation or augmenting technology for productive tasks but it can also be used to better coordinate work and ensure the best people are hired. While the former might change the quantity of jobs and their task content, the latter two have a direct impact on job quality and inclusive access to work. Finally, it’s the redesign of organisational processes surrounding AI’s adoption that will ultimately shape the future of work.",
-    "cover_image": "",
+    "cover_image": "assets/covers/ai-at-work-why-theres-more-to-it-than-task-automation.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -379,7 +379,7 @@
     "url": "https://www.bruegel.org/working-paper/exposure-generative-artificial-intelligence-european-labour-market",
     "source": "Bruegel",
     "abstract": "",
-    "cover_image": "",
+    "cover_image": "assets/covers/exposure-to-generative-artificial-intelligence-in-the-european-labour-market.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -396,7 +396,7 @@
     "url": "https://www.steunpuntwerk.be/files/publications/OW/OW_2024_1/OverWerk_2024_1_07.pdf",
     "source": "Over.Werk. Tijdschrift van het Steunpunt Werk",
     "abstract": "De krapte op de arbeidsmarkt is al een tijd heersend op de Vlaamse arbeidsmarkt. We verwachten bovendien dat de aanwervingsbehoefte in vele Vlaamse sectoren en beroepen de komende jaren nog verder kan oplopen (Hannon en Vansteenkiste, 2024; Neefs en Vansteenkiste, 2022). Antwoorden op deze uitdaging kunnen niet alleen komen vanuit activering, maar ook thema’s als productiviteit, mobiliteit, welzijn, technologie en arbeidsorganisatie komen steeds sterker op de voorgrond. In deze studie ontleden we hoe taakvereisten verschillen in beroepen, zodat we onder meer een beter zicht kunnen bieden op hoe dit een rol kan spelen in aanwervingen en retentie. We maken daarbij berekeningen op de ad hoc module 2022 van de Enquête naar Arbeidskrachten van Statbel, die ons toelaat taken in beroepen te onderscheiden op vlak van fysieke-, intellectuele- en sociale werkinhouden, werkmethoden (autonomie of routine) en werkmiddelen (analoog versus digitaal). We brengen een analyse van hoe taakvereisten verschillen over twaalf ruimere beroepsgroepen en welke verschillen er zijn per geslacht, statuut en scholingsniveau. Vervolgens maken we een specifieke uitdieping van de taakvereisten in het beroep van leerkrachten en verpleegkundigen. Zij zijn gekend als belangrijke knelpuntberoepen, terwijl er een sterke maatschappelijke impact gekoppeld is aan het niet kunnen oplossen van deze arbeidstekorten. Onze studie wijst onder meer op de precaire positie van kortgeschoolden wat taakvereisten betreft. Daarnaast duiden we er met ons onderzoek op dat in het tegengaan van arbeidstekorten het belangrijk is om ook voldoende aandacht te geven aan initiatieven rond de arbeidsvraag met daarin niet alleen een focus op de arbeidsomstandigheden, maar ook op de arbeidsinhoud.",
-    "cover_image": "",
+    "cover_image": "assets/covers/de-takendisbalans-in-vlaamse-beroepen-zicht-op-taken-in-beroepen-op-vlak-van-wer.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -413,7 +413,7 @@
     "url": "https://www.steunpuntwerk.be/files/publications/OW/OW_2024_1/OverWerk_2024_1_06.pdf",
     "source": "Over.Werk. Tijdschrift van het Steunpunt Werk",
     "abstract": "Doorheen de geschiedenis hebben technologische innovaties een impact gehad op de samenleving, maar ook op de arbeidsmarkt en het werk van mensen. Technologie wordt door sommigen gezien als een mogelijkheid om vooruitgang te creëren of conflicten of problemen op te lossen. Anderen ervaren technologie eerder als bedreigend, waarin het jobs kan doen veranderen of verloren gaan, en de ongelijkheid in de samenleving kan doen uitdiepen. Iets meer dan 10 jaar geleden, in 2013, publiceerden Frey en Osborne de eerste werkversie van hun paper waarin ze stelden dat 47% van de tewerkstelling in de VS bedreigd werd door automatisering (Frey & Osborne, 2017). Hoewel sindsdien gebleken is dat tewerkstelling in deze bedreigde beroepen niet is afgenomen, maar wel verder is toegenomen (Georgieff & Milanez, 2021), hebben deze auteurs de ontwikkeling van een hele reeks automatiseerbaarheidsscores in gang gezet. In dit artikel bekijken we verschillende types van deze technologische impactscores en beoordelen we de bruikbaarheid ervan voor monitoring, analyses en projecties van de arbeidsmarkt.",
-    "cover_image": "",
+    "cover_image": "assets/covers/de-impact-van-technologie-op-beroepen-het-belang-en-de-bruikbaarheid-van-impacts.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -432,7 +432,7 @@
     "url": "http://journals.sagepub.com/doi/10.1177/09596801231178904",
     "source": "",
     "abstract": "We examine job quality effects of new digital technologies, using the European frame of seven job quality domains: Pay, Working Time Quality, Prospects, Skills and Discretion, Work Intensity, Social Environment, and Physical Environment. Theoretical effects are ambivalent across all domains. The analysis of these effects confirms that digital technologies can both improve and harm job quality depending on how they are used. In light of this analysis and to think through the challenge of regulating digital technologies, we review emerging regulations across several European countries. Drawing on the principles of human-centred design, we argue that worker participation is important for securing good job quality outcomes, at both the innovation and adoption stages. We also consider the application of data protection legislation to the regulation of job quality. Overall, the paper extends debate about the future of work beyond employment and pay, on to a consideration of job quality more broadly.",
-    "cover_image": "",
+    "cover_image": "assets/covers/risks-to-job-quality-from-digital-technologies-are-industrial-relations-in-europ.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -476,13 +476,13 @@
       "Laura Nurski",
       "Frank Verboven"
     ],
-    "date": "07/2016",
+    "date": "2016-07",
     "forthcoming": false,
     "featured": false,
     "url": "https://doi.org/10.1093/restud/rdw002",
     "source": "",
     "abstract": "Exclusive dealing contracts between manufacturers and retailers force new entrants to set up their own costly dealer networks to enter the market. We ask whether such contracts may act as an entry barrier, and provide an empirical analysis of the European car market. We first estimate a demand model with product and spatial differentiation, and quantify consumers' valuations for dealer proximity and dealer exclusivity. We then perform policy counterfactuals to assess the profit incentives and possible entry-deterring effects of exclusive dealing. We find that there are no unilateral incentives to maintain exclusive dealing, but there is a collective incentive for the industry as a whole. Furthermore, a ban on exclusive dealing would raise the smaller entrants' market share. But more importantly, consumers would gain, not so much because of increased price competition, but rather because of the increased spatial availability, which compensates for the demand inefficiency from a loss of dealer exclusivity.",
-    "cover_image": "",
+    "cover_image": "assets/covers/exclusive-dealing-as-a-barrier-to-entry-evidence-from-automobiles.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -493,13 +493,13 @@
       "Laura Nurski",
       "Frank Verboven"
     ],
-    "date": "05/2014",
+    "date": "2014-05",
     "forthcoming": false,
     "featured": false,
     "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167718714000265",
     "source": "",
     "abstract": "This paper investigates the role of distribution networks in explaining incumbency advantages in the European car market. We compare three approaches to incorporate the size of distribution networks in discrete choice models of product differentiation: as an extra product characteristic, as a new dimension of product differentiation in a nested logit framework, or as a measure of the expected travel cost under a spatial Poisson distribution of locations. We obtain robust conclusions across all three approaches: distribution networks play an important role in explaining car producers' market shares, but they only appear to explain part of the bias towards domestic brands in the car market. We also report on an ongoing research project where we analyze the role of distribution networks at a much more detailed local market level, and investigate the specific role of exclusive dealing as a possible entry barrier.",
-    "cover_image": "",
+    "cover_image": "assets/covers/incumbency-advantages-distribution-networks-and-exclusivity-evidence-from-the-eu.jpg",
     "url_or_download": "url",
     "pdf": ""
   }
