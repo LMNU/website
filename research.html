@@ -1,310 +1,296 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Research — Laura Nurski</title>
-<meta name="description" content="Publications, reports, and academic work by Laura Nurski on AI, digitalisation, and the future of work.">
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-  :root {
-    --teal:      #007074;
-    --teal-mid:  #005c60;
-    --dark:      #111;
-    --mid:       #555;
-    --warm:      #f9f7f4;
-    --border:    #e8e8e8;
-    --sans:      'Inter', system-ui, sans-serif;
-    --serif:     'Georgia', serif;
-  }
-
-  body { font-family: var(--sans); color: var(--dark); background: #fff; line-height: 1.6; }
-
-  /* ── Nav ─────────────────────────────────────────────────────── */
-  nav {
-    position: sticky; top: 0; z-index: 100;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 0 5%; height: 64px;
-    background: #fff; border-bottom: 1px solid var(--border);
-  }
-  .nav-name { font-size: 1.05rem; font-weight: 700; color: var(--dark); text-decoration: none; }
-  .nav-links { display: flex; gap: 2.2rem; }
-  .nav-links a { font-size: .875rem; color: var(--mid); text-decoration: none; font-weight: 500; }
-  .nav-links a:hover, .nav-links a.active { color: var(--teal); }
-
-  /* ── Page header ─────────────────────────────────────────────── */
-  .page-header {
-    padding: 52px 5% 36px;
-    border-bottom: 1px solid var(--border);
-    max-width: 1160px; margin: 0 auto;
-  }
-  .page-header h1 {
-    font-family: var(--serif); font-weight: normal;
-    font-size: clamp(1.6rem, 3vw, 2.4rem); line-height: 1.2;
-    margin-bottom: .5rem;
-  }
-  .page-header p { font-size: .95rem; color: var(--mid); max-width: 600px; }
-
-  /* ── Filters ─────────────────────────────────────────────────── */
-  .filters-wrap {
-    padding: 24px 5%;
-    border-bottom: 1px solid var(--border);
-    background: var(--warm);
-  }
-  .filters {
-    max-width: 1160px; margin: 0 auto;
-    display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center;
-  }
-  .filter-group { display: flex; gap: .4rem; flex-wrap: wrap; }
-  .filter-label {
-    font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;
-    color: var(--mid); align-self: center; margin-right: .2rem;
-  }
-  .filter-btn {
-    font-size: .78rem; padding: .3rem .8rem;
-    border: 1.5px solid var(--border); border-radius: 2px;
-    background: #fff; color: var(--mid); cursor: pointer;
-    transition: border-color .15s, color .15s, background .15s;
-    font-family: var(--sans);
-  }
-  .filter-btn:hover { border-color: var(--teal); color: var(--teal); }
-  .filter-btn.active { background: var(--teal); border-color: var(--teal); color: #fff; }
-
-  /* ── Publication list ────────────────────────────────────────── */
-  .pub-section { padding: 36px 5%; max-width: 1160px; margin: 0 auto; }
-
-  .year-group { margin-bottom: 3rem; }
-  .year-heading {
-    font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
-    color: var(--mid); border-bottom: 1px solid var(--border);
-    padding-bottom: .4rem; margin-bottom: 1.5rem;
-  }
-
-  .pub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; }
-  .pub-card { text-decoration: none; color: inherit; display: block; }
-  .pub-cover-wrap {
-    position: relative; overflow: hidden;
-    border: 1px solid var(--border); margin-bottom: .7rem;
-  }
-  .pub-cover-wrap img {
-    display: block; width: 100%; aspect-ratio: 210/297; object-fit: cover;
-    transition: transform .3s;
-  }
-  .pub-card:hover .pub-cover-wrap img { transform: scale(1.03); }
-  .pub-tag {
-    position: absolute; top: .5rem; left: .5rem;
-    background: #fff; border: 1px solid var(--border);
-    font-size: .6rem; letter-spacing: .06em; text-transform: uppercase;
-    padding: .15rem .45rem; color: var(--teal);
-  }
-  .pub-forthcoming {
-    position: absolute; top: .5rem; right: .5rem;
-    background: #fff8e1; border: 1px solid #f0c040;
-    font-size: .6rem; letter-spacing: .06em; text-transform: uppercase;
-    padding: .15rem .45rem; color: #7a5e00;
-  }
-  .pub-title { font-size: .86rem; font-weight: 600; line-height: 1.4; margin-bottom: .25rem; }
-  .pub-meta { font-size: .76rem; color: var(--mid); }
-
-  /* No results */
-  .no-results {
-    padding: 3rem 0; text-align: center;
-    color: var(--mid); font-size: .95rem;
-    display: none;
-  }
-
-  /* ── Footer ──────────────────────────────────────────────────── */
-  footer {
-    padding: 1.8rem 5%; border-top: 1px solid var(--border);
-    display: flex; justify-content: space-between; align-items: center;
-    font-size: .8rem; color: var(--mid); margin-top: 2rem;
-  }
-  footer a { color: var(--mid); text-decoration: none; }
-  footer a:hover { color: var(--teal); }
-  .footer-links { display: flex; gap: 1.5rem; }
-</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
 </head>
 <body>
-
-<!-- Nav -->
-<nav>
-  <a class="nav-name" href="index.html">Laura Nurski</a>
-  <div class="nav-links">
-    <a href="research.html" class="active">Research</a>
-    <a href="outreach.html">Outreach</a>
-    <a href="about.html">About</a>
-  </div>
-</nav>
-
-<!-- Page header -->
-<div class="page-header">
-  <h1>Research</h1>
-  <p>Reports, journal articles, book chapters, and conference papers on AI, digitalisation, and the future of work.</p>
-</div>
-
-<!-- Filters -->
-<div class="filters-wrap">
-  <div class="filters">
-    <span class="filter-label">Type</span>
-    <div class="filter-group" id="type-filters">
-      <button class="filter-btn active" data-type="all">All</button>
-    </div>
-    <span class="filter-label" style="margin-left:1rem;">Year</span>
-    <div class="filter-group" id="year-filters">
-      <button class="filter-btn active" data-year="all">All</button>
-    </div>
-  </div>
-</div>
-
-<!-- Publication list -->
-<section class="pub-section">
-  <div id="pub-list"></div>
-  <p class="no-results" id="no-results">No publications match the current filters.</p>
-</section>
-
-<!-- Footer -->
-<footer>
-  <span>© 2026 Laura Nurski</span>
-  <div class="footer-links">
-    <a href="https://www.linkedin.com/in/lauranurski" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://scholar.google.com/citations?user=cryM1s4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-    <a href="https://orcid.org/0000-0003-1085-730X" target="_blank" rel="noopener">ORCID</a>
-    <a href="https://bsky.app/profile/lauranurski.bsky.social" target="_blank" rel="noopener">Bluesky</a>
-    <a href="about.html#contact">Contact</a>
-  </div>
-</footer>
-
-<script>
-  // ── Helpers ────────────────────────────────────────────────────
-  const TYPE_LABELS = {
-    report: 'Report',
-    journalArticle: 'Journal article',
-    book: 'Book',
-    bookSection: 'Book chapter',
-    magazineArticle: 'Magazine',
-    newspaperArticle: 'Newspaper',
-    podcast: 'Podcast',
-    blogPost: 'Blog post',
-    presentation: 'Presentation',
-    conferencePaper: 'Conference paper',
-  };
-  // Types shown on the Research page (exclude purely outreach types)
-  const RESEARCH_TYPES = ['report','journalArticle','book','bookSection','conferencePaper','presentation'];
-
-  function typeLabel(t) {
-    return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1);
-  }
-  function pubHref(p) {
-    return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#');
-  }
-  function pubYear(p) { return p.date ? p.date.slice(0, 4) : 'n.d.'; }
-
-  // ── State ──────────────────────────────────────────────────────
-  let allPubs = [];
-  let activeType = 'all';
-  let activeYear = 'all';
-
-  // ── Filtering ──────────────────────────────────────────────────
-  function filtered() {
-    return allPubs.filter(p => {
-      if (activeType !== 'all' && p.type !== activeType) return false;
-      if (activeYear !== 'all' && pubYear(p) !== activeYear) return false;
-      return true;
-    });
-  }
-
-  // ── Render ─────────────────────────────────────────────────────
-  function render() {
-    const pubs = filtered();
-    const list = document.getElementById('pub-list');
-    const noResults = document.getElementById('no-results');
-
-    if (pubs.length === 0) {
-      list.innerHTML = '';
-      noResults.style.display = 'block';
-      return;
-    }
-    noResults.style.display = 'none';
-
-    // Group by year descending
-    const byYear = {};
-    pubs.forEach(p => {
-      const y = pubYear(p);
-      if (!byYear[y]) byYear[y] = [];
-      byYear[y].push(p);
-    });
-    const years = Object.keys(byYear).sort((a, b) => b - a);
-
-    list.innerHTML = years.map(y => `
-      <div class="year-group">
-        <h2 class="year-heading">${y}</h2>
-        <div class="pub-grid">
-          ${byYear[y].map(p => `
-            <a class="pub-card" href="${pubHref(p)}" target="_blank" rel="noopener">
-              <div class="pub-cover-wrap">
-                <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
-                <span class="pub-tag">${typeLabel(p.type)}</span>
-                ${p.forthcoming ? '<span class="pub-forthcoming">Forthcoming</span>' : ''}
-              </div>
-              <p class="pub-title">${p.title}</p>
-              <p class="pub-meta">${[p.source, pubYear(p)].filter(Boolean).join(' · ')}</p>
-            </a>`).join('')}
-        </div>
-      </div>`).join('');
-  }
-
-  // ── Filter buttons ─────────────────────────────────────────────
-  function buildTypeFilters(pubs) {
-    const types = [...new Set(pubs.map(p => p.type))];
-    const container = document.getElementById('type-filters');
-    types.forEach(t => {
-      const btn = document.createElement('button');
-      btn.className = 'filter-btn';
-      btn.dataset.type = t;
-      btn.textContent = typeLabel(t);
-      container.appendChild(btn);
-    });
-    container.addEventListener('click', e => {
-      if (!e.target.matches('.filter-btn')) return;
-      container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      e.target.classList.add('active');
-      activeType = e.target.dataset.type;
-      render();
-    });
-  }
-
-  function buildYearFilters(pubs) {
-    const years = [...new Set(pubs.map(p => pubYear(p)))].sort((a, b) => b - a);
-    const container = document.getElementById('year-filters');
-    years.forEach(y => {
-      const btn = document.createElement('button');
-      btn.className = 'filter-btn';
-      btn.dataset.year = y;
-      btn.textContent = y;
-      container.appendChild(btn);
-    });
-    container.addEventListener('click', e => {
-      if (!e.target.matches('.filter-btn')) return;
-      container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      e.target.classList.add('active');
-      activeYear = e.target.dataset.year;
-      render();
-    });
-  }
-
-  // ── Load ───────────────────────────────────────────────────────
-  fetch('publications.json')
-    .then(r => r.json())
-    .then(pubs => {
-      // Research page shows research-type publications
-      allPubs = pubs.filter(p => RESEARCH_TYPES.includes(p.type));
-      buildTypeFilters(allPubs);
-      buildYearFilters(allPubs);
-      render();
-    })
-    .catch(err => console.error('Could not load publications.json:', err));
-</script>
-
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">&lt;title&gt;Research — Laura Nurski&lt;/title&gt;</p>
+<p class="p1">&lt;meta name="description" content="Publications, reports, and academic work by Laura Nurski on AI, digitalisation, and the future of work."&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--teal:<span class="Apple-converted-space">      </span>#007074;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--teal-mid:<span class="Apple-converted-space">  </span>#005c60;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--dark:<span class="Apple-converted-space">      </span>#111;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--mid: <span class="Apple-converted-space">      </span>#555;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--warm:<span class="Apple-converted-space">      </span>#f9f7f4;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--border:<span class="Apple-converted-space">    </span>#e8e8e8;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--sans:<span class="Apple-converted-space">      </span>'Inter', system-ui, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--serif: <span class="Apple-converted-space">    </span>'Georgia', serif;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>body { font-family: var(--sans); color: var(--dark); background: #fff; line-height: 1.6; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ── Nav ─────────────────────────────────────────────────────── */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>nav {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position: sticky; top: 0; z-index: 100;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex; align-items: center; justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0 5%; height: 64px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #fff; border-bottom: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-name { font-size: 1.05rem; font-weight: 700; color: var(--dark); text-decoration: none; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links { display: flex; gap: 2.2rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links a { font-size: .875rem; color: var(--mid); text-decoration: none; font-weight: 500; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links a:hover, .nav-links a.active { color: var(--teal); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ── Page header ─────────────────────────────────────────────── */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.page-header {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 52px 5% 36px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-bottom: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width: 1160px; margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.page-header h1 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: var(--serif); font-weight: normal;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: clamp(1.6rem, 3vw, 2.4rem); line-height: 1.2;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: .5rem;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.page-header p { font-size: .95rem; color: var(--mid); max-width: 600px; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ── Filters ─────────────────────────────────────────────────── */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.filters-wrap {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 24px 5%;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-bottom: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: var(--warm);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.filters {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width: 1160px; margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.filter-group { display: flex; gap: .4rem; flex-wrap: wrap; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.filter-label {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: var(--mid); align-self: center; margin-right: .2rem;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.filter-btn {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: .78rem; padding: .3rem .8rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border: 1.5px solid var(--border); border-radius: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #fff; color: var(--mid); cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: border-color .15s, color .15s, background .15s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: var(--sans);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.filter-btn:hover { border-color: var(--teal); color: var(--teal); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.filter-btn.active { background: var(--teal); border-color: var(--teal); color: #fff; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ── Publication list ────────────────────────────────────────── */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-section { padding: 36px 5%; max-width: 1160px; margin: 0 auto; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-card { text-decoration: none; color: inherit; display: block; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-cover-wrap {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position: relative; overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border: 1px solid var(--border); margin-bottom: .7rem;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-cover-wrap img {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: block; width: 100%; aspect-ratio: 210/297; object-fit: cover;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: transform .3s;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-card:hover .pub-cover-wrap img { transform: scale(1.03); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-tag {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position: absolute; top: .5rem; left: .5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #fff; border: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: .6rem; letter-spacing: .06em; text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: .15rem .45rem; color: var(--teal);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-forthcoming {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position: absolute; top: .5rem; right: .5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #fff8e1; border: 1px solid #f0c040;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: .6rem; letter-spacing: .06em; text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: .15rem .45rem; color: #7a5e00;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-title { font-size: .86rem; font-weight: 600; line-height: 1.4; margin-bottom: .25rem; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pub-meta { font-size: .76rem; color: var(--mid); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* No results */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.no-results {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 3rem 0; text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: var(--mid); font-size: .95rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ── Footer ──────────────────────────────────────────────────── */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>footer {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 1.8rem 5%; border-top: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex; justify-content: space-between; align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: .8rem; color: var(--mid); margin-top: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>footer a { color: var(--mid); text-decoration: none; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>footer a:hover { color: var(--teal); }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.footer-links { display: flex; gap: 1.5rem; }</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Nav --&gt;</p>
+<p class="p1">&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;a class="nav-name" href="index.html"&gt;Laura Nurski&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="nav-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="research.html" class="active"&gt;Research&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="outreach.html"&gt;Outreach&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="about.html"&gt;About&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Page header --&gt;</p>
+<p class="p1">&lt;div class="page-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Research&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Reports, journal articles, book chapters, and conference papers on AI, digitalisation, and the future of work.&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Filters --&gt;</p>
+<p class="p1">&lt;div class="filters-wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="filters"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="filter-label"&gt;Type&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="filter-group" id="type-filters"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button class="filter-btn active" data-type="all"&gt;All&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="filter-label" style="margin-left:1rem;"&gt;Year&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="filter-group" id="year-filters"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button class="filter-btn active" data-year="all"&gt;All&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Publication list --&gt;</p>
+<p class="p1">&lt;section class="pub-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="pub-grid" id="pub-list"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="no-results" id="no-results"&gt;No publications match the current filters.&lt;/p&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- Footer --&gt;</p>
+<p class="p1">&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;span&gt;© 2026 Laura Nurski&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="footer-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://www.linkedin.com/in/lauranurski" target="_blank" rel="noopener"&gt;LinkedIn&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://scholar.google.com/citations?user=cryM1s4AAAAJ&amp;hl=en" target="_blank" rel="noopener"&gt;Google Scholar&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://orcid.org/0000-0003-1085-730X" target="_blank" rel="noopener"&gt;ORCID&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://bsky.app/profile/lauranurski.bsky.social" target="_blank" rel="noopener"&gt;Bluesky&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="about.html#contact"&gt;Contact&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// ── Helpers ────────────────────────────────────────────────────</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const TYPE_LABELS = {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>report: 'Report',</p>
+<p class="p1"><span class="Apple-converted-space">    </span>journalArticle: 'Journal article',</p>
+<p class="p1"><span class="Apple-converted-space">    </span>book: 'Book',</p>
+<p class="p1"><span class="Apple-converted-space">    </span>bookSection: 'Book chapter',</p>
+<p class="p1"><span class="Apple-converted-space">    </span>magazineArticle: 'Magazine',</p>
+<p class="p1"><span class="Apple-converted-space">    </span>newspaperArticle: 'Newspaper',</p>
+<p class="p1"><span class="Apple-converted-space">    </span>podcast: 'Podcast',</p>
+<p class="p1"><span class="Apple-converted-space">    </span>blogPost: 'Blog post',</p>
+<p class="p1"><span class="Apple-converted-space">    </span>presentation: 'Presentation',</p>
+<p class="p1"><span class="Apple-converted-space">    </span>conferencePaper: 'Conference paper',</p>
+<p class="p1"><span class="Apple-converted-space">  </span>};</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Types shown on the Research page (exclude purely outreach types)</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const RESEARCH_TYPES = ['report','journalArticle','book','bookSection','conferencePaper','presentation'];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>function typeLabel(t) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function pubHref(p) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>return (p.url_or_download === 'download' &amp;&amp; p.pdf) ? p.pdf : (p.url || '#');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function pubYear(p) { return p.date ? p.date.slice(0, 4) : 'n.d.'; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// ── State ──────────────────────────────────────────────────────</p>
+<p class="p1"><span class="Apple-converted-space">  </span>let allPubs = [];</p>
+<p class="p1"><span class="Apple-converted-space">  </span>let activeType = 'all';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>let activeYear = 'all';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// ── Filtering ──────────────────────────────────────────────────</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function filtered() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>return allPubs.filter(p =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (activeType !== 'all' &amp;&amp; p.type !== activeType) return false;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (activeYear !== 'all' &amp;&amp; pubYear(p) !== activeYear) return false;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>return true;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// ── Render ─────────────────────────────────────────────────────</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function render() {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const pubs = filtered();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const list = document.getElementById('pub-list');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const noResults = document.getElementById('no-results');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (pubs.length === 0) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>list.innerHTML = '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>noResults.style.display = 'block';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>noResults.style.display = 'none';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>list.innerHTML = pubs.map(p =&gt; `</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a class="pub-card" href="${pubHref(p)}" target="_blank" rel="noopener"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="pub-cover-wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="${p.cover_image}" alt="${p.title}" loading="lazy"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="pub-tag"&gt;${typeLabel(p.type)}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>${p.forthcoming ? '&lt;span class="pub-forthcoming"&gt;Forthcoming&lt;/span&gt;' : ''}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="pub-title"&gt;${p.title}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="pub-meta"&gt;${[p.source, pubYear(p)].filter(Boolean).join(' · ')}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/a&gt;`).join('');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// ── Filter buttons ─────────────────────────────────────────────</p>
+<p class="p1"><span class="Apple-converted-space">  </span>function buildTypeFilters(pubs) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const types = [...new Set(pubs.map(p =&gt; p.type))];</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const container = document.getElementById('type-filters');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>types.forEach(t =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const btn = document.createElement('button');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.className = 'filter-btn';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.dataset.type = t;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.textContent = typeLabel(t);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>container.appendChild(btn);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>container.addEventListener('click', e =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (!e.target.matches('.filter-btn')) return;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>container.querySelectorAll('.filter-btn').forEach(b =&gt; b.classList.remove('active'));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>e.target.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>activeType = e.target.dataset.type;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>render();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>function buildYearFilters(pubs) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const years = [...new Set(pubs.map(p =&gt; pubYear(p)))].sort((a, b) =&gt; b - a);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const container = document.getElementById('year-filters');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>years.forEach(y =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const btn = document.createElement('button');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.className = 'filter-btn';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.dataset.year = y;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>btn.textContent = y;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>container.appendChild(btn);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>container.addEventListener('click', e =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (!e.target.matches('.filter-btn')) return;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>container.querySelectorAll('.filter-btn').forEach(b =&gt; b.classList.remove('active'));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>e.target.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>activeYear = e.target.dataset.year;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>render();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// ── Load ───────────────────────────────────────────────────────</p>
+<p class="p1"><span class="Apple-converted-space">  </span>fetch('publications.json')</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.then(r =&gt; r.json())</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.then(pubs =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Research page shows research-type publications</p>
+<p class="p1"><span class="Apple-converted-space">      </span>allPubs = pubs.filter(p =&gt; RESEARCH_TYPES.includes(p.type));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>buildTypeFilters(allPubs);</p>
 </body>
 </html>
