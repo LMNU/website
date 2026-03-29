@@ -196,7 +196,7 @@
           <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
           <span class="pub-tag">${typeLabel(p.type)}</span>
         </div>
-        <p class="pub-title">${p.title}</p>
+        ${p.cover_has_title ? '' : `<p class="pub-title">${p.title}</p>`}
         <p class="pub-meta">${[p.source, pubYear(p)].filter(Boolean).join(' · ')}</p>
       </a>`).join('');
   }
