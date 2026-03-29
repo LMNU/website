@@ -161,14 +161,18 @@
     blogPost: 'Blog post',
     presentation: 'Presentation',
     conferencePaper: 'Conference paper',
+    tvBroadcast: 'TV broadcast',
   };
-  const OUTREACH_TYPES = ['magazineArticle','newspaperArticle','podcast','blogPost','presentation'];
+  const OUTREACH_TYPES = ['magazineArticle','newspaperArticle','podcast','blogPost','presentation','tvBroadcast'];
 
   function typeLabel(t) {
     return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1);
   }
   function pubHref(p) {
-    return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#');
+    if (p.url_or_download === 'download') {
+      return p.video || p.pdf || p.url || '#';
+    }
+    return p.url || '#';
   }
   function pubYear(p) { return p.date ? p.date.slice(0, 4) : 'n.d.'; }
 
@@ -196,7 +200,7 @@
           <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
           <span class="pub-tag">${typeLabel(p.type)}</span>
         </div>
-        ${p.cover_has_title ? '' : `<p class="pub-title">${p.title}</p>`}
+        <p class="pub-title">${p.title}</p>
         <p class="pub-meta">${[p.source, pubYear(p)].filter(Boolean).join(' · ')}</p>
       </a>`).join('');
   }
