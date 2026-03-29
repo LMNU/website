@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Laura Nurski</title>
+<meta name="description" content="About Laura Nurski — researcher on AI, digitalisation, and the future of work at CEPS and KU Leuven.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --teal:      #007074;
+    --teal-mid:  #005c60;
+    --dark:      #111;
+    --mid:       #555;
+    --warm:      #f9f7f4;
+    --border:    #e8e8e8;
+    --sans:      'Inter', system-ui, sans-serif;
+    --serif:     'Georgia', serif;
+  }
+
+  body { font-family: var(--sans); color: var(--dark); background: #fff; line-height: 1.6; }
+
+  /* ── Nav ─────────────────────────────────────────────────────── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 5%; height: 64px;
+    background: #fff; border-bottom: 1px solid var(--border);
+  }
+  .nav-name { font-size: 1.05rem; font-weight: 700; color: var(--dark); text-decoration: none; }
+  .nav-links { display: flex; gap: 2.2rem; }
+  .nav-links a { font-size: .875rem; color: var(--mid); text-decoration: none; font-weight: 500; }
+  .nav-links a:hover, .nav-links a.active { color: var(--teal); }
+
+  /* ── Main layout ─────────────────────────────────────────────── */
+  .about-wrap {
+    max-width: 1160px; margin: 0 auto;
+    padding: 56px 5%;
+    display: grid; grid-template-columns: 2fr 1fr; gap: 6rem;
+    align-items: start;
+  }
+
+  /* ── Bio column ──────────────────────────────────────────────── */
+  .bio-photo {
+    width: 160px; height: 160px; border-radius: 50%;
+    object-fit: cover; object-position: top center;
+    border: 2px solid var(--border);
+    margin-bottom: 1.8rem;
+  }
+  .bio-name {
+    font-size: 1.6rem; font-weight: 700; line-height: 1.2; margin-bottom: .3rem;
+  }
+  .bio-role { font-size: .95rem; color: var(--mid); margin-bottom: 1.8rem; }
+
+  .bio-section { margin-bottom: 2.4rem; }
+  .bio-section h2 {
+    font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--mid); border-bottom: 1px solid var(--border);
+    padding-bottom: .4rem; margin-bottom: 1rem;
+  }
+  .bio-section p { font-size: .95rem; color: var(--dark); line-height: 1.8; margin-bottom: .9rem; }
+  .bio-section p:last-child { margin-bottom: 0; }
+  .bio-section a { color: var(--teal); }
+
+  /* ── Affiliations ─────────────────────────────────────────────── */
+  .affil-list { display: flex; flex-direction: column; gap: .6rem; }
+  .affil-item {
+    display: flex; gap: .75rem; align-items: flex-start;
+  }
+  .affil-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--teal); flex-shrink: 0; margin-top: .45rem;
+  }
+  .affil-item p { font-size: .9rem; line-height: 1.5; }
+  .affil-item strong { font-weight: 600; }
+  .affil-item span { color: var(--mid); font-size: .85rem; }
+
+  /* ── CV button ────────────────────────────────────────────────── */
+  .cv-btn {
+    display: inline-block; margin-top: 1.2rem;
+    padding: .65rem 1.5rem; border-radius: 3px;
+    background: var(--teal); color: #fff;
+    font-size: .85rem; font-weight: 500; text-decoration: none;
+    transition: background .15s;
+  }
+  .cv-btn:hover { background: var(--teal-mid); }
+
+  /* ── Sidebar: links + contact ─────────────────────────────────── */
+  .sidebar {}
+  .sidebar-section { margin-bottom: 2.4rem; }
+  .sidebar-section h2 {
+    font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--mid); border-bottom: 1px solid var(--border);
+    padding-bottom: .4rem; margin-bottom: 1rem;
+  }
+
+  .link-list { display: flex; flex-direction: column; gap: .5rem; }
+  .link-list a {
+    font-size: .9rem; color: var(--teal); text-decoration: none;
+    display: flex; align-items: center; gap: .4rem;
+  }
+  .link-list a:hover { text-decoration: underline; }
+  .link-list a::before { content: '↗'; font-size: .75rem; }
+
+  /* ── Contact ─────────────────────────────────────────────────── */
+  #contact {}
+  .contact-intro { font-size: .9rem; color: var(--mid); line-height: 1.7; margin-bottom: 1.2rem; }
+
+  form { display: flex; flex-direction: column; gap: .75rem; }
+  label { font-size: .78rem; font-weight: 600; color: var(--dark); display: block; margin-bottom: .2rem; }
+  input, textarea {
+    width: 100%; padding: .6rem .75rem;
+    border: 1.5px solid var(--border); border-radius: 3px;
+    font-family: var(--sans); font-size: .88rem; color: var(--dark);
+    background: #fff; transition: border-color .15s;
+  }
+  input:focus, textarea:focus {
+    outline: none; border-color: var(--teal);
+  }
+  textarea { min-height: 120px; resize: vertical; }
+  .submit-btn {
+    align-self: flex-start;
+    padding: .65rem 1.5rem; border-radius: 3px;
+    background: var(--teal); color: #fff; border: none;
+    font-family: var(--sans); font-size: .85rem; font-weight: 500;
+    cursor: pointer; transition: background .15s;
+  }
+  .submit-btn:hover { background: var(--teal-mid); }
+  .form-note { font-size: .78rem; color: var(--mid); margin-top: .25rem; }
+
+  /* ── Footer ──────────────────────────────────────────────────── */
+  footer {
+    padding: 1.8rem 5%; border-top: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: .8rem; color: var(--mid); margin-top: 2rem;
+  }
+  footer a { color: var(--mid); text-decoration: none; }
+  footer a:hover { color: var(--teal); }
+  .footer-links { display: flex; gap: 1.5rem; }
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <a class="nav-name" href="index.html">Laura Nurski</a>
+  <div class="nav-links">
+    <a href="research.html">Research</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="about.html" class="active">About</a>
+  </div>
+</nav>
+
+<!-- Main content -->
+<div class="about-wrap">
+
+  <!-- Left: bio -->
+  <div class="bio-col">
+
+    <img class="bio-photo"
+         src="images-Laura/Profile pics/LauraNurski_indoor.JPG"
+         alt="Laura Nurski">
+    <div class="bio-name">Laura Nurski, PhD</div>
+    <div class="bio-role">Head of the Future of Work Programme, CEPS · Assistant Professor, KU Leuven</div>
+
+    <div class="bio-section">
+      <h2>Research</h2>
+      <p>I study how artificial intelligence and digitalisation are reshaping jobs, skills, and organisations across Europe. My work combines quantitative labour market analysis with experimental workplace research, translating findings into policy recommendations for EU institutions, governments, and social partners.</p>
+      <p>At <a href="https://www.ceps.eu" target="_blank" rel="noopener">CEPS</a> I lead the Future of Work programme, advising on topics ranging from AI regulation and skills policy to social dialogue and collective bargaining. At <a href="https://www.kuleuven.be" target="_blank" rel="noopener">KU Leuven</a> I lead the Acerta Chair AI at Work, running field experiments on how AI tools change job design, autonomy, and worker wellbeing.</p>
+    </div>
+
+    <div class="bio-section">
+      <h2>Affiliations</h2>
+      <div class="affil-list">
+        <div class="affil-item">
+          <div class="affil-dot"></div>
+          <p><strong>Head of Programme, Future of Work</strong><br>
+          <span><a href="https://www.ceps.eu" target="_blank" rel="noopener">Centre for European Policy Studies (CEPS)</a>, Brussels</span></p>
+        </div>
+        <div class="affil-item">
+          <div class="affil-dot"></div>
+          <p><strong>Assistant Professor</strong><br>
+          <span><a href="https://www.kuleuven.be" target="_blank" rel="noopener">KU Leuven</a> — Faculty of Economics and Business</span></p>
+        </div>
+        <div class="affil-item">
+          <div class="affil-dot"></div>
+          <p><strong>Chair holder, Acerta Chair AI at Work</strong><br>
+          <span>KU Leuven — experimental research on AI and job design</span></p>
+        </div>
+      </div>
+      <!-- Uncomment and update path when you have a CV to share:
+      <a href="assets/LauraNurski_CV.pdf" class="cv-btn" target="_blank">Download CV (PDF)</a>
+      -->
+    </div>
+
+  </div>
+
+  <!-- Right: links + contact -->
+  <div class="sidebar">
+
+    <div class="sidebar-section">
+      <h2>Profiles</h2>
+      <div class="link-list">
+        <a href="https://scholar.google.com/citations?user=cryM1s4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://orcid.org/0000-0003-1085-730X" target="_blank" rel="noopener">ORCID</a>
+        <a href="https://www.linkedin.com/in/lauranurski" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://bsky.app/profile/lauranurski.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+        <a href="https://www.ceps.eu" target="_blank" rel="noopener">CEPS profile</a>
+      </div>
+    </div>
+
+    <div class="sidebar-section" id="contact">
+      <h2>Contact</h2>
+      <p class="contact-intro">For speaking engagements, media requests, or research collaboration, use the form below or reach me on LinkedIn.</p>
+      <form action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send message</button>
+        <p class="form-note">I aim to reply within a few working days.</p>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <span>© 2026 Laura Nurski</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/lauranurski" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://scholar.google.com/citations?user=cryM1s4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    <a href="https://orcid.org/0000-0003-1085-730X" target="_blank" rel="noopener">ORCID</a>
+    <a href="https://bsky.app/profile/lauranurski.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+</body>
+</html>

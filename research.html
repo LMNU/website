@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Laura Nurski</title>
+<meta name="description" content="Publications, reports, and academic work by Laura Nurski on AI, digitalisation, and the future of work.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --teal:      #007074;
+    --teal-mid:  #005c60;
+    --dark:      #111;
+    --mid:       #555;
+    --warm:      #f9f7f4;
+    --border:    #e8e8e8;
+    --sans:      'Inter', system-ui, sans-serif;
+    --serif:     'Georgia', serif;
+  }
+
+  body { font-family: var(--sans); color: var(--dark); background: #fff; line-height: 1.6; }
+
+  /* ── Nav ─────────────────────────────────────────────────────── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 5%; height: 64px;
+    background: #fff; border-bottom: 1px solid var(--border);
+  }
+  .nav-name { font-size: 1.05rem; font-weight: 700; color: var(--dark); text-decoration: none; }
+  .nav-links { display: flex; gap: 2.2rem; }
+  .nav-links a { font-size: .875rem; color: var(--mid); text-decoration: none; font-weight: 500; }
+  .nav-links a:hover, .nav-links a.active { color: var(--teal); }
+
+  /* ── Page header ─────────────────────────────────────────────── */
+  .page-header {
+    padding: 52px 5% 36px;
+    border-bottom: 1px solid var(--border);
+    max-width: 1160px; margin: 0 auto;
+  }
+  .page-header h1 {
+    font-family: var(--serif); font-weight: normal;
+    font-size: clamp(1.6rem, 3vw, 2.4rem); line-height: 1.2;
+    margin-bottom: .5rem;
+  }
+  .page-header p { font-size: .95rem; color: var(--mid); max-width: 600px; }
+
+  /* ── Filters ─────────────────────────────────────────────────── */
+  .filters-wrap {
+    padding: 24px 5%;
+    border-bottom: 1px solid var(--border);
+    background: var(--warm);
+  }
+  .filters {
+    max-width: 1160px; margin: 0 auto;
+    display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center;
+  }
+  .filter-group { display: flex; gap: .4rem; flex-wrap: wrap; }
+  .filter-label {
+    font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--mid); align-self: center; margin-right: .2rem;
+  }
+  .filter-btn {
+    font-size: .78rem; padding: .3rem .8rem;
+    border: 1.5px solid var(--border); border-radius: 2px;
+    background: #fff; color: var(--mid); cursor: pointer;
+    transition: border-color .15s, color .15s, background .15s;
+    font-family: var(--sans);
+  }
+  .filter-btn:hover { border-color: var(--teal); color: var(--teal); }
+  .filter-btn.active { background: var(--teal); border-color: var(--teal); color: #fff; }
+
+  /* ── Publication list ────────────────────────────────────────── */
+  .pub-section { padding: 36px 5%; max-width: 1160px; margin: 0 auto; }
+
+  .year-group { margin-bottom: 3rem; }
+  .year-heading {
+    font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--mid); border-bottom: 1px solid var(--border);
+    padding-bottom: .4rem; margin-bottom: 1.5rem;
+  }
+
+  .pub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; }
+  .pub-card { text-decoration: none; color: inherit; display: block; }
+  .pub-cover-wrap {
+    position: relative; overflow: hidden;
+    border: 1px solid var(--border); margin-bottom: .7rem;
+  }
+  .pub-cover-wrap img {
+    display: block; width: 100%; aspect-ratio: 210/297; object-fit: cover;
+    transition: transform .3s;
+  }
+  .pub-card:hover .pub-cover-wrap img { transform: scale(1.03); }
+  .pub-tag {
+    position: absolute; top: .5rem; left: .5rem;
+    background: #fff; border: 1px solid var(--border);
+    font-size: .6rem; letter-spacing: .06em; text-transform: uppercase;
+    padding: .15rem .45rem; color: var(--teal);
+  }
+  .pub-forthcoming {
+    position: absolute; top: .5rem; right: .5rem;
+    background: #fff8e1; border: 1px solid #f0c040;
+    font-size: .6rem; letter-spacing: .06em; text-transform: uppercase;
+    padding: .15rem .45rem; color: #7a5e00;
+  }
+  .pub-title { font-size: .86rem; font-weight: 600; line-height: 1.4; margin-bottom: .25rem; }
+  .pub-meta { font-size: .76rem; color: var(--mid); }
+
+  /* No results */
+  .no-results {
+    padding: 3rem 0; text-align: center;
+    color: var(--mid); font-size: .95rem;
+    display: none;
+  }
+
+  /* ── Footer ──────────────────────────────────────────────────── */
+  footer {
+    padding: 1.8rem 5%; border-top: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: .8rem; color: var(--mid); margin-top: 2rem;
+  }
+  footer a { color: var(--mid); text-decoration: none; }
+  footer a:hover { color: var(--teal); }
+  .footer-links { display: flex; gap: 1.5rem; }
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <a class="nav-name" href="index.html">Laura Nurski</a>
+  <div class="nav-links">
+    <a href="research.html" class="active">Research</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="about.html">About</a>
+  </div>
+</nav>
+
+<!-- Page header -->
+<div class="page-header">
+  <h1>Research</h1>
+  <p>Reports, journal articles, book chapters, and conference papers on AI, digitalisation, and the future of work.</p>
+</div>
+
+<!-- Filters -->
+<div class="filters-wrap">
+  <div class="filters">
+    <span class="filter-label">Type</span>
+    <div class="filter-group" id="type-filters">
+      <button class="filter-btn active" data-type="all">All</button>
+    </div>
+    <span class="filter-label" style="margin-left:1rem;">Year</span>
+    <div class="filter-group" id="year-filters">
+      <button class="filter-btn active" data-year="all">All</button>
+    </div>
+  </div>
+</div>
+
+<!-- Publication list -->
+<section class="pub-section">
+  <div id="pub-list"></div>
+  <p class="no-results" id="no-results">No publications match the current filters.</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <span>© 2026 Laura Nurski</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/lauranurski" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://scholar.google.com/citations?user=cryM1s4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    <a href="https://orcid.org/0000-0003-1085-730X" target="_blank" rel="noopener">ORCID</a>
+    <a href="https://bsky.app/profile/lauranurski.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+    <a href="about.html#contact">Contact</a>
+  </div>
+</footer>
+
+<script>
+  // ── Helpers ────────────────────────────────────────────────────
+  const TYPE_LABELS = {
+    report: 'Report',
+    journalArticle: 'Journal article',
+    book: 'Book',
+    bookSection: 'Book chapter',
+    magazineArticle: 'Magazine',
+    newspaperArticle: 'Newspaper',
+    podcast: 'Podcast',
+    blogPost: 'Blog post',
+    presentation: 'Presentation',
+    conferencePaper: 'Conference paper',
+  };
+  // Types shown on the Research page (exclude purely outreach types)
+  const RESEARCH_TYPES = ['report','journalArticle','book','bookSection','conferencePaper','presentation'];
+
+  function typeLabel(t) {
+    return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1);
+  }
+  function pubHref(p) {
+    return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#');
+  }
+  function pubYear(p) { return p.date ? p.date.slice(0, 4) : 'n.d.'; }
+
+  // ── State ──────────────────────────────────────────────────────
+  let allPubs = [];
+  let activeType = 'all';
+  let activeYear = 'all';
+
+  // ── Filtering ──────────────────────────────────────────────────
+  function filtered() {
+    return allPubs.filter(p => {
+      if (activeType !== 'all' && p.type !== activeType) return false;
+      if (activeYear !== 'all' && pubYear(p) !== activeYear) return false;
+      return true;
+    });
+  }
+
+  // ── Render ─────────────────────────────────────────────────────
+  function render() {
+    const pubs = filtered();
+    const list = document.getElementById('pub-list');
+    const noResults = document.getElementById('no-results');
+
+    if (pubs.length === 0) {
+      list.innerHTML = '';
+      noResults.style.display = 'block';
+      return;
+    }
+    noResults.style.display = 'none';
+
+    // Group by year descending
+    const byYear = {};
+    pubs.forEach(p => {
+      const y = pubYear(p);
+      if (!byYear[y]) byYear[y] = [];
+      byYear[y].push(p);
+    });
+    const years = Object.keys(byYear).sort((a, b) => b - a);
+
+    list.innerHTML = years.map(y => `
+      <div class="year-group">
+        <h2 class="year-heading">${y}</h2>
+        <div class="pub-grid">
+          ${byYear[y].map(p => `
+            <a class="pub-card" href="${pubHref(p)}" target="_blank" rel="noopener">
+              <div class="pub-cover-wrap">
+                <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
+                <span class="pub-tag">${typeLabel(p.type)}</span>
+                ${p.forthcoming ? '<span class="pub-forthcoming">Forthcoming</span>' : ''}
+              </div>
+              <p class="pub-title">${p.title}</p>
+              <p class="pub-meta">${[p.source, pubYear(p)].filter(Boolean).join(' · ')}</p>
+            </a>`).join('')}
+        </div>
+      </div>`).join('');
+  }
+
+  // ── Filter buttons ─────────────────────────────────────────────
+  function buildTypeFilters(pubs) {
+    const types = [...new Set(pubs.map(p => p.type))];
+    const container = document.getElementById('type-filters');
+    types.forEach(t => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn';
+      btn.dataset.type = t;
+      btn.textContent = typeLabel(t);
+      container.appendChild(btn);
+    });
+    container.addEventListener('click', e => {
+      if (!e.target.matches('.filter-btn')) return;
+      container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      activeType = e.target.dataset.type;
+      render();
+    });
+  }
+
+  function buildYearFilters(pubs) {
+    const years = [...new Set(pubs.map(p => pubYear(p)))].sort((a, b) => b - a);
+    const container = document.getElementById('year-filters');
+    years.forEach(y => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn';
+      btn.dataset.year = y;
+      btn.textContent = y;
+      container.appendChild(btn);
+    });
+    container.addEventListener('click', e => {
+      if (!e.target.matches('.filter-btn')) return;
+      container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      activeYear = e.target.dataset.year;
+      render();
+    });
+  }
+
+  // ── Load ───────────────────────────────────────────────────────
+  fetch('publications.json')
+    .then(r => r.json())
+    .then(pubs => {
+      // Research page shows research-type publications
+      allPubs = pubs.filter(p => RESEARCH_TYPES.includes(p.type));
+      buildTypeFilters(allPubs);
+      buildYearFilters(allPubs);
+      render();
+    })
+    .catch(err => console.error('Could not load publications.json:', err));
+</script>
+
+</body>
+</html>

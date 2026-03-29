@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laura Nurski — AI, Work & Society</title>
+<meta name="description" content="Laura Nurski is a researcher on AI, digitalisation and the future of work at CEPS and KU Leuven.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --teal:      #007074;
+    --teal-mid:  #005c60;
+    --teal-bg:   #e6f4f4;
+    --dark:      #111;
+    --mid:       #555;
+    --warm:      #f9f7f4;
+    --border:    #e8e8e8;
+    --sans:      'Inter', system-ui, sans-serif;
+    --serif:     'Georgia', serif;
+  }
+
+  body { font-family: var(--sans); color: var(--dark); background: #fff; line-height: 1.6; }
+
+  /* ── Nav ─────────────────────────────────────────────────────── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 5%; height: 64px;
+    background: #fff; border-bottom: 1px solid var(--border);
+  }
+  .nav-name { font-size: 1.05rem; font-weight: 700; color: var(--dark); text-decoration: none; }
+  .nav-links { display: flex; gap: 2.2rem; }
+  .nav-links a { font-size: .875rem; color: var(--mid); text-decoration: none; font-weight: 500; }
+  .nav-links a:hover { color: var(--teal); }
+
+  /* ── Hero ────────────────────────────────────────────────────── */
+  .hero {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero-left {
+    flex: 1;
+    padding: 40px 6% 40px 5%;
+    display: flex; flex-direction: column; justify-content: center;
+    border-right: 1px solid var(--border);
+    gap: 1rem;
+  }
+  .hero-photo-row {
+    display: flex; align-items: center; gap: 1.1rem;
+  }
+  .hero-photo {
+    width: 140px; height: 140px; border-radius: 50%;
+    object-fit: cover; object-position: top center;
+    border: 2px solid var(--border); flex-shrink: 0;
+  }
+  .hero-name { font-size: 1.45rem; font-weight: 700; line-height: 1.2; }
+  .hero-role { font-size: .92rem; color: var(--mid); margin-top: .25rem; }
+  .hero-tagline {
+    font-family: var(--serif); font-size: clamp(1.3rem, 2.1vw, 1.75rem);
+    font-weight: normal; line-height: 1.35; color: var(--dark);
+  }
+  .hero-bio {
+    font-size: 1rem; color: var(--mid); line-height: 1.7;
+  }
+  .hero-ctas { display: flex; gap: .75rem; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: .6rem 1.4rem; border-radius: 3px;
+    font-size: .85rem; font-weight: 500; text-decoration: none;
+    transition: background .15s, color .15s, border-color .15s;
+  }
+  .btn-primary { background: var(--teal); color: #fff; }
+  .btn-primary:hover { background: var(--teal-mid); }
+  .btn-ghost { border: 1.5px solid var(--border); color: var(--mid); }
+  .btn-ghost:hover { border-color: var(--teal); color: var(--teal); }
+
+  /* ── Featured (right side of hero) ──────────────────────────── */
+  .hero-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--warm);
+    flex-shrink: 0;
+  }
+  .hero-right-label {
+    writing-mode: vertical-lr;
+    font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--teal);
+    padding: 0 10px 0 18px;
+    flex-shrink: 0;
+    user-select: none;
+  }
+  .hero-pub-grid {
+    display: grid;
+    grid-template-columns: 194px 194px;
+    align-content: center;
+    padding: 16px 16px 16px 0;
+    gap: 10px;
+  }
+  .hero-pub {
+    position: relative; overflow: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+    aspect-ratio: 210/297;
+    display: block;
+    text-decoration: none;
+  }
+  .hero-pub img {
+    display: block; width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform .4s, opacity .3s;
+    opacity: .88;
+  }
+  .hero-pub:hover img { transform: scale(1.04); opacity: 1; }
+  .hero-pub-type {
+    position: absolute; top: .5rem; left: .5rem;
+    font-size: .6rem; letter-spacing: .08em; text-transform: uppercase;
+    background: var(--teal); color: #fff;
+    padding: .15rem .45rem; border-radius: 2px;
+  }
+
+  /* ── Recent work ─────────────────────────────────────────────── */
+  .section { padding: 52px 5%; max-width: 1160px; margin: 0 auto; }
+  .section-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    border-bottom: 2px solid var(--dark); padding-bottom: .45rem; margin-bottom: 2rem;
+  }
+  .section-head h2 { font-size: 1rem; font-weight: 700; }
+  .section-head a { font-size: .85rem; color: var(--teal); text-decoration: none; }
+  .section-head a:hover { text-decoration: underline; }
+
+  .pub-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.75rem; }
+  .pub-card { text-decoration: none; color: inherit; display: block; }
+  .pub-cover-wrap {
+    position: relative; overflow: hidden;
+    border: 1px solid var(--border); margin-bottom: .8rem;
+  }
+  .pub-cover-wrap img {
+    display: block; width: 100%; aspect-ratio: 210/297; object-fit: cover;
+    transition: transform .3s;
+  }
+  .pub-card:hover .pub-cover-wrap img { transform: scale(1.03); }
+  .pub-tag {
+    position: absolute; top: .5rem; left: .5rem;
+    background: #fff; border: 1px solid var(--border);
+    font-size: .62rem; letter-spacing: .06em; text-transform: uppercase;
+    padding: .15rem .45rem; color: var(--teal);
+  }
+  .pub-title { font-size: .88rem; font-weight: 600; line-height: 1.4; margin-bottom: .3rem; }
+  .pub-meta { font-size: .78rem; color: var(--mid); }
+
+  /* ── About band ──────────────────────────────────────────────── */
+  .about-band {
+    background: var(--warm);
+    border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  }
+  .about-inner {
+    max-width: 1160px; margin: 0 auto;
+    padding: 56px 5%;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start;
+  }
+  .about-kicker {
+    font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--teal); margin-bottom: .9rem;
+  }
+  .about-text h2 {
+    font-family: var(--serif); font-weight: normal;
+    font-size: 1.5rem; line-height: 1.4; margin-bottom: 1rem;
+  }
+  .about-text p { font-size: .93rem; color: var(--mid); line-height: 1.78; margin-bottom: .9rem; }
+  .about-text a { color: var(--teal); }
+  .affil-list { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.1rem; }
+  .affil {
+    font-size: .78rem; padding: .3rem .75rem;
+    background: #fff; border: 1px solid var(--border); border-radius: 2px; color: var(--mid);
+  }
+  .about-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+  }
+  .about-photos img {
+    width: 100%; object-fit: cover; display: block;
+    border-radius: 2px;
+  }
+  .about-photos img:first-child {
+    grid-column: 1 / -1;
+    aspect-ratio: 16/7;
+  }
+  .about-photos img:not(:first-child) {
+    aspect-ratio: 4/3;
+  }
+
+  /* ── Footer ──────────────────────────────────────────────────── */
+  footer {
+    padding: 1.8rem 5%; border-top: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: .8rem; color: var(--mid);
+  }
+  footer a { color: var(--mid); text-decoration: none; }
+  footer a:hover { color: var(--teal); }
+  .footer-links { display: flex; gap: 1.5rem; }
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <a class="nav-name" href="index.html">Laura Nurski</a>
+  <div class="nav-links">
+    <a href="research.html">Research</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="about.html">About</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+
+  <!-- Left: bio -->
+  <div class="hero-left">
+    <div class="hero-photo-row">
+      <img class="hero-photo"
+           src="images-Laura/Profile pics/LauraNurski_indoor.JPG"
+           alt="Laura Nurski">
+      <div>
+        <div class="hero-name">Laura Nurski, PhD</div>
+        <div class="hero-role">CEPS · KU Leuven · Future of Work</div>
+      </div>
+    </div>
+    <p class="hero-tagline">Research connecting AI, work, and society — from evidence to policy.</p>
+    <p class="hero-bio">I study how artificial intelligence and digitalisation are reshaping jobs, skills, and organisations across Europe. My work spans quantitative research, policy advice, and public commentary — in English and Dutch.</p>
+    <div class="hero-ctas">
+      <a href="research.html" class="btn btn-primary">Research</a>
+      <a href="outreach.html" class="btn btn-ghost">Outreach &amp; media</a>
+    </div>
+  </div>
+
+  <!-- Right: featured publications (populated by JS) -->
+  <div class="hero-right">
+    <span class="hero-right-label">Featured work</span>
+    <div class="hero-pub-grid" id="featured-grid">
+      <!-- JS renders 4 featured publication covers here -->
+    </div>
+  </div>
+
+</section>
+
+<!-- Recent work -->
+<section class="section">
+  <div class="section-head">
+    <h2>Recent work</h2>
+    <a href="research.html">All publications →</a>
+  </div>
+  <div class="pub-grid" id="recent-grid">
+    <!-- JS renders 4 most recent non-featured publications here -->
+  </div>
+</section>
+
+<!-- About band -->
+<section class="about-band">
+  <div class="about-inner">
+    <div class="about-text">
+      <p class="about-kicker">About</p>
+      <h2>Connecting research and practice on AI and the future of work</h2>
+      <p>As Head of the Future of Work Programme at CEPS, I lead research on how AI and digitalisation are reshaping jobs, skills, and organisations. I am also Assistant Professor at KU Leuven, where I lead the Acerta Chair AI at Work, conducting experimental workplace research on AI and job design.</p>
+      <p>My work spans policy reports, academic articles, advisory work, keynotes, and public commentary — in English and Dutch.</p>
+      <div class="affil-list">
+        <span class="affil">CEPS Brussels</span>
+        <span class="affil">KU Leuven</span>
+        <span class="affil">Acerta Chair AI at Work</span>
+      </div>
+    </div>
+    <div class="about-photos">
+      <img src="images-Laura/Home-About/EESC.JPG" alt="Laura Nurski at EESC">
+      <img src="images-Laura/Home-About/20250303-CEPS_IdeasLab.jpg" alt="CEPS Ideas Lab">
+      <img src="images-Laura/Home-About/Leerstoel-KULteam2.jpg" alt="KU Leuven research chair">
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <span>© 2026 Laura Nurski</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/lauranurski" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://scholar.google.com/citations?user=cryM1s4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    <a href="https://orcid.org/0000-0003-1085-730X" target="_blank" rel="noopener">ORCID</a>
+    <a href="https://bsky.app/profile/lauranurski.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+    <a href="about.html#contact">Contact</a>
+  </div>
+</footer>
+
+<script>
+  // ── Helpers ────────────────────────────────────────────────────
+  const TYPE_LABELS = {
+    report: 'Report',
+    journalArticle: 'Journal article',
+    book: 'Book',
+    bookSection: 'Book chapter',
+    magazineArticle: 'Magazine',
+    newspaperArticle: 'Newspaper',
+    podcast: 'Podcast',
+    blogPost: 'Blog post',
+    presentation: 'Presentation',
+    conferencePaper: 'Conference paper',
+  };
+  function typeLabel(t) {
+    return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1);
+  }
+  function pubHref(p) {
+    return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#');
+  }
+  function pubYear(p) {
+    return p.date ? p.date.slice(0, 4) : '';
+  }
+  function pubSource(p) {
+    return p.source || '';
+  }
+
+  // ── Render featured 2×2 grid ───────────────────────────────────
+  function renderFeatured(pubs) {
+    const grid = document.getElementById('featured-grid');
+    grid.innerHTML = pubs.map(p => `
+      <a class="hero-pub" href="${pubHref(p)}" target="_blank" rel="noopener"
+         title="${p.title}">
+        <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
+        <span class="hero-pub-type">${typeLabel(p.type)} · ${pubYear(p)}</span>
+      </a>`).join('');
+  }
+
+  // ── Render recent work strip ───────────────────────────────────
+  function renderRecent(pubs) {
+    const grid = document.getElementById('recent-grid');
+    grid.innerHTML = pubs.map(p => `
+      <a class="pub-card" href="${pubHref(p)}" target="_blank" rel="noopener">
+        <div class="pub-cover-wrap">
+          <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
+          <span class="pub-tag">${typeLabel(p.type)}</span>
+        </div>
+        <p class="pub-title">${p.title}</p>
+        <p class="pub-meta">${[pubSource(p), pubYear(p)].filter(Boolean).join(' · ')}</p>
+      </a>`).join('');
+  }
+
+  // ── Load and dispatch ──────────────────────────────────────────
+  fetch('publications.json')
+    .then(r => r.json())
+    .then(pubs => {
+      const featured = pubs.filter(p => p.featured).slice(0, 4);
+      // Recent: 4 most recent that are not featured (already sorted by date desc)
+      const recent = pubs.filter(p => !p.featured).slice(0, 4);
+      renderFeatured(featured);
+      renderRecent(recent);
+    })
+    .catch(err => console.error('Could not load publications.json:', err));
+</script>
+
+</body>
+</html>
