@@ -1,5 +1,37 @@
 [
   {
+    "type": "blogPost",
+    "title": "Built for burnout – how job design fails women",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2026-03-06T10:06:13+01:00",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.ceps.eu/built-for-burnout-how-job-design-fails-women/",
+    "source": "",
+    "abstract": "The headlines are clear: women are burning out at higher rates than men. From the  BBC  to  CNBC  and  Psychology Today , media outlets have sounded the alarm,",
+    "cover_image": "assets/covers/built-for-burnout-how-job-design-fails-women.jpg",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "blogPost",
+    "title": "AI reveals what’s broken about organisations today – but the power to act on it remains in too few hands",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2026-02-26T15:37:32+01:00",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.ceps.eu/ai-reveals-whats-broken-about-organisations-today-but-the-power-to-act-on-it-remains-in-too-few-hands/",
+    "source": "",
+    "abstract": "When social scientists engage in public debates on AI, they often do so because they’re concerned. Bias, degraded work quality and opaque systems – these risks",
+    "cover_image": "assets/covers/ai-reveals-whats-broken-about-organisations-today-but-the-power-to-act-on-it-rem.jpg",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
     "type": "newspaperArticle",
     "title": "AI maakt zichtbaar wat al lang scheef zit",
     "authors": [
@@ -46,6 +78,22 @@
     "source": "European Trade Union Institute",
     "abstract": "",
     "cover_image": "assets/covers/organisation-design-as-a-power-structure-ai-and-the-case-for-collective-bargaini.jpg",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "blogPost",
+    "title": "Algorithmic management isn’t the problem – what it optimises is.",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2025-12-12T10:55:14+01:00",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.ceps.eu/algorithmic-management-isnt-the-problem-what-it-optimises-is/",
+    "source": "",
+    "abstract": "Algorithmic management (AM) can undermine job quality when it’s built solely around efficiency – but it can also improve work when human goals and ambitions are",
+    "cover_image": "assets/covers/algorithmic-management-isnt-the-problem-what-it-optimises-is.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -205,6 +253,38 @@
     "source": "Academy of Management Proceedings",
     "abstract": "Organization design, by definition, concerns the division of work into a structure of interlinked units, teams and jobs. The design of a job is therefore shaped, in large part, by the broader organizational structure to which it belongs. Despite the acknowledged importance of understanding the cross-level link between organization and job design, quantitative empirical studies on this relationship remain scarce to non-existent. In this study, we define a transmission mechanism from organization design to job design by connecting facets of job demands and job control to organizational process characteristics such as knowledge-, information-, and planning-intensity along a routine - non-routine spectrum. We test the measurement of our constructs on 4175 workers in 25 organizations across three samples spanning two sectors and two time periods. The analysis confirms that our measures constitute empirically separate dimensions of job demands and control and that their measurement is invariant across sectors and time. Finally, we demonstrate how these job-level measures can be used to identify characteristics of the organizational structure.",
     "cover_image": "assets/covers/defining-the-structure-control-connection-in-job-design.jpg",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "blogPost",
+    "title": "Stop ‘techwashing’ layoffs – and start co-designing the future of work",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2025-06-04T13:55:50+01:00",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.ceps.eu/stop-techwashing-layoffs-and-start-co-designing-the-future-of-work/",
+    "source": "",
+    "abstract": "In recent weeks, headlines have taken a sharp turn, with Anthropic’s CEO warning that AI could eliminate half of all entry-level white-collar jobs within five y",
+    "cover_image": "assets/covers/stop-techwashing-layoffs-and-start-co-designing-the-future-of-work.jpg",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "blogPost",
+    "title": "Skills aren’t your plug-and-play solution for inclusive competitiveness",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2025-03-10T14:06:39+01:00",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.ceps.eu/skills-arent-your-plug-and-play-solution-for-inclusive-competitiveness",
+    "source": "",
+    "abstract": "Skills have become a central pillar in policy discussions on the future of work. Since the 2000 Lisbon Strategy , the EU has gradually shifted from focusing on",
+    "cover_image": "assets/covers/skills-arent-your-plug-and-play-solution-for-inclusive-competitiveness.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
