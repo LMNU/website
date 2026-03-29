@@ -1,91 +1,5 @@
 [
   {
-    "type": "magazineArticle",
-    "title": "5 methodes om de toekomst van werk te verkennen en te voorspellen",
-    "authors": [
-      "Laura Nurski"
-    ],
-    "date": "November 2024",
-    "forthcoming": false,
-    "featured": false,
-    "url": "",
-    "source": "",
-    "abstract": "",
-    "cover_image": "assets/covers/5-methodes-om-de-toekomst-van-werk-te-verkennen-en-te-voorspellen.jpg",
-    "url_or_download": "download",
-    "pdf": "assets/pdfs/5-methodes-om-de-toekomst-van-werk-te-verkennen-en-te-voorspellen.pdf"
-  },
-  {
-    "type": "report",
-    "title": "Solving Europ's AI talent equation: Supply, demand and missing pieces",
-    "authors": [
-      "Siddhi Pal",
-      "Catherine Schneider",
-      "Laura Nurski"
-    ],
-    "date": "July 9, 2025",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://www.ceps.eu/ceps-publications/solving-europes-ai-talent-equation/",
-    "source": "CEPS & interface",
-    "abstract": "As Europe scales up its ambition to lead in AI, understanding the structure of AI labour markets becomes essential. This study offers a comparative mapping of AI job vacancies and AI talent across European countries, using a novel three-tiered classification system that distinguishes between AI literacy (Tier 0), software and data proficiency (Tier 1), and advanced AI research and engineering (Tier 2). This approach recognises that skills are not isolated units but form-nested hierarchies and that actionable workforce policy must target coherent skill bundles rather than individual skills.\n\nDrawing on online job vacancy data from Lightcast and workforce profile data from Revelio Labs, the study quantifies AI demand and supply across 31 countries, revealing both surpluses and shortages at different proficiency levels. Tier 1 talent dominates both demand and supply, while talent shortages are most visible at the foundational (Tier 0) and advanced (Tier 2) levels. These patterns vary significantly across countries, reflecting diverse national strategies, migration flows and educational capacities. In many countries, the supply of qualified talent per vacancy is limited – especially at the high and low ends of the proficiency spectrum – indicating tight labour markets for both AI engineering and AI literacy.\n\nThe findings call for geographically differentiated and proficiency-sensitive AI skills strategies. Rather than assuming a linear pipeline from AI novice to AI expert, upskilling efforts should focus on horizontally integrating AI capabilities within existing roles. A structured, level-based understanding of AI skills can guide the implementation of key EU initiatives – from the AI Continent Action Plan to the Union of Skills strategy – by providing a clearer picture of where, and at what depth, AI skills are most needed.",
-    "cover_image": "assets/covers/solving-europs-ai-talent-equation-supply-demand-and-missing-pieces.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "magazineArticle",
-    "title": "\"Technologie verandert werk, maar wij bepalen hoe\"",
-    "authors": [
-      "Laura Nurski"
-    ],
-    "date": "January 2026",
-    "forthcoming": false,
-    "featured": true,
-    "url": "",
-    "source": "",
-    "abstract": "",
-    "cover_image": "assets/covers/technologie-verandert-werk-maar-wij-bepalen-hoe.jpg",
-    "url_or_download": "download",
-    "pdf": "assets/pdfs/technologie-verandert-werk-maar-wij-bepalen-hoe.pdf"
-  },
-  {
-    "type": "report",
-    "title": "Generative AI and the future of work global dialogue: Perceptions and prospects. Roundtables in Asia, Europe, and Latin America. A report prepared by the Centre for European Policy Studies (CEPS) for the OECD's Global Partnership on AI (GPAI)",
-    "authors": [
-      "Davide Monaco",
-      "Laura Nurski"
-    ],
-    "date": "January 2025",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://cdn.ceps.eu/wp-content/uploads/2025/03/20250128_GPAI_GenAI_FoW_report_final_VOECD.pdf",
-    "source": "OECD/Global Partnership on AI",
-    "abstract": "",
-    "cover_image": "assets/covers/generative-ai-and-the-future-of-work-global-dialogue-perceptions-and-prospects-r.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "podcast",
-    "title": "Future of work: Looking back & moving forward",
-    "authors": [
-      "Laura Nurski",
-      "Tom Parker",
-      "Carl Benedikt Frey",
-      "Nicky Dries"
-    ],
-    "date": "9-8-2024",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://open.spotify.com/episode/3zD50FpsbWOEnwUeiABoLy?si=MZDjdub3TgC03Whm5qcKXQ",
-    "source": "",
-    "abstract": "In this first episode of the CEPS Tech Podcast series on “the Future of Work and AI” we are discussing the hopes and fears in the labour market, the impact of AI on jobs and employment, and the changing task content and skills required in jobs of the future. Additionally, we examine historical perspectives on technological change and the importance of policy in shaping the future of work. The conversation highlights the need for interdisciplinary collaboration, monitoring of psychosocial risks, and shaping the reward function of society to create a better future of work.  \nOur host Tom Parker is joined by co-host Laura Nurski, Associate Research Fellow and Head of Programme on Future of Work at CEPS. Joining them both to help unpick this topic are two leading experts on the Future of Work and AI. Carl Frey, Dieter Schwarz Associate Professor of AI & Work at the Oxford Internet Institute and a Fellow of Mansfield College, University of Oxford (UK). He is also Director of the Future of Work Programme and Oxford Martin Citi Fellow at the Oxford Martin School. Nicky Dries is a Professor of Organisational Behaviour at the Department of Work & Organisation Studies at KU Leuven (Belgium) and at the Department of Leadership & Organisational Behaviour at BI Norwegian Business School (Norway). In Leuven, she runs the Future of Work Lab within the Faculty of Economics, that studies social imaginaries for the future. \nThis episode is part of the CEPS activities under the Global Partnership on Artificial Intelligence (GPAI) which brings together OECD members and GPAI countries to advance an ambitious agenda for implementing human-centric, safe, secure and trustworthy AI. You can find more information on GPAI and the Future of Work working group here.",
-    "cover_image": "assets/covers/future-of-work-looking-back-moving-forward.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
     "type": "journalArticle",
     "title": "\"Banen verdwijnen niet, ze krijgen een andere inhoud\"",
     "authors": [
@@ -97,9 +11,41 @@
     "url": "",
     "source": "Trends",
     "abstract": "",
-    "cover_image": "assets/covers/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.jpg",
+    "cover_image": "",
     "url_or_download": "download",
     "pdf": "assets/pdfs/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.pdf"
+  },
+  {
+    "type": "newspaperArticle",
+    "title": "AI maakt zichtbaar wat al lang scheef zit",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2026-01-20",
+    "forthcoming": false,
+    "featured": false,
+    "url": "",
+    "source": "",
+    "abstract": "",
+    "cover_image": "",
+    "url_or_download": "download",
+    "pdf": "assets/pdfs/ai-maakt-zichtbaar-wat-al-lang-scheef-zit.pdf"
+  },
+  {
+    "type": "magazineArticle",
+    "title": "\"Technologie verandert werk, maar wij bepalen hoe\"",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2026-01",
+    "forthcoming": false,
+    "featured": true,
+    "url": "",
+    "source": "",
+    "abstract": "",
+    "cover_image": "",
+    "url_or_download": "download",
+    "pdf": "assets/pdfs/technologie-verandert-werk-maar-wij-bepalen-hoe.pdf"
   },
   {
     "type": "bookSection",
@@ -115,7 +61,7 @@
     "url": "",
     "source": "European Trade Union Institute",
     "abstract": "",
-    "cover_image": "assets/covers/organisation-design-as-a-power-structure-ai-and-the-case-for-collective-bargaini.jpg",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -126,29 +72,29 @@
       "Cinzia Alcidi",
       "Laura Nurski"
     ],
-    "date": "2025/12/09",
+    "date": "2025-12-09",
     "forthcoming": false,
     "featured": false,
     "url": "https://www.elgaronline.com/edcollchap-oa/book/9781035373659/chapter8.xml",
     "source": "Edward Elgar Publishing",
     "abstract": "There is a need to better understand the potential and the misconceptions surrounding upskilling, reskilling, and broader skill development. While skills have taken centre stage in the EU policy debate, misunderstandings about their role persist. First, skills are fundamentally about people, and as such, they play a crucial role in fostering innovation-driven competitiveness. Innovation is not just about capital; it is also shaped by people and the places in which they work. Second, skills have the potential to support social mobility and reduce labour market inequalities. However, while skilling can improve access to opportunities, it alone cannot resolve deeper structural inequalities. Finally, skills should not be seen as fixed assets but as dynamic capabilities that evolve over time. Education and training are important, but skills are primarily shaped through work environments. This has important implications for the design of skill policies and their intended purpose.",
-    "cover_image": "assets/covers/skills-between-reality-and-misconceptions-what-they-can-and-cannot-solve.jpg",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
   {
-    "type": "report",
-    "title": "Implications of AI for work, employment and social dialogue: Literature review. A study prepared for Eurofound.",
+    "type": "presentation",
+    "title": "Panel Future-proofing work: The role of job quality in supporting an engaged, adaptable, and resilient workforce",
     "authors": [
       "Laura Nurski"
     ],
-    "date": "2025/09/26",
+    "date": "2025-11-20",
     "forthcoming": false,
-    "featured": true,
-    "url": "https://www.eurofound.europa.eu/en/publications/all/implications-of-ai-for-work-employment-and-social-dialogue-literature-review",
-    "source": "Eurofound",
-    "abstract": "This literature review assesses the implications of artificial intelligence (AI) for work organisation, job quality, employment, and social dialogue. It defines AI as any system that autonomously performs cognitive tasks – such as prediction, decision-making, or content generation. It is distinguished from algorithmic management (AM), which is reviewed in a parallel report. Drawing on task-level studies, the review finds that AI’s productivity impacts depend on the interplay between the type of task and the type of AI. Realising these gains requires investments in organisational and human capital. AI’s effects on job quality are mixed – enhancing skill use and autonomy in some contexts, while raising cognitive or emotional demands in others. Labour market outcomes are similarly ambiguous: while exposure is highest in managerial, professional and clerical roles, both substitution and augmentation effects are observed. Finally, while social dialogue can shape AI’s implementation, its scope and effectiveness vary widely across countries, underscoring the need for institutional adaptation and new participatory tools.",
-    "cover_image": "assets/covers/implications-of-ai-for-work-employment-and-social-dialogue-literature-review-a-s.jpg",
+    "featured": false,
+    "url": "https://www.eurofound.europa.eu/en/news-and-events/events/foundation-forum-2025-europes-social-model-key-competitive-growth",
+    "source": "",
+    "abstract": "On 19–20 November 2025, Eurofound organised its 8th Foundation Forum at IMMA Venues. It is the agency’s quadrennial high-level flagship event which has been running for the past 20 years and is organised in cooperation with the Irish Government.",
+    "cover_image": "assets/covers/panel-future-proofing-work-the-role-of-job-quality-in-supporting-an-engaged-adap.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -165,13 +111,29 @@
       "Federico Plantera",
       "Robert Praas"
     ],
-    "date": "2025-11-06T16:11:12+01:00",
+    "date": "2025-11-06",
     "forthcoming": false,
     "featured": false,
     "url": "https://www.ceps.eu/ceps-publications/building-a-european-ai-ecosystem-of-excellence/",
     "source": "Centre for European Policy Studies",
     "abstract": "We conducted a foresight exercise to explore how AI could reshape Europe’s innovation systems and labour markets by 2045, for the CEPS project on a European Eco",
-    "cover_image": "assets/covers/building-a-european-ai-ecosystem-of-excellence-foresight-report.jpg",
+    "cover_image": "",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "report",
+    "title": "Implications of AI for work, employment and social dialogue: Literature review. A study prepared for Eurofound.",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2025-09-26",
+    "forthcoming": false,
+    "featured": true,
+    "url": "https://www.eurofound.europa.eu/en/publications/all/implications-of-ai-for-work-employment-and-social-dialogue-literature-review",
+    "source": "Eurofound",
+    "abstract": "This literature review assesses the implications of artificial intelligence (AI) for work organisation, job quality, employment, and social dialogue. It defines AI as any system that autonomously performs cognitive tasks – such as prediction, decision-making, or content generation. It is distinguished from algorithmic management (AM), which is reviewed in a parallel report. Drawing on task-level studies, the review finds that AI’s productivity impacts depend on the interplay between the type of task and the type of AI. Realising these gains requires investments in organisational and human capital. AI’s effects on job quality are mixed – enhancing skill use and autonomy in some contexts, while raising cognitive or emotional demands in others. Labour market outcomes are similarly ambiguous: while exposure is highest in managerial, professional and clerical roles, both substitution and augmentation effects are observed. Finally, while social dialogue can shape AI’s implementation, its scope and effectiveness vary widely across countries, underscoring the need for institutional adaptation and new participatory tools.",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -182,13 +144,84 @@
       "Laura Nurski",
       "Davide Monaco"
     ],
-    "date": "2025-09-24T13:54:03+01:00",
+    "date": "2025-09-24",
     "forthcoming": false,
     "featured": false,
     "url": "https://www.ceps.eu/ceps-publications/preparedness-in-the-labour-market-a-toolkit-for-anticipating-the-future-of-work/",
     "source": "Centre for European Policy Studies",
     "abstract": "Recent shocks and disruptions – from pandemics to technological breakthroughs – have made clear that simply waiting until a crisis hits is no longer an option.",
-    "cover_image": "assets/covers/preparedness-in-the-labour-market-a-toolkit-for-anticipating-the-future-of-work.jpg",
+    "cover_image": "",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "podcast",
+    "title": "Episode 8: Steering the AI revolution - CEPS Tech Podcast | Podcast on Spotify",
+    "authors": [
+      "Laura Nurski",
+      "Tom Parker",
+      "Daron Acemoğlu",
+      "Carlota Perez"
+    ],
+    "date": "2025-07-11",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://open.spotify.com/episode/3zD50FpsbWOEnwUeiABoLy",
+    "source": "",
+    "abstract": "In the fourth episode of the CEPS Tech Podcast series on “the Future of Work and AI”, we explore how artificial intelligence fits into a longer history of technological change — and why institutions, organisational models, and public policy are central to shaping its impact on the future of work. Our hosts, Tom Parker and Laura Nurski, are joined by , Institute Professor at MIT, Co-Director of MIT’s Shaping the Future of Work Initiative and, of course, Nobel laureate in Economics and , Honorary Professor at University College London and the University of Sussex as well as Adjunct Professor of Technology and Socio-Economic Development at TalTech, Estonia.\nThe episode looks at how to steer the current wave of technological change, especially looking at artificial intelligence, toward more inclusive outcomes, by analysing past tech revolutions, looking at the role of institutions in guiding AI in the public interested as well as the role of organisations in managing the technology and adapting their way of work to the technology.\n\nWe discuss:\n\nWhy AI matters – but isn’t the whole story \nHow institutions steer the direction and distribution of innovation \nThe often-overlooked role of management models in shaping work and inequality \nWhether organisational design should be treated as a public concern \n\nThis conversation connects the dots between past and future, theory and policy — and asks what kind of state we need to make the most of the AI era.",
+    "cover_image": "assets/covers/episode-8-steering-the-ai-revolution-ceps-tech-podcast-podcast-on-spotify.jpg",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "report",
+    "title": "Solving Europ's AI talent equation: Supply, demand and missing pieces",
+    "authors": [
+      "Siddhi Pal",
+      "Catherine Schneider",
+      "Laura Nurski"
+    ],
+    "date": "2025-07-09",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.ceps.eu/ceps-publications/solving-europes-ai-talent-equation/",
+    "source": "CEPS & interface",
+    "abstract": "As Europe scales up its ambition to lead in AI, understanding the structure of AI labour markets becomes essential. This study offers a comparative mapping of AI job vacancies and AI talent across European countries, using a novel three-tiered classification system that distinguishes between AI literacy (Tier 0), software and data proficiency (Tier 1), and advanced AI research and engineering (Tier 2). This approach recognises that skills are not isolated units but form-nested hierarchies and that actionable workforce policy must target coherent skill bundles rather than individual skills.\n\nDrawing on online job vacancy data from Lightcast and workforce profile data from Revelio Labs, the study quantifies AI demand and supply across 31 countries, revealing both surpluses and shortages at different proficiency levels. Tier 1 talent dominates both demand and supply, while talent shortages are most visible at the foundational (Tier 0) and advanced (Tier 2) levels. These patterns vary significantly across countries, reflecting diverse national strategies, migration flows and educational capacities. In many countries, the supply of qualified talent per vacancy is limited – especially at the high and low ends of the proficiency spectrum – indicating tight labour markets for both AI engineering and AI literacy.\n\nThe findings call for geographically differentiated and proficiency-sensitive AI skills strategies. Rather than assuming a linear pipeline from AI novice to AI expert, upskilling efforts should focus on horizontally integrating AI capabilities within existing roles. A structured, level-based understanding of AI skills can guide the implementation of key EU initiatives – from the AI Continent Action Plan to the Union of Skills strategy – by providing a clearer picture of where, and at what depth, AI skills are most needed.",
+    "cover_image": "",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "conferencePaper",
+    "title": "Defining the Structure-Control Connection in Job Design",
+    "authors": [
+      "Laura Nurski",
+      "Seth Maenen"
+    ],
+    "date": "2025-06-17",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.13650abstract",
+    "source": "Academy of Management Proceedings",
+    "abstract": "Organization design, by definition, concerns the division of work into a structure of interlinked units, teams and jobs. The design of a job is therefore shaped, in large part, by the broader organizational structure to which it belongs. Despite the acknowledged importance of understanding the cross-level link between organization and job design, quantitative empirical studies on this relationship remain scarce to non-existent. In this study, we define a transmission mechanism from organization design to job design by connecting facets of job demands and job control to organizational process characteristics such as knowledge-, information-, and planning-intensity along a routine - non-routine spectrum. We test the measurement of our constructs on 4175 workers in 25 organizations across three samples spanning two sectors and two time periods. The analysis confirms that our measures constitute empirically separate dimensions of job demands and control and that their measurement is invariant across sectors and time. Finally, we demonstrate how these job-level measures can be used to identify characteristics of the organizational structure.",
+    "cover_image": "",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "report",
+    "title": "Generative AI and the future of work global dialogue: Perceptions and prospects. Roundtables in Asia, Europe, and Latin America. A report prepared by the Centre for European Policy Studies (CEPS) for the OECD's Global Partnership on AI (GPAI)",
+    "authors": [
+      "Davide Monaco",
+      "Laura Nurski"
+    ],
+    "date": "2025-01",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://cdn.ceps.eu/wp-content/uploads/2025/03/20250128_GPAI_GenAI_FoW_report_final_VOECD.pdf",
+    "source": "OECD/Global Partnership on AI",
+    "abstract": "",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -205,12 +238,12 @@
     "url": "https://www.intereconomics.eu/contents/year/2025/number/1/article/how-to-ensure-a-skills-based-future-for-european-competitiveness.html",
     "source": "Intereconomics",
     "abstract": "Competitiveness is a multifaceted concept and in today’s highly competitive global economy, skills are an essential component in how a country or region can become – and remain – competitive. This contribution focuses on bolstering strategies that aim to close the EU’s skills gap, with an emphasis on utilising skills intelligence, targeting adults, SMEs and managers, and strengthening policy instruments that aim to tackle consistent underinvestment in training.  \n\nThe contribution recognises that the demand for skills is not only driven by firms’ competitive strategies but also by policies and regional contexts. Well-designed policies can help regions build on their unique strengths while responding to the evolving needs of the labour market. This approach can not only enhance competitiveness but also ensure a more equitable distribution of the benefits of innovation, while preparing the EU workforce to meet the future challenges that they will inevitably have to face.",
-    "cover_image": "assets/covers/how-to-ensure-a-skills-based-future-for-european-competitiveness.jpg",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
   {
-    "type": "book",
+    "type": "report",
     "title": "Study on the challenges and impacts to a social and inclusive Europe in the next decade, a study prepared by the Centre for European Policy Studies (CEPS) for European Commission. Directorate General for Employment, Social Affairs and Inclusion",
     "authors": [
       "Laura Nurski",
@@ -224,7 +257,7 @@
     "url": "https://data.europa.eu/doi/10.2767/4609973",
     "source": "Publications Office",
     "abstract": "Key megatrends – including technological, environmental, geopolitical, and demographic changes – are likely to reshape labour markets and social inclusion in Europe over the next decade. This study explores projected shifts in labour and skills demand and supply, the structural drivers influencing equality of opportunity, and the challenges these trends pose for the sustainable development of inclusive societies. The study anticipates major sectoral and occupational transformations, with a declining working-age population and persistent mismatches and shortages likely to exacerbate labour market pressures. Technological change, especially AI advances, is expected to alter task composition within occupations, with uneven impacts by gender, region and skill level.\n\nBeyond employment, megatrends are likely to affect job quality, access to services, and the adequacy of social protection systems, creating further risks for inclusion and equality. The study also identifies three self-reinforcing vicious cycles linked to intergenerational poverty and social exclusion, low-quality employment, and skills underutilisation, stressing the need for targeted – yet systemic – interventions. The findings aim to inform future programming of the European Social Fund Plus (ESF+).",
-    "cover_image": "assets/covers/study-on-the-challenges-and-impacts-to-a-social-and-inclusive-europe-in-the-next.jpg",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -243,7 +276,77 @@
     "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC141451",
     "source": "",
     "abstract": "This report provides a comprehensive analysis of the impact of digital technologies on work and occupations in Europe, critically reassessing dominant narratives of mass unemployment and job polarisation. The report synthesises work done by the JRC Employment team over the last years. Drawing on a wide range of empirical research, the report introduces an analytical framework distinguishing three main vectors of change: automation, the replacement of labour by machines; digitisation, the increasing use of digital tools in work processes; and platformisation, the use of digital platforms for coordinating work. Contrary to widespread fears, our research finds that the impact of automation, such as industrial robots, on net employment levels in recent decades has been modest and often positive. While specific tasks are automated, this has primarily boosted productivity and led to a reallocation of labour rather than a net destruction of jobs. The most profound transformation stems from digitisation. This process, while enhancing efficiency, has fundamentally altered work organisation by enabling unprecedented levels of standardisation, monitoring, and managerial control. This creates a central paradox: while employment shifts away from routine occupations, work processes within many non-routine professional roles are becoming increasingly routinised and subject to digital control, impacting worker autonomy and job quality. Finally, the report identifies the rise of platformisation, not just in the gig economy, but as a logic of algorithmic management and surveillance extending into traditional workplaces. This trend is reshaping the nature of workplace control across the economy. Analysis of occupational structures reveals that job upgrading, rather than job polarisation, has been the most common pattern of change across the EU, driven largely by the growth of high-skilled service sector jobs. The report concludes that the primary impact of the digital era on work is a qualitative transformation in its nature, focusing on coordination, control, and job quality. The effects of technology are not deterministic; they are strongly mediated by institutional frameworks, with regulation and collective bargaining playing a crucial role in shaping outcomes for workers in the digital age.",
-    "cover_image": "assets/covers/work-in-the-digital-era-how-technology-is-transforming-work-and-occupations.jpg",
+    "cover_image": "",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "podcast",
+    "title": "Future of work: Looking back & moving forward",
+    "authors": [
+      "Laura Nurski",
+      "Tom Parker",
+      "Carl Benedikt Frey",
+      "Nicky Dries"
+    ],
+    "date": "2024-9-9",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://open.spotify.com/episode/3zD50FpsbWOEnwUeiABoLy?si=MZDjdub3TgC03Whm5qcKXQ",
+    "source": "",
+    "abstract": "In this first episode of the CEPS Tech Podcast series on “the Future of Work and AI” we are discussing the hopes and fears in the labour market, the impact of AI on jobs and employment, and the changing task content and skills required in jobs of the future. Additionally, we examine historical perspectives on technological change and the importance of policy in shaping the future of work. The conversation highlights the need for interdisciplinary collaboration, monitoring of psychosocial risks, and shaping the reward function of society to create a better future of work.  \nOur host Tom Parker is joined by co-host Laura Nurski, Associate Research Fellow and Head of Programme on Future of Work at CEPS. Joining them both to help unpick this topic are two leading experts on the Future of Work and AI. Carl Frey, Dieter Schwarz Associate Professor of AI & Work at the Oxford Internet Institute and a Fellow of Mansfield College, University of Oxford (UK). He is also Director of the Future of Work Programme and Oxford Martin Citi Fellow at the Oxford Martin School. Nicky Dries is a Professor of Organisational Behaviour at the Department of Work & Organisation Studies at KU Leuven (Belgium) and at the Department of Leadership & Organisational Behaviour at BI Norwegian Business School (Norway). In Leuven, she runs the Future of Work Lab within the Faculty of Economics, that studies social imaginaries for the future. \nThis episode is part of the CEPS activities under the Global Partnership on Artificial Intelligence (GPAI) which brings together OECD members and GPAI countries to advance an ambitious agenda for implementing human-centric, safe, secure and trustworthy AI. You can find more information on GPAI and the Future of Work working group here.",
+    "cover_image": "assets/covers/future-of-work-looking-back-moving-forward.jpg",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "presentation",
+    "title": "AI & complementary skills: the role of transversal skills for employment and competitiveness",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2024-11-17",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.ceps.eu/ceps-events/a-future-ready-workforce-optimising-ai-for-people-and-places/",
+    "source": "",
+    "abstract": "What does it mean to have a future-ready workforce? With AI as a principal driver of change, people and places need to be prepared to make the most of this new technology. Join us for a two-part lunch event in which we present the newest research and discuss innovative policy solutions.\n\nBefore lunch, researchers share with us which skills are needed to put AI at the service of humans. Do we need only AI skills, or are human complementary skills also necessary? What is the role of transversal skills for employment and competitiveness for regions?\n\nAfter lunch, we put a spotlight on the trailblazing regional authorities of Europe taking the lead in regional skills intelligence. Come listen to how they are making the most of skills data to future-proof the workforce of their cities and regions.",
+    "cover_image": "",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "magazineArticle",
+    "title": "5 methodes om de toekomst van werk te verkennen en te voorspellen",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2024-11",
+    "forthcoming": false,
+    "featured": false,
+    "url": "",
+    "source": "",
+    "abstract": "",
+    "cover_image": "",
+    "url_or_download": "download",
+    "pdf": "assets/pdfs/5-methodes-om-de-toekomst-van-werk-te-verkennen-en-te-voorspellen.pdf"
+  },
+  {
+    "type": "podcast",
+    "title": "Can AI rebuild middle-class jobs?",
+    "authors": [
+      "Laura Nurski",
+      "Tom Parker",
+      "David Autor",
+      "Sabine Köszegi"
+    ],
+    "date": "2024-10-11",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://open.spotify.com/episode/4BlF8lB1HMyjNtL0bmwan3?si=fOOUyR9aTnWMisq0FRrq7w",
+    "source": "",
+    "abstract": "In the third episode of the CEPS Tech Podcast series on “the Future of Work and AI”, we delve into the transformative impact of AI on the labour market and job structures. Our hosts, Tom Parker and Laura Nurski, are joined by David Autor, Professor of Economics at MIT, and Sabine Köszegi, Professor of Labor Science and Organization at TU Vienna. Together, they explore how AI’s learning capabilities distinguish it from traditional computing and its potential to reshape middle-skilled jobs.\nThe episode highlights the evolving nature of expertise as AI takes on new tasks, the risks of de-skilling, and the essential role of human-AI collaboration. The discussion also addresses policy recommendations aimed at ensuring the widespread benefits of AI, with a focus on enhancing digital literacy and redesigning jobs to counter the challenges posed by automation. They explore how, with careful design, AI can expand access to skilled work and foster a more inclusive labour market.",
+    "cover_image": "assets/covers/can-ai-rebuild-middle-class-jobs.jpg",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -259,7 +362,7 @@
     "url": "https://www.ceps.eu/ceps-publications/ai-at-work/",
     "source": "Centre for European Policy Studies",
     "abstract": "To better understand AI’s possible impact on jobs and employment, a task perspective is a good starting point – it provides insights into the automation potential of the current task content of occupations. However, it isn’t sufficient for a holistic understanding because it ignores several important concepts that lie in between individual tasks and labour market outcomes. Jobs, processes and organisations mediate technology’s impact on workers which is not captured by the task model of the labour market.\n\nThis CEPS Explainer provides a comprehensive framework for analysing AI’s impact on work by moving through the concepts of tasks, jobs, processes and organisations. It highlights how AI is not only an automation or augmenting technology for productive tasks but it can also be used to better coordinate work and ensure the best people are hired. While the former might change the quantity of jobs and their task content, the latter two have a direct impact on job quality and inclusive access to work. Finally, it’s the redesign of organisational processes surrounding AI’s adoption that will ultimately shape the future of work.",
-    "cover_image": "assets/covers/ai-at-work-why-theres-more-to-it-than-task-automation.jpg",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -276,7 +379,7 @@
     "url": "https://www.bruegel.org/working-paper/exposure-generative-artificial-intelligence-european-labour-market",
     "source": "Bruegel",
     "abstract": "",
-    "cover_image": "assets/covers/exposure-to-generative-artificial-intelligence-in-the-european-labour-market.jpg",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -293,7 +396,7 @@
     "url": "https://www.steunpuntwerk.be/files/publications/OW/OW_2024_1/OverWerk_2024_1_07.pdf",
     "source": "Over.Werk. Tijdschrift van het Steunpunt Werk",
     "abstract": "De krapte op de arbeidsmarkt is al een tijd heersend op de Vlaamse arbeidsmarkt. We verwachten bovendien dat de aanwervingsbehoefte in vele Vlaamse sectoren en beroepen de komende jaren nog verder kan oplopen (Hannon en Vansteenkiste, 2024; Neefs en Vansteenkiste, 2022). Antwoorden op deze uitdaging kunnen niet alleen komen vanuit activering, maar ook thema’s als productiviteit, mobiliteit, welzijn, technologie en arbeidsorganisatie komen steeds sterker op de voorgrond. In deze studie ontleden we hoe taakvereisten verschillen in beroepen, zodat we onder meer een beter zicht kunnen bieden op hoe dit een rol kan spelen in aanwervingen en retentie. We maken daarbij berekeningen op de ad hoc module 2022 van de Enquête naar Arbeidskrachten van Statbel, die ons toelaat taken in beroepen te onderscheiden op vlak van fysieke-, intellectuele- en sociale werkinhouden, werkmethoden (autonomie of routine) en werkmiddelen (analoog versus digitaal). We brengen een analyse van hoe taakvereisten verschillen over twaalf ruimere beroepsgroepen en welke verschillen er zijn per geslacht, statuut en scholingsniveau. Vervolgens maken we een specifieke uitdieping van de taakvereisten in het beroep van leerkrachten en verpleegkundigen. Zij zijn gekend als belangrijke knelpuntberoepen, terwijl er een sterke maatschappelijke impact gekoppeld is aan het niet kunnen oplossen van deze arbeidstekorten. Onze studie wijst onder meer op de precaire positie van kortgeschoolden wat taakvereisten betreft. Daarnaast duiden we er met ons onderzoek op dat in het tegengaan van arbeidstekorten het belangrijk is om ook voldoende aandacht te geven aan initiatieven rond de arbeidsvraag met daarin niet alleen een focus op de arbeidsomstandigheden, maar ook op de arbeidsinhoud.",
-    "cover_image": "assets/covers/de-takendisbalans-in-vlaamse-beroepen-zicht-op-taken-in-beroepen-op-vlak-van-wer.jpg",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -310,7 +413,26 @@
     "url": "https://www.steunpuntwerk.be/files/publications/OW/OW_2024_1/OverWerk_2024_1_06.pdf",
     "source": "Over.Werk. Tijdschrift van het Steunpunt Werk",
     "abstract": "Doorheen de geschiedenis hebben technologische innovaties een impact gehad op de samenleving, maar ook op de arbeidsmarkt en het werk van mensen. Technologie wordt door sommigen gezien als een mogelijkheid om vooruitgang te creëren of conflicten of problemen op te lossen. Anderen ervaren technologie eerder als bedreigend, waarin het jobs kan doen veranderen of verloren gaan, en de ongelijkheid in de samenleving kan doen uitdiepen. Iets meer dan 10 jaar geleden, in 2013, publiceerden Frey en Osborne de eerste werkversie van hun paper waarin ze stelden dat 47% van de tewerkstelling in de VS bedreigd werd door automatisering (Frey & Osborne, 2017). Hoewel sindsdien gebleken is dat tewerkstelling in deze bedreigde beroepen niet is afgenomen, maar wel verder is toegenomen (Georgieff & Milanez, 2021), hebben deze auteurs de ontwikkeling van een hele reeks automatiseerbaarheidsscores in gang gezet. In dit artikel bekijken we verschillende types van deze technologische impactscores en beoordelen we de bruikbaarheid ervan voor monitoring, analyses en projecties van de arbeidsmarkt.",
-    "cover_image": "assets/covers/de-impact-van-technologie-op-beroepen-het-belang-en-de-bruikbaarheid-van-impacts.jpg",
+    "cover_image": "",
+    "url_or_download": "url",
+    "pdf": ""
+  },
+  {
+    "type": "journalArticle",
+    "title": "Risks to job quality from digital technologies: Are industrial relations in Europe ready for the challenge?",
+    "authors": [
+      "Janine Berg",
+      "Francis Green",
+      "Laura Nurski",
+      "David A Spencer"
+    ],
+    "date": "2023-12",
+    "forthcoming": false,
+    "featured": false,
+    "url": "http://journals.sagepub.com/doi/10.1177/09596801231178904",
+    "source": "",
+    "abstract": "We examine job quality effects of new digital technologies, using the European frame of seven job quality domains: Pay, Working Time Quality, Prospects, Skills and Discretion, Work Intensity, Social Environment, and Physical Environment. Theoretical effects are ambivalent across all domains. The analysis of these effects confirms that digital technologies can both improve and harm job quality depending on how they are used. In light of this analysis and to think through the challenge of regulating digital technologies, we review emerging regulations across several European countries. Drawing on the principles of human-centred design, we argue that worker participation is important for securing good job quality outcomes, at both the innovation and adoption stages. We also consider the application of data protection legislation to the regulation of job quality. Overall, the paper extends debate about the future of work beyond employment and pay, on to a consideration of job quality more broadly.",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -327,7 +449,7 @@
     "url": "https://www.bruegel.org/blog-post/understanding-barriers-and-resistance-training-european-union",
     "source": "",
     "abstract": "People with less education are also less able and willing to participate in training; understanding why is essential to prevent a widening skill gap.",
-    "cover_image": "assets/covers/understanding-barriers-and-resistance-to-training-in-the-european-union.jpg",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
@@ -343,214 +465,41 @@
     "url": "https://www.bruegel.org/blog-post/beyond-training-gap-learning-foundational-skills-job",
     "source": "",
     "abstract": "Low-skilled workers tend to have jobs that are less likely to foster foundational skills. This worsens skills gaps and income inequality.",
-    "cover_image": "assets/covers/beyond-the-training-gap-learning-foundational-skills-on-the-job.jpg",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
   {
     "type": "journalArticle",
-    "title": "Net Neutrality and Online Innovation: An Empirical Study of the UK",
-    "authors": [
-      "Laura Nurski"
-    ],
-    "date": "2022-12-17",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://www.degruyter.com/document/doi/10.1515/rne-2023-0063/html",
-    "source": "",
-    "abstract": "Abstract\n            How does a fast lane on the internet affect the entry of online content providers? To answer this question, I provide empirical evidence that connection speed greatly influences consumption of online video and that changes in speed therefore directly impact the entry of video content providers. I also present a framework to think about the incentives of broadband providers to offer a fast lane with access fees which has direct profits effects as well as indirect demand effects. Finally, by combining the empirical model with the theoretical framework in a counterfactual analysis, I show that a fast lane with access fees only increases entry for content providers with high fixed costs of content provision. Using a novel data set on household consumption of online content and broadband penetration in local markets to estimate a structural model of industry demand and supply, this paper is the first to provide empirical evidence on the industry-wide effects of breaking net neutrality.",
-    "cover_image": "assets/covers/net-neutrality-and-online-innovation-an-empirical-study-of-the-uk.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "blogPost",
-    "title": "Algorithmic management is the past, not the future of work",
-    "authors": [
-      "Laura Nurski"
-    ],
-    "date": "2022-09-06",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://www.bruegel.org/blog-post/algorithmic-management-past-not-future-work",
-    "source": "",
-    "abstract": "Algorithmic management is the twenty-first century’s scientific management. Job quality measures should be included explicitly in health and safety ri",
-    "cover_image": "assets/covers/algorithmic-management-is-the-past-not-the-future-of-work.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "report",
-    "title": "The impact of artificial intelligence on the nature and quality of jobs",
+    "title": "Exclusive Dealing as a Barrier to Entry? Evidence from Automobiles",
     "authors": [
       "Laura Nurski",
-      "Mia Hoffmann"
+      "Frank Verboven"
     ],
-    "date": "2022",
+    "date": "07/2016",
     "forthcoming": false,
     "featured": false,
-    "url": "https://www.bruegel.org/working-paper/impact-artificial-intelligence-nature-and-quality-jobs",
-    "source": "Bruegel",
-    "abstract": "Artificial intelligence (AI), like any workplace technology, changes the division of labour in an organisation and the resulting design of jobs. When used as an automation technology, AI changes the bundle of tasks that make up an occupation. In this case, implications for job quality depend on the (re)composition of those tasks. When AI automates management tasks, known as algorithmic management, the consequences extend into workers’ control over their work, with impacts on their autonomy, skill use and workload. We identify four use cases of algorithmic management that impact the design and quality of jobs: algorithmic work-method instructions; algorithmic scheduling of shifts and tasks; algorithmic surveillance, evaluation and discipline; and algorithmic coordination across tasks. \n\nReviewing the existing empirical evidence on automation and algorithmic management shows significant impact on job quality across a wide range of jobs and employment settings. While each AI use case has its own particular effects on job demands and resources, the effects tend to be more negative for the more prescriptive (as opposed to supportive) use cases. These changes in job design demonstrably affect the social and physical environment of work and put pressure on contractual employment conditions as well.\n\nAs technology development is a product of power in organisations, it replicates existing power dynamics in society. Consequently, disadvantaged groups suffer more of the negative consequences of AI, risking further job-quality polarisation across socioeconomic groups. Meaningful worker participation in the adoption of workplace AI is critical to mitigate the potentially negative effects of AI adoption on workers, and can help achieve fair and transparent AI systems with human oversight. Policymakers should strengthen the role of social partners in the adoption of AI technology to protect workers’ bargaining power.",
-    "cover_image": "assets/covers/the-impact-of-artificial-intelligence-on-the-nature-and-quality-of-jobs.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "report",
-    "title": "Beating burnout: identifying bad jobs and improving job quality",
-    "authors": [
-      "Laura Nurski",
-      "Mia Hoffmann"
-    ],
-    "date": "2022",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://www.bruegel.org/policy-brief/beating-burnout-identifying-bad-jobs-and-improving-job-quality",
-    "source": "Bruegel",
-    "abstract": "While European-wide information on burnout is scarce, national statistics show that stress- related absenteeism is on the rise, generating significant costs for firms and welfare states,\nwhile reducing worker wellbeing. Although manifested at the individual level, burnout is an occupational phenomenon, predicted most clearly by imbalances in job content (high workloads and low autonomy) and the social environment at work – two under-explored aspects of job quality.\nWhile the economy and society as a whole would benefit from a healthier workforce, market failures drive job quality below an optimal level, necessitating attention from policymakers. Measuring and intervening in job content is not straightforward, however, and has not been a main policy domain in Europe. Policy frameworks and interventions therefore tend to focus on other areas of job quality, such as the physical and contractual working conditions.\nTo manage the burnout epidemic and mitigate the impact of the changing nature of work, job- quality policy needs to focus on the job-content aspects as well. Wellbeing outcomes of low job quality, such as burnout, need to be monitored at European level and can serve to evaluate the effectiveness of policy interventions in job quality.",
-    "cover_image": "assets/covers/beating-burnout-identifying-bad-jobs-and-improving-job-quality.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "report",
-    "title": "Risks to job quality from digital technologies: Are industrial relations in Europe ready for the challenge?",
-    "authors": [
-      "Janine Berg",
-      "Francis Green",
-      "Laura Nurski",
-      "David A Spencer"
-    ],
-    "date": "2022",
-    "forthcoming": false,
-    "featured": false,
-    "url": "",
-    "source": "Bruegel",
-    "abstract": "We examine job quality effects of new digital technologies, using the European frame of seven job quality domains: Pay, Working Time Quality, Prospects, Skills and Discretion, Work Intensity, Social Environment, and Physical Environment. Theoretical effects are ambivalent across all domains. The analysis of these effects confirms that digital technologies can both improve and harm job quality depending on how they are used. In light of this analysis and to think through the challenge of regulating digital technologies, we review emerging regulations across several European countries. Drawing on the principles of human-centred design, we argue that worker participation is important for securing good job quality outcomes, at both the innovation and adoption stages. We also consider the application of data protection legislation to the regulation of job quality. Overall, the paper extends debate about the future of work beyond employment and pay, on to a consideration of job quality more broadly.",
-    "cover_image": "assets/covers/risks-to-job-quality-from-digital-technologies-are-industrial-relations-in-europ.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "presentation",
-    "title": "Panel Future-proofing work: The role of job quality in supporting an engaged, adaptable, and resilient workforce",
-    "authors": [
-      "Laura Nurski"
-    ],
-    "date": "20-11-2025",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://www.eurofound.europa.eu/en/news-and-events/events/foundation-forum-2025-europes-social-model-key-competitive-growth",
+    "url": "https://doi.org/10.1093/restud/rdw002",
     "source": "",
-    "abstract": "On 19–20 November 2025, Eurofound organised its 8th Foundation Forum at IMMA Venues. It is the agency’s quadrennial high-level flagship event which has been running for the past 20 years and is organised in cooperation with the Irish Government.",
-    "cover_image": "assets/covers/panel-future-proofing-work-the-role-of-job-quality-in-supporting-an-engaged-adap.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "newspaperArticle",
-    "title": "AI maakt zichtbaar wat al lang scheef zit",
-    "authors": [
-      "Laura Nurski"
-    ],
-    "date": "20-01-2026",
-    "forthcoming": false,
-    "featured": false,
-    "url": "",
-    "source": "",
-    "abstract": "",
-    "cover_image": "assets/covers/ai-maakt-zichtbaar-wat-al-lang-scheef-zit.jpg",
-    "url_or_download": "download",
-    "pdf": "assets/pdfs/ai-maakt-zichtbaar-wat-al-lang-scheef-zit.pdf"
-  },
-  {
-    "type": "presentation",
-    "title": "AI & complementary skills: the role of transversal skills for employment and competitiveness",
-    "authors": [
-      "Laura Nurski"
-    ],
-    "date": "17/11/2024",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://www.ceps.eu/ceps-events/a-future-ready-workforce-optimising-ai-for-people-and-places/",
-    "source": "",
-    "abstract": "What does it mean to have a future-ready workforce? With AI as a principal driver of change, people and places need to be prepared to make the most of this new technology. Join us for a two-part lunch event in which we present the newest research and discuss innovative policy solutions.\n\nBefore lunch, researchers share with us which skills are needed to put AI at the service of humans. Do we need only AI skills, or are human complementary skills also necessary? What is the role of transversal skills for employment and competitiveness for regions?\n\nAfter lunch, we put a spotlight on the trailblazing regional authorities of Europe taking the lead in regional skills intelligence. Come listen to how they are making the most of skills data to future-proof the workforce of their cities and regions.",
-    "cover_image": "assets/covers/ai-complementary-skills-the-role-of-transversal-skills-for-employment-and-compet.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "conferencePaper",
-    "title": "Defining the Structure-Control Connection in Job Design",
-    "authors": [
-      "Laura Nurski",
-      "Seth Maenen"
-    ],
-    "date": "17 Jun 2025",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.13650abstract",
-    "source": "Academy of Management Proceedings",
-    "abstract": "Organization design, by definition, concerns the division of work into a structure of interlinked units, teams and jobs. The design of a job is therefore shaped, in large part, by the broader organizational structure to which it belongs. Despite the acknowledged importance of understanding the cross-level link between organization and job design, quantitative empirical studies on this relationship remain scarce to non-existent. In this study, we define a transmission mechanism from organization design to job design by connecting facets of job demands and job control to organizational process characteristics such as knowledge-, information-, and planning-intensity along a routine - non-routine spectrum. We test the measurement of our constructs on 4175 workers in 25 organizations across three samples spanning two sectors and two time periods. The analysis confirms that our measures constitute empirically separate dimensions of job demands and control and that their measurement is invariant across sectors and time. Finally, we demonstrate how these job-level measures can be used to identify characteristics of the organizational structure.",
-    "cover_image": "assets/covers/defining-the-structure-control-connection-in-job-design.jpg",
+    "abstract": "Exclusive dealing contracts between manufacturers and retailers force new entrants to set up their own costly dealer networks to enter the market. We ask whether such contracts may act as an entry barrier, and provide an empirical analysis of the European car market. We first estimate a demand model with product and spatial differentiation, and quantify consumers' valuations for dealer proximity and dealer exclusivity. We then perform policy counterfactuals to assess the profit incentives and possible entry-deterring effects of exclusive dealing. We find that there are no unilateral incentives to maintain exclusive dealing, but there is a collective incentive for the industry as a whole. Furthermore, a ban on exclusive dealing would raise the smaller entrants' market share. But more importantly, consumers would gain, not so much because of increased price competition, but rather because of the increased spatial availability, which compensates for the demand inefficiency from a loss of dealer exclusivity.",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   },
   {
     "type": "journalArticle",
-    "title": "Risks to job quality from digital technologies: Are industrial relations in Europe ready for the challenge?",
-    "authors": [
-      "Janine Berg",
-      "Francis Green",
-      "Laura Nurski",
-      "David A Spencer"
-    ],
-    "date": "12/2023",
-    "forthcoming": false,
-    "featured": false,
-    "url": "http://journals.sagepub.com/doi/10.1177/09596801231178904",
-    "source": "",
-    "abstract": "We examine job quality effects of new digital technologies, using the European frame of seven job quality domains: Pay, Working Time Quality, Prospects, Skills and Discretion, Work Intensity, Social Environment, and Physical Environment. Theoretical effects are ambivalent across all domains. The analysis of these effects confirms that digital technologies can both improve and harm job quality depending on how they are used. In light of this analysis and to think through the challenge of regulating digital technologies, we review emerging regulations across several European countries. Drawing on the principles of human-centred design, we argue that worker participation is important for securing good job quality outcomes, at both the innovation and adoption stages. We also consider the application of data protection legislation to the regulation of job quality. Overall, the paper extends debate about the future of work beyond employment and pay, on to a consideration of job quality more broadly.",
-    "cover_image": "assets/covers/risks-to-job-quality-from-digital-technologies-are-industrial-relations-in-europ.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "podcast",
-    "title": "Can AI rebuild middle-class jobs?",
+    "title": "Incumbency advantages, distribution networks and exclusivity — Evidence from the European car markets",
     "authors": [
       "Laura Nurski",
-      "Tom Parker",
-      "David Autor",
-      "Sabine Köszegi"
+      "Frank Verboven"
     ],
-    "date": "11-10-2024",
+    "date": "05/2014",
     "forthcoming": false,
     "featured": false,
-    "url": "https://open.spotify.com/episode/4BlF8lB1HMyjNtL0bmwan3?si=fOOUyR9aTnWMisq0FRrq7w",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167718714000265",
     "source": "",
-    "abstract": "In the third episode of the CEPS Tech Podcast series on “the Future of Work and AI”, we delve into the transformative impact of AI on the labour market and job structures. Our hosts, Tom Parker and Laura Nurski, are joined by David Autor, Professor of Economics at MIT, and Sabine Köszegi, Professor of Labor Science and Organization at TU Vienna. Together, they explore how AI’s learning capabilities distinguish it from traditional computing and its potential to reshape middle-skilled jobs.\nThe episode highlights the evolving nature of expertise as AI takes on new tasks, the risks of de-skilling, and the essential role of human-AI collaboration. The discussion also addresses policy recommendations aimed at ensuring the widespread benefits of AI, with a focus on enhancing digital literacy and redesigning jobs to counter the challenges posed by automation. They explore how, with careful design, AI can expand access to skilled work and foster a more inclusive labour market.",
-    "cover_image": "assets/covers/can-ai-rebuild-middle-class-jobs.jpg",
-    "url_or_download": "url",
-    "pdf": ""
-  },
-  {
-    "type": "podcast",
-    "title": "Episode 8: Steering the AI revolution - CEPS Tech Podcast | Podcast on Spotify",
-    "authors": [
-      "Laura Nurski",
-      "Tom Parker",
-      "Daron Acemoğlu",
-      "Carlota Perez"
-    ],
-    "date": "11-07-2025",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://open.spotify.com/episode/3zD50FpsbWOEnwUeiABoLy",
-    "source": "",
-    "abstract": "In the fourth episode of the CEPS Tech Podcast series on “the Future of Work and AI”, we explore how artificial intelligence fits into a longer history of technological change — and why institutions, organisational models, and public policy are central to shaping its impact on the future of work. Our hosts, Tom Parker and Laura Nurski, are joined by , Institute Professor at MIT, Co-Director of MIT’s Shaping the Future of Work Initiative and, of course, Nobel laureate in Economics and , Honorary Professor at University College London and the University of Sussex as well as Adjunct Professor of Technology and Socio-Economic Development at TalTech, Estonia.\nThe episode looks at how to steer the current wave of technological change, especially looking at artificial intelligence, toward more inclusive outcomes, by analysing past tech revolutions, looking at the role of institutions in guiding AI in the public interested as well as the role of organisations in managing the technology and adapting their way of work to the technology.\n\nWe discuss:\n\nWhy AI matters – but isn’t the whole story \nHow institutions steer the direction and distribution of innovation \nThe often-overlooked role of management models in shaping work and inequality \nWhether organisational design should be treated as a public concern \n\nThis conversation connects the dots between past and future, theory and policy — and asks what kind of state we need to make the most of the AI era.",
-    "cover_image": "assets/covers/episode-8-steering-the-ai-revolution-ceps-tech-podcast-podcast-on-spotify.jpg",
+    "abstract": "This paper investigates the role of distribution networks in explaining incumbency advantages in the European car market. We compare three approaches to incorporate the size of distribution networks in discrete choice models of product differentiation: as an extra product characteristic, as a new dimension of product differentiation in a nested logit framework, or as a measure of the expected travel cost under a spatial Poisson distribution of locations. We obtain robust conclusions across all three approaches: distribution networks play an important role in explaining car producers' market shares, but they only appear to explain part of the bias towards domestic brands in the car market. We also report on an ongoing research project where we analyze the role of distribution networks at a much more detailed local market level, and investigate the specific role of exclusive dealing as a possible entry barrier.",
+    "cover_image": "",
     "url_or_download": "url",
     "pdf": ""
   }
