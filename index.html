@@ -95,14 +95,14 @@
     display: grid;
     grid-template-columns: 194px 194px;
     align-content: center;
-    padding: 16px 16px 16px 0;
+    padding: 28px 24px 28px 0;
     gap: 10px;
   }
   .hero-pub {
     position: relative; overflow: hidden;
     border-radius: 3px;
     cursor: pointer;
-    aspect-ratio: 210/297;
+    height: 225px;
     display: block;
     text-decoration: none;
   }
@@ -112,7 +112,9 @@
     transition: transform .4s, opacity .3s;
     opacity: .88;
   }
-  .hero-pub:hover img { transform: scale(1.04); opacity: 1; }
+  a.hero-pub:hover img { transform: scale(1.04); opacity: 1; }
+  div.hero-pub { cursor: default; }
+  div.hero-pub img { transform: none !important; opacity: .88 !important; }
 
   /* ── Recent work ─────────────────────────────────────────────── */
   .section { padding: 52px 5% 52px; }
@@ -157,8 +159,9 @@
   .pub-cover-wrap.contain img {
     object-fit: contain;
   }
-  .pub-card:hover .pub-cover-wrap img { transform: scale(1.03); }
-  .pub-card:hover .pub-cover-wrap.contain img { transform: none; opacity: .85; }
+  a.pub-card:hover .pub-cover-wrap img { transform: scale(1.03); }
+  a.pub-card:hover .pub-cover-wrap.contain img { transform: none; opacity: .85; }
+  div.pub-card { cursor: default; }
   .pub-tag {
     position: absolute; top: .5rem; left: .5rem;
     background: #fff; border: 1px solid var(--border);
@@ -353,11 +356,13 @@
   // ── Render featured 2×2 grid (no tag overlay) ─────────────────
   function renderFeatured(pubs) {
     const grid = document.getElementById('featured-grid');
-    grid.innerHTML = pubs.map(p => `
-      <a class="hero-pub" href="${pubHref(p)}" target="_blank" rel="noopener"
-         title="${p.title}">
+    grid.innerHTML = pubs.map(p => {
+      const tag  = p.forthcoming ? 'div' : 'a';
+      const href = p.forthcoming ? '' : `href="${pubHref(p)}" target="_blank" rel="noopener"`;
+      return `<${tag} class="hero-pub" ${href} title="${p.title}">
         <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
-      </a>`).join('');
+      </${tag}>`;
+    }).join('');
   }
 
   // ── Render recent work strip ───────────────────────────────────
@@ -367,15 +372,18 @@
     const grid = document.getElementById('recent-grid');
     grid.innerHTML = pubs.map(p => {
       const containClass = OUTREACH_TYPES.has(p.type) ? ' contain' : '';
+      const tag  = p.forthcoming ? 'div' : 'a';
+      const href = p.forthcoming ? '' : `href="${pubHref(p)}" target="_blank" rel="noopener"`;
       return `
-      <a class="pub-card" href="${pubHref(p)}" target="_blank" rel="noopener">
+      <${tag} class="pub-card" ${href}>
         <div class="pub-cover-wrap${containClass}">
           <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
           <span class="pub-tag">${typeLabel(p.type)}</span>
+          ${p.forthcoming ? '<span class="pub-forthcoming">Forthcoming</span>' : ''}
         </div>
         <p class="pub-title">${p.title}</p>
         <p class="pub-meta">${[pubSource(p), pubYear(p)].filter(Boolean).join(' · ')}</p>
-      </a>`;
+      </${tag}>`;
     }).join('');
   }
 

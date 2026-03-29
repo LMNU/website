@@ -77,6 +77,7 @@
 
   .pub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; }
   .pub-card { text-decoration: none; color: inherit; display: block; }
+  div.pub-card { cursor: default; }
   .pub-cover-wrap {
     position: relative; overflow: hidden;
     border: 1px solid var(--border); margin-bottom: .7rem;
@@ -85,7 +86,7 @@
     display: block; width: 100%; aspect-ratio: 210/297; object-fit: cover;
     transition: transform .3s;
   }
-  .pub-card:hover .pub-cover-wrap img { transform: scale(1.03); }
+  a.pub-card:hover .pub-cover-wrap img { transform: scale(1.03); }
   .pub-tag {
     position: absolute; top: .5rem; left: .5rem;
     background: #fff; border: 1px solid var(--border);
@@ -217,8 +218,11 @@
     noResult.style.display = 'none';
 
     // Flat grid — no year-group wrappers; year shown in meta line
-    grid.innerHTML = pubs.map(p => `
-      <a class="pub-card" href="${pubHref(p)}" target="_blank" rel="noopener">
+    grid.innerHTML = pubs.map(p => {
+      const tag  = p.forthcoming ? 'div' : 'a';
+      const href = p.forthcoming ? '' : `href="${pubHref(p)}" target="_blank" rel="noopener"`;
+      return `
+      <${tag} class="pub-card" ${href}>
         <div class="pub-cover-wrap">
           <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
           <span class="pub-tag">${typeLabel(p.type)}</span>
@@ -226,7 +230,8 @@
         </div>
         <p class="pub-title">${p.title}</p>
         <p class="pub-meta">${[p.source, pubYear(p)].filter(Boolean).join(' · ')}</p>
-      </a>`).join('');
+      </${tag}>`;
+    }).join('');
   }
 
   function buildFilters(pubs) {
