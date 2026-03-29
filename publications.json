@@ -1,21 +1,5 @@
 [
   {
-    "type": "journalArticle",
-    "title": "\"Banen verdwijnen niet, ze krijgen een andere inhoud\"",
-    "authors": [
-      "Laura Nurski"
-    ],
-    "date": "30-10-2025",
-    "forthcoming": false,
-    "featured": false,
-    "url": "",
-    "source": "Trends",
-    "abstract": "",
-    "cover_image": "assets/covers/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.jpg",
-    "url_or_download": "download",
-    "pdf": "assets/pdfs/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.pdf"
-  },
-  {
     "type": "newspaperArticle",
     "title": "AI maakt zichtbaar wat al lang scheef zit",
     "authors": [
@@ -120,6 +104,22 @@
     "cover_image": "assets/covers/building-a-european-ai-ecosystem-of-excellence-foresight-report.jpg",
     "url_or_download": "url",
     "pdf": ""
+  },
+  {
+    "type": "magazineArticle",
+    "title": "\"Banen verdwijnen niet, ze krijgen een andere inhoud\"",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2025-10-30",
+    "forthcoming": false,
+    "featured": false,
+    "url": "",
+    "source": "",
+    "abstract": "",
+    "cover_image": "assets/covers/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.jpg",
+    "url_or_download": "download",
+    "pdf": "assets/pdfs/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.pdf"
   },
   {
     "type": "report",
