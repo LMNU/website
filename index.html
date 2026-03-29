@@ -113,15 +113,10 @@
     opacity: .88;
   }
   .hero-pub:hover img { transform: scale(1.04); opacity: 1; }
-  .hero-pub-type {
-    position: absolute; top: .5rem; left: .5rem;
-    font-size: .6rem; letter-spacing: .08em; text-transform: uppercase;
-    background: var(--teal); color: #fff;
-    padding: .15rem .45rem; border-radius: 2px;
-  }
 
   /* ── Recent work ─────────────────────────────────────────────── */
-  .section { padding: 52px 5%; max-width: 1160px; margin: 0 auto; }
+  .section { padding: 52px 5% 52px; }
+  .section-inner { max-width: 1160px; margin: 0 auto; }
   .section-head {
     display: flex; justify-content: space-between; align-items: baseline;
     border-bottom: 2px solid var(--dark); padding-bottom: .45rem; margin-bottom: 2rem;
@@ -130,8 +125,25 @@
   .section-head a { font-size: .85rem; color: var(--teal); text-decoration: none; }
   .section-head a:hover { text-decoration: underline; }
 
+  /* Horizontally scrollable strip */
+  .pub-scroll {
+    display: flex;
+    gap: 1.25rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;           /* space for scrollbar */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  .pub-scroll::-webkit-scrollbar { height: 4px; }
+  .pub-scroll::-webkit-scrollbar-track { background: var(--border); border-radius: 2px; }
+  .pub-scroll::-webkit-scrollbar-thumb { background: var(--teal); border-radius: 2px; }
+
   .pub-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.75rem; }
-  .pub-card { text-decoration: none; color: inherit; display: block; }
+  .pub-card {
+    text-decoration: none; color: inherit; display: block;
+    width: 180px; flex-shrink: 0;   /* fixed width in scroll strip */
+    scroll-snap-align: start;
+  }
   .pub-cover-wrap {
     position: relative; overflow: hidden;
     border: 1px solid var(--border); margin-bottom: .8rem;
@@ -262,12 +274,14 @@
 
 <!-- Recent work -->
 <section class="section">
-  <div class="section-head">
-    <h2>Recent work</h2>
-    <a href="research.html">All publications →</a>
-  </div>
-  <div class="pub-grid" id="recent-grid">
-    <!-- JS renders 4 most recent non-featured publications here -->
+  <div class="section-inner">
+    <div class="section-head">
+      <h2>Recent work</h2>
+      <a href="research.html">All publications →</a>
+    </div>
+    <div class="pub-scroll" id="recent-grid">
+      <!-- JS renders up to 10 most recent non-featured publications here -->
+    </div>
   </div>
 </section>
 
@@ -332,14 +346,13 @@
     return p.source || '';
   }
 
-  // ── Render featured 2×2 grid ───────────────────────────────────
+  // ── Render featured 2×2 grid (no tag overlay) ─────────────────
   function renderFeatured(pubs) {
     const grid = document.getElementById('featured-grid');
     grid.innerHTML = pubs.map(p => `
       <a class="hero-pub" href="${pubHref(p)}" target="_blank" rel="noopener"
          title="${p.title}">
         <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
-        <span class="hero-pub-type">${typeLabel(p.type)} · ${pubYear(p)}</span>
       </a>`).join('');
   }
 
@@ -367,8 +380,8 @@
     .then(r => r.json())
     .then(pubs => {
       const featured = pubs.filter(p => p.featured).slice(0, 4);
-      // Recent: 4 most recent that are not featured (already sorted by date desc)
-      const recent = pubs.filter(p => !p.featured).slice(0, 4);
+      // Recent: up to 10 most recent non-featured (already sorted by date desc)
+      const recent = pubs.filter(p => !p.featured).slice(0, 10);
       renderFeatured(featured);
       renderRecent(recent);
     })

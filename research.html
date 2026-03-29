@@ -186,7 +186,7 @@
     presentation:    'Presentation',
     conferencePaper: 'Conference paper',
   };
-  const RESEARCH_TYPES = ['report','journalArticle','book','bookSection','conferencePaper','presentation'];
+  const RESEARCH_TYPES = ['report','journalArticle','book','bookSection','conferencePaper'];
 
   function typeLabel(t) { return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1); }
   function pubHref(p)   { return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#'); }
