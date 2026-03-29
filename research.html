@@ -54,12 +54,13 @@
   }
   .filters {
     max-width: 1160px; margin: 0 auto;
-    display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center;
+    display: flex; flex-direction: column; gap: .65rem;
   }
+  .filter-row { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
   .filter-group { display: flex; gap: .4rem; flex-wrap: wrap; }
   .filter-label {
     font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;
-    color: var(--mid); align-self: center; margin-right: .2rem;
+    color: var(--mid); flex-shrink: 0;
   }
   .filter-btn {
     font-size: .78rem; padding: .3rem .8rem;
@@ -92,7 +93,7 @@
     padding: .15rem .45rem; color: var(--teal);
   }
   .pub-forthcoming {
-    position: absolute; top: .5rem; right: .5rem;
+    position: absolute; bottom: .5rem; right: .5rem;
     background: #fff8e1; border: 1px solid #f0c040;
     font-size: .6rem; letter-spacing: .06em; text-transform: uppercase;
     padding: .15rem .45rem; color: #7a5e00;
@@ -123,6 +124,7 @@
 <nav>
   <a class="nav-name" href="index.html">Laura Nurski</a>
   <div class="nav-links">
+    <a href="index.html">Home</a>
     <a href="research.html" class="active">Research</a>
     <a href="outreach.html">Outreach</a>
     <a href="about.html">About</a>
@@ -138,13 +140,17 @@
 <!-- Filters -->
 <div class="filters-wrap">
   <div class="filters">
-    <span class="filter-label">Type</span>
-    <div class="filter-group" id="type-filters">
-      <button class="filter-btn active" data-filter-type="all">All</button>
+    <div class="filter-row">
+      <span class="filter-label">Type</span>
+      <div class="filter-group" id="type-filters">
+        <button class="filter-btn active" data-filter-type="all">All</button>
+      </div>
     </div>
-    <span class="filter-label" style="margin-left:1rem;">Year</span>
-    <div class="filter-group" id="year-filters">
-      <button class="filter-btn active" data-filter-year="all">All</button>
+    <div class="filter-row">
+      <span class="filter-label">Year</span>
+      <div class="filter-group" id="year-filters">
+        <button class="filter-btn active" data-filter-year="all">All</button>
+      </div>
     </div>
   </div>
 </div>
