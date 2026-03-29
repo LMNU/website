@@ -135,12 +135,18 @@
   .pub-cover-wrap {
     position: relative; overflow: hidden;
     border: 1px solid var(--border); margin-bottom: .8rem;
+    aspect-ratio: 210/297; background: var(--warm);
   }
   .pub-cover-wrap img {
-    display: block; width: 100%; aspect-ratio: 210/297; object-fit: cover;
-    transition: transform .3s;
+    display: block; width: 100%; height: 100%; object-fit: cover;
+    transition: transform .3s, opacity .3s;
+  }
+  /* Outreach-type covers shown at natural ratio (contain) */
+  .pub-cover-wrap.contain img {
+    object-fit: contain;
   }
   .pub-card:hover .pub-cover-wrap img { transform: scale(1.03); }
+  .pub-card:hover .pub-cover-wrap.contain img { transform: none; opacity: .85; }
   .pub-tag {
     position: absolute; top: .5rem; left: .5rem;
     background: #fff; border: 1px solid var(--border);
@@ -331,17 +337,22 @@
   }
 
   // ── Render recent work strip ───────────────────────────────────
+  const OUTREACH_TYPES = new Set(['magazineArticle','newspaperArticle','podcast','blogPost','presentation']);
+
   function renderRecent(pubs) {
     const grid = document.getElementById('recent-grid');
-    grid.innerHTML = pubs.map(p => `
+    grid.innerHTML = pubs.map(p => {
+      const containClass = OUTREACH_TYPES.has(p.type) ? ' contain' : '';
+      return `
       <a class="pub-card" href="${pubHref(p)}" target="_blank" rel="noopener">
-        <div class="pub-cover-wrap">
+        <div class="pub-cover-wrap${containClass}">
           <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
           <span class="pub-tag">${typeLabel(p.type)}</span>
         </div>
         <p class="pub-title">${p.title}</p>
         <p class="pub-meta">${[pubSource(p), pubYear(p)].filter(Boolean).join(' · ')}</p>
-      </a>`).join('');
+      </a>`;
+    }).join('');
   }
 
   // ── Load and dispatch ──────────────────────────────────────────
