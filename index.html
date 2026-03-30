@@ -39,34 +39,25 @@
 
   /* ── Hero ────────────────────────────────────────────────────── */
   .hero {
-    display: flex;
     border-bottom: 1px solid var(--border);
+    padding: 36px 5%;
   }
-
-  .hero-left {
-    flex: 1;
-    padding: 40px 6% 40px 5%;
-    display: flex; flex-direction: column; justify-content: center;
-    border-right: 1px solid var(--border);
-    gap: 1rem;
-  }
-  .hero-photo-row {
-    display: flex; align-items: center; gap: 1.1rem;
+  .hero-inner {
+    max-width: 1160px; margin: 0 auto;
+    display: flex; align-items: center; gap: 1.4rem;
   }
   .hero-photo {
-    width: 140px; height: 140px; border-radius: 50%;
+    width: 110px; height: 110px; border-radius: 50%;
     object-fit: cover; object-position: top center;
     border: 2px solid var(--border); flex-shrink: 0;
   }
   .hero-name { font-size: 1.45rem; font-weight: 700; line-height: 1.2; }
-  .hero-role { font-size: .92rem; color: var(--mid); margin-top: .25rem; }
+  .hero-role { font-size: .92rem; color: var(--mid); margin-top: .2rem; margin-bottom: .7rem; }
   .hero-tagline {
-    font-family: var(--serif); font-size: clamp(1.3rem, 2.1vw, 1.75rem);
-    font-weight: normal; line-height: 1.35; color: var(--dark);
+    font-family: var(--serif); font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+    font-weight: normal; line-height: 1.4; color: var(--dark); margin-bottom: .7rem;
   }
-  .hero-bio {
-    font-size: 1rem; color: var(--mid); line-height: 1.7;
-  }
+  .hero-bio { font-size: .93rem; color: var(--mid); line-height: 1.7; margin-bottom: .9rem; }
   .hero-ctas { display: flex; gap: .75rem; flex-wrap: wrap; }
   .btn {
     display: inline-block; padding: .6rem 1.4rem; border-radius: 3px;
@@ -78,46 +69,16 @@
   .btn-ghost { border: 1.5px solid var(--border); color: var(--mid); }
   .btn-ghost:hover { border-color: var(--teal); color: var(--teal); }
 
-  /* ── Featured (right side of hero) ──────────────────────────── */
-  .hero-right {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: var(--warm);
-    flex-shrink: 0;
+  /* ── Featured strip ──────────────────────────────────────────── */
+  .featured-band {
+    background: var(--teal-bg);
+    border-bottom: 1px solid #c2dede;
   }
-  .hero-right-label {
-    writing-mode: vertical-lr;
-    font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
-    color: var(--teal);
-    padding: 0 10px 0 18px;
-    flex-shrink: 0;
-    user-select: none;
+  .featured-band .section-head {
+    border-bottom-color: var(--teal);
   }
-  .hero-pub-grid {
-    display: grid;
-    grid-template-columns: 160px 160px;
-    align-content: center;
-    padding: 28px 24px 28px 0;
-    gap: 10px;
-  }
-  .hero-pub {
-    position: relative; overflow: hidden;
-    border-radius: 3px;
-    cursor: pointer;
-    aspect-ratio: 210/297;
-    display: block;
-    text-decoration: none;
-  }
-  .hero-pub img {
-    display: block; width: 100%; height: 100%;
-    object-fit: cover;
-    transition: transform .4s, opacity .3s;
-    opacity: .88;
-  }
-  a.hero-pub:hover img { transform: scale(1.04); opacity: 1; }
-  div.hero-pub { cursor: default; }
-  div.hero-pub img { transform: none !important; opacity: .88 !important; }
+  .featured-band .section-head h2 { color: var(--teal); }
+  .featured-band .pub-scroll::-webkit-scrollbar-track { background: #c2dede; }
 
   /* ── Recent work ─────────────────────────────────────────────── */
   .section { padding: 52px 5% 52px; }
@@ -261,10 +222,10 @@
     .nav-links a:last-child { border-bottom: none; }
     nav { position: relative; }
 
-    .hero { flex-direction: column; }
-    .hero-right { display: none; }
-    .hero-left { padding: 32px 5%; }
-    .hero-tagline { font-size: 1.25rem; }
+    .hero { padding: 24px 5%; }
+    .hero-inner { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    .hero-photo { width: 80px; height: 80px; }
+    .hero-tagline { font-size: 1.05rem; }
 
     .about-section { grid-template-columns: 1fr; gap: 2.5rem; }
     .about-photos { grid-template-columns: 1fr 1fr; }
@@ -305,34 +266,33 @@
 
 <!-- Hero -->
 <section class="hero">
-
-  <!-- Left: bio -->
-  <div class="hero-left">
-    <div class="hero-photo-row">
-      <img class="hero-photo"
-           src="images-Laura/Profile pics/LauraNurski_indoor.JPG"
-           alt="Laura Nurski">
-      <div>
-        <div class="hero-name">Laura Nurski, PhD</div>
-        <div class="hero-role">CEPS · KU Leuven · Future of Work</div>
+  <div class="hero-inner">
+    <img class="hero-photo"
+         src="images-Laura/Profile pics/LauraNurski_indoor.JPG"
+         alt="Laura Nurski">
+    <div>
+      <div class="hero-name">Laura Nurski, PhD</div>
+      <div class="hero-role">CEPS · KU Leuven · Future of Work</div>
+      <p class="hero-tagline">Research connecting AI, work, and society — from evidence to policy.</p>
+      <p class="hero-bio">I study how artificial intelligence and digitalisation are reshaping jobs, skills, and organisations across Europe. My work spans quantitative research, policy advice, and public commentary — in English and Dutch.</p>
+      <div class="hero-ctas">
+        <a href="research.html" class="btn btn-ghost">Research</a>
+        <a href="outreach.html" class="btn btn-ghost">Outreach &amp; media</a>
       </div>
     </div>
-    <p class="hero-tagline">Research connecting AI, work, and society — from evidence to policy.</p>
-    <p class="hero-bio">I study how artificial intelligence and digitalisation are reshaping jobs, skills, and organisations across Europe. My work spans quantitative research, policy advice, and public commentary — in English and Dutch.</p>
-    <div class="hero-ctas">
-      <a href="research.html" class="btn btn-ghost">Research</a>
-      <a href="outreach.html" class="btn btn-ghost">Outreach &amp; media</a>
+  </div>
+</section>
+
+<!-- Featured work -->
+<section class="featured-band section">
+  <div class="section-inner">
+    <div class="section-head">
+      <h2>Featured work</h2>
+    </div>
+    <div class="pub-scroll" id="featured-grid">
+      <!-- JS renders featured publications here -->
     </div>
   </div>
-
-  <!-- Right: featured publications (populated by JS) -->
-  <div class="hero-right">
-    <span class="hero-right-label">Featured work</span>
-    <div class="hero-pub-grid" id="featured-grid">
-      <!-- JS renders 4 featured publication covers here -->
-    </div>
-  </div>
-
 </section>
 
 <!-- Recent work -->
@@ -340,10 +300,13 @@
   <div class="section-inner">
     <div class="section-head">
       <h2>Recent work</h2>
-      <a href="research.html">All publications →</a>
+      <div style="display:flex; gap:1.2rem;">
+        <a href="research.html">All research →</a>
+        <a href="outreach.html">All outreach →</a>
+      </div>
     </div>
     <div class="pub-scroll" id="recent-grid">
-      <!-- JS renders up to 10 most recent non-featured publications here -->
+      <!-- JS renders up to 10 most recent publications here -->
     </div>
   </div>
 </section>
@@ -413,23 +376,11 @@
     return p.source || '';
   }
 
-  // ── Render featured 2×2 grid (no tag overlay) ─────────────────
-  function renderFeatured(pubs) {
-    const grid = document.getElementById('featured-grid');
-    grid.innerHTML = pubs.map(p => {
-      const tag  = p.forthcoming ? 'div' : 'a';
-      const href = p.forthcoming ? '' : `href="${pubHref(p)}" target="_blank" rel="noopener"`;
-      return `<${tag} class="hero-pub" ${href} title="${p.title}">
-        <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
-      </${tag}>`;
-    }).join('');
-  }
+  // ── Shared card renderer ───────────────────────────────────────
+  const OUTREACH_TYPES = new Set(['magazineArticle','newspaperArticle','podcast','blogPost','presentation','tvBroadcast']);
 
-  // ── Render recent work strip ───────────────────────────────────
-  const OUTREACH_TYPES = new Set(['magazineArticle','newspaperArticle','podcast','blogPost','presentation']);
-
-  function renderRecent(pubs) {
-    const grid = document.getElementById('recent-grid');
+  function renderStrip(pubs, containerId) {
+    const grid = document.getElementById(containerId);
     grid.innerHTML = pubs.map(p => {
       const containClass = OUTREACH_TYPES.has(p.type) ? ' contain' : '';
       const tag  = p.forthcoming ? 'div' : 'a';
@@ -451,11 +402,8 @@
   fetch('publications.json')
     .then(r => r.json())
     .then(pubs => {
-      const featured = pubs.filter(p => p.featured).slice(0, 4);
-      // Recent: up to 10 most recent non-featured (already sorted by date desc)
-      const recent = pubs.filter(p => !p.featured).slice(0, 10);
-      renderFeatured(featured);
-      renderRecent(recent);
+      renderStrip(pubs.filter(p => p.featured), 'featured-grid');
+      renderStrip(pubs.filter(p => !p.featured).slice(0, 10), 'recent-grid');
     })
     .catch(err => console.error('Could not load publications.json:', err));
 </script>
