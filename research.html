@@ -142,6 +142,14 @@
 <div class="filters-wrap">
   <div class="filters">
     <div class="filter-row">
+      <span class="filter-label">Language</span>
+      <div class="filter-group" id="lang-filters">
+        <button class="filter-btn active" data-filter-lang="all">All</button>
+        <button class="filter-btn" data-filter-lang="en">English</button>
+        <button class="filter-btn" data-filter-lang="nl">Dutch</button>
+      </div>
+    </div>
+    <div class="filter-row">
       <span class="filter-label">Type</span>
       <div class="filter-group" id="type-filters">
         <button class="filter-btn active" data-filter-type="all">All</button>
@@ -193,12 +201,14 @@
   function pubHref(p)   { return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#'); }
   function pubYear(p)   { return p.date ? p.date.slice(0, 4) : 'n.d.'; }
 
-  let allPubs   = [];
+  let allPubs    = [];
+  let activeLang = 'all';
   let activeType = 'all';
   let activeYear = 'all';
 
   function filtered() {
     return allPubs.filter(p => {
+      if (activeLang !== 'all' && (p.language || 'en') !== activeLang) return false;
       if (activeType !== 'all' && p.type !== activeType) return false;
       if (activeYear !== 'all' && pubYear(p) !== activeYear) return false;
       return true;
@@ -235,6 +245,21 @@
   }
 
   function buildFilters(pubs) {
+    // Language buttons — hide Dutch button if no Dutch items exist
+    const presentLangs = new Set(pubs.map(p => p.language || 'en'));
+    const langContainer = document.getElementById('lang-filters');
+    langContainer.querySelectorAll('.filter-btn[data-filter-lang]:not([data-filter-lang="all"])').forEach(btn => {
+      if (!presentLangs.has(btn.dataset.filterLang)) btn.style.display = 'none';
+    });
+    langContainer.addEventListener('click', e => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      langContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeLang = btn.dataset.filterLang;
+      render();
+    });
+
     // Type buttons — fixed order from RESEARCH_TYPES, only show types present in data
     const presentTypes = new Set(pubs.map(p => p.type));
     const typeContainer = document.getElementById('type-filters');

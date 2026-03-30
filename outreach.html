@@ -46,26 +46,31 @@
   }
   .page-header p { font-size: .95rem; color: var(--mid); max-width: 600px; }
 
-  /* ── Type tabs ───────────────────────────────────────────────── */
-  .tabs-wrap {
-    padding: 0 5%;
+  /* ── Filters ─────────────────────────────────────────────────── */
+  .filters-wrap {
+    padding: 24px 5%;
     border-bottom: 1px solid var(--border);
+    background: var(--warm);
   }
-  .tabs {
+  .filters {
     max-width: 1160px; margin: 0 auto;
-    display: flex; gap: 0;
+    display: flex; flex-direction: column; gap: .65rem;
   }
-  .tab-btn {
-    font-family: var(--sans); font-size: .85rem; font-weight: 500;
-    padding: 1rem 1.4rem;
-    border: none; background: none; cursor: pointer;
-    color: var(--mid);
-    border-bottom: 2px solid transparent;
-    transition: color .15s, border-color .15s;
-    margin-bottom: -1px;
+  .filter-row { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
+  .filter-group { display: flex; gap: .4rem; flex-wrap: wrap; }
+  .filter-label {
+    font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--mid); flex-shrink: 0;
   }
-  .tab-btn:hover { color: var(--teal); }
-  .tab-btn.active { color: var(--teal); border-bottom-color: var(--teal); }
+  .filter-btn {
+    font-size: .78rem; padding: .3rem .8rem;
+    border: 1.5px solid var(--border); border-radius: 2px;
+    background: #fff; color: var(--mid); cursor: pointer;
+    transition: border-color .15s, color .15s, background .15s;
+    font-family: var(--sans);
+  }
+  .filter-btn:hover { border-color: var(--teal); color: var(--teal); }
+  .filter-btn.active { background: var(--teal); border-color: var(--teal); color: #fff; }
 
   /* ── Publication list (same card grid as research) ───────────── */
   .pub-section { padding: 40px 5%; max-width: 1160px; margin: 0 auto; }
@@ -83,6 +88,12 @@
     transition: opacity .3s;
   }
   a.pub-card:hover .pub-cover-wrap img { opacity: .85; }
+  .pub-forthcoming {
+    position: absolute; bottom: .5rem; right: .5rem;
+    background: #fff8e1; border: 1px solid #f0c040;
+    font-size: .6rem; letter-spacing: .06em; text-transform: uppercase;
+    padding: .15rem .45rem; color: #7a5e00;
+  }
   .pub-tag {
     position: absolute; top: .5rem; left: .5rem;
     background: #fff; border: 1px solid var(--border);
@@ -128,11 +139,29 @@
   <p>Podcasts, blog posts, magazine and newspaper pieces, conference talks, and other public-facing work — in English and Dutch.</p>
 </div>
 
-<!-- Type tabs -->
-<div class="tabs-wrap">
-  <div class="tabs" id="tab-bar">
-    <button class="tab-btn active" data-type="all">All</button>
-    <!-- additional tabs built by JS -->
+<!-- Filters -->
+<div class="filters-wrap">
+  <div class="filters">
+    <div class="filter-row">
+      <span class="filter-label">Language</span>
+      <div class="filter-group" id="lang-filters">
+        <button class="filter-btn active" data-filter-lang="all">All</button>
+        <button class="filter-btn" data-filter-lang="en">English</button>
+        <button class="filter-btn" data-filter-lang="nl">Dutch</button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">Type</span>
+      <div class="filter-group" id="type-filters">
+        <button class="filter-btn active" data-filter-type="all">All</button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">Year</span>
+      <div class="filter-group" id="year-filters">
+        <button class="filter-btn active" data-filter-year="all">All</button>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -177,14 +206,22 @@
   }
   function pubYear(p) { return p.date ? p.date.slice(0, 4) : 'n.d.'; }
 
-  let allPubs = [];
+  let allPubs    = [];
+  let activeLang = 'all';
   let activeType = 'all';
+  let activeYear = 'all';
+
+  function filtered() {
+    return allPubs.filter(p => {
+      if (activeLang !== 'all' && (p.language || 'en') !== activeLang) return false;
+      if (activeType !== 'all' && p.type !== activeType) return false;
+      if (activeYear !== 'all' && pubYear(p) !== activeYear) return false;
+      return true;
+    });
+  }
 
   function render() {
-    const pubs = activeType === 'all'
-      ? allPubs
-      : allPubs.filter(p => p.type === activeType);
-
+    const pubs = filtered();
     const grid = document.getElementById('pub-grid');
     const noResults = document.getElementById('no-results');
 
@@ -211,21 +248,57 @@
     }).join('');
   }
 
-  function buildTabs(pubs) {
-    const types = [...new Set(pubs.map(p => p.type))];
-    const bar = document.getElementById('tab-bar');
-    types.forEach(t => {
-      const btn = document.createElement('button');
-      btn.className = 'tab-btn';
-      btn.dataset.type = t;
-      btn.textContent = typeLabel(t);
-      bar.appendChild(btn);
+  function buildFilters(pubs) {
+    // Language buttons — hide Dutch button if no Dutch items exist
+    const presentLangs = new Set(pubs.map(p => p.language || 'en'));
+    const langContainer = document.getElementById('lang-filters');
+    langContainer.querySelectorAll('.filter-btn[data-filter-lang]:not([data-filter-lang="all"])').forEach(btn => {
+      if (!presentLangs.has(btn.dataset.filterLang)) btn.style.display = 'none';
     });
-    bar.addEventListener('click', e => {
-      if (!e.target.matches('.tab-btn')) return;
-      bar.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      e.target.classList.add('active');
-      activeType = e.target.dataset.type;
+    langContainer.addEventListener('click', e => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      langContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeLang = btn.dataset.filterLang;
+      render();
+    });
+
+    // Type buttons — fixed order from OUTREACH_TYPES, only show types present in data
+    const presentTypes = new Set(pubs.map(p => p.type));
+    const typeContainer = document.getElementById('type-filters');
+    OUTREACH_TYPES.filter(t => presentTypes.has(t)).forEach(t => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn';
+      btn.dataset.filterType = t;
+      btn.textContent = typeLabel(t);
+      typeContainer.appendChild(btn);
+    });
+    typeContainer.addEventListener('click', e => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      typeContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeType = btn.dataset.filterType;
+      render();
+    });
+
+    // Year buttons
+    const years = [...new Set(pubs.map(p => pubYear(p)))].sort((a, b) => b - a);
+    const yearContainer = document.getElementById('year-filters');
+    years.forEach(y => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn';
+      btn.dataset.filterYear = y;
+      btn.textContent = y;
+      yearContainer.appendChild(btn);
+    });
+    yearContainer.addEventListener('click', e => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      yearContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeYear = btn.dataset.filterYear;
       render();
     });
   }
@@ -234,7 +307,7 @@
     .then(r => r.json())
     .then(pubs => {
       allPubs = pubs.filter(p => OUTREACH_TYPES.includes(p.type));
-      buildTabs(allPubs);
+      buildFilters(allPubs);
       render();
     })
     .catch(err => console.error('Could not load publications.json:', err));
