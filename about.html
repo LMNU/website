@@ -76,6 +76,17 @@
   .affil-item strong { font-weight: 600; }
   .affil-item span { color: var(--mid); font-size: .85rem; }
 
+  /* ── CV / experience lists ───────────────────────────────────── */
+  .entry-list { display: flex; flex-direction: column; gap: .9rem; }
+  .entry-item { display: flex; gap: .75rem; align-items: flex-start; }
+  .entry-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--teal); flex-shrink: 0; margin-top: .45rem;
+  }
+  .entry-title { font-size: .9rem; font-weight: 600; line-height: 1.4; }
+  .entry-meta { font-size: .85rem; color: var(--mid); line-height: 1.5; }
+  .entry-meta em { font-style: italic; }
+
   /* ── CV button ────────────────────────────────────────────────── */
   .cv-btn {
     display: inline-block; margin-top: 1.2rem;
@@ -170,15 +181,9 @@
       <p>I study how artificial intelligence and digitalisation are reshaping jobs, skills, and organisations across Europe. My work combines quantitative labour market analysis with experimental workplace research, translating findings into policy recommendations for EU institutions, governments, and social partners.</p>
       <p>At <a href="https://www.ceps.eu/ceps-staff/laura-nurski/" target="_blank" rel="noopener">CEPS</a> I lead the Future of Work programme, advising on topics ranging from AI regulation and skills policy to social dialogue and collective bargaining. At <a href="https://www.kuleuven.be/wieiswie/en/person/00056336" target="_blank" rel="noopener">KU Leuven</a> I lead the Acerta Chair AI at Work, running field experiments on how AI tools change job design, autonomy, and worker wellbeing.</p>
     </div>
-
-    <div class="bio-section">
-      <h2>Background</h2>
-      <p> I'm a multidisciplinary, quantitative social scientist. My academic background includes a PhD in Economics, a Master of Advanced Studies in Economics, and a Master of Business Engineering, all from KU Leuven. I'm currently pursuing a Master’s in Sociology, focusing on quantitative analysis and social data science.</p>
-      <p> My professional journey spans roles as a data scientist in the financial and retail sectors, an organisation design researcher at Workitects, and a lead on Future of Work at Bruegel. I've always loved combining theory with practice and turning complex research into actionable insights.</p>
-    </div>
-
-    <div class="bio-section">
-      <h2>Affiliations</h2>
+    
+        <div class="bio-section">
+      <h2>Current affiliations</h2>
       <div class="affil-list">
         <div class="affil-item">
           <div class="affil-dot"></div>
@@ -195,6 +200,83 @@
           <p><strong>Chair holder, Acerta Chair AI at Work</strong><br>
           <span><a href="https://giving.kuleuven.be/how-to-support/chairs/faculty-of-economics-business/acerta-chair-ai-at-work" target="_blank" rel="noopener">Acerta Chair</a> — experimental research on AI and job design</span></p>
         </div>
+
+    <div class="bio-section">
+      <h2>Educational background</h2>
+      <p>I'm a multidisciplinary, quantitative social scientist. My academic background includes a PhD in Economics, a Master of Advanced Studies in Economics, and a Master of Business Engineering, all from KU Leuven. I'm currently pursuing a Master’s in Sociology, focusing on quantitative analysis and social data science.</p>
+      <div class="entry-list">
+        <div class="entry-item">
+          <div class="entry-dot"></div>
+          <div>
+            <div class="entry-title">M.Sc in Sociology: Quantitative Analysis &amp; Social Data Science</div>
+            <div class="entry-meta">KU Leuven, exp. 2026</div>
+          </div>
+        </div>
+        <div class="entry-item">
+          <div class="entry-dot"></div>
+          <div>
+            <div class="entry-title">Master Class Organizational (re)design</div>
+            <div class="entry-meta">Antwerp Management School, 2018</div>
+          </div>
+        </div>
+        <div class="entry-item">
+          <div class="entry-dot"></div>
+          <div>
+            <div class="entry-title">PhD in Economics</div>
+            <div class="entry-meta">KU Leuven, 2015</div>
+          </div>
+        </div>
+        <div class="entry-item">
+          <div class="entry-dot"></div>
+          <div>
+            <div class="entry-title">M.Sc Advanced Studies in Economics</div>
+            <div class="entry-meta">KU Leuven, 2009 — <em>magna cum laude</em></div>
+          </div>
+        </div>
+        <div class="entry-item">
+          <div class="entry-dot"></div>
+          <div>
+            <div class="entry-title">M.Sc in Business Engineering</div>
+            <div class="entry-meta">KU Leuven, 2007 — <em>magna cum laude</em></div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <div class="bio-section">
+      <h2>Previous professional experience</h2>
+      <p>My professional journey spans roles as a data scientist in the financial and retail sectors, an organisation design researcher at Workitects, and a lead on Future of Work at Bruegel. I've always loved combining theory with practice and turning complex research into actionable insights.</p>
+      <div class="entry-list">
+        <div class="entry-item">
+          <div class="entry-dot"></div>
+          <div>
+            <div class="entry-title">Expert labour market forecasting</div>
+            <div class="entry-meta">KU Leuven</div>
+          </div>
+        </div>
+        <div class="entry-item">
+          <div class="entry-dot"></div>
+          <div>
+            <div class="entry-title">Future of Work — Lead</div>
+            <div class="entry-meta">Bruegel</div>
+          </div>
+        </div>
+        <div class="entry-item">
+          <div class="entry-dot"></div>
+          <div>
+            <div class="entry-title">Organization design researcher</div>
+            <div class="entry-meta">Workitects (Flanders Synergy)</div>
+          </div>
+        </div>
+        <div class="entry-item">
+          <div class="entry-dot"></div>
+          <div>
+            <div class="entry-title">Data Scientist</div>
+            <div class="entry-meta">Financial &amp; retail sector</div>
+          </div>
+        </div>
+      </div>
+    </div>
       </div>
       <!-- Uncomment and update path when you have a CV to share:
       <a href="assets/LauraNurski_CV.pdf" class="cv-btn" target="_blank">Download CV (PDF)</a>

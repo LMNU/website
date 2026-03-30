@@ -706,6 +706,45 @@
     "video": ""
   },
   {
+    "type": "report",
+    "title": "Arbeidsorganisatie en werkbaarheid in negen Vlaamse voedingsbedrijven. Inzichten vanuit een werkbaarheidsmeting.",
+    "authors": [
+      "Lieven Eeckelaert",
+      "Laura Nurski"
+    ],
+    "date": "2021-06",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://workitects.be/werkbaarheidsrapport-vlaamse-voedingsindustrie",
+    "source": "Workitects",
+    "abstract": "",
+    "cover_image": "assets/covers/arbeidsorganisatie-en-werkbaarheid-in-negen-vlaamse-voedingsbedrijven-inzichten.jpg",
+    "language": "nl",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
+    "type": "report",
+    "title": "Werkbaarheid in Vlaamse woonzorgcentra. Inzichten vanuit een werkbaarheidsmeting.",
+    "authors": [
+      "Laura Nurski",
+      "Sabine Van Houdt",
+      "Lieven Eeckelaert"
+    ],
+    "date": "2021-05",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.diverscity.be/assets/originals/1rirpM3WlXGdZQ1RFdIIHpVhDk8ItYfir.pdf",
+    "source": "Workitects",
+    "abstract": "",
+    "cover_image": "assets/covers/werkbaarheid-in-vlaamse-woonzorgcentra-inzichten-vanuit-een-werkbaarheidsmeting.jpg",
+    "language": "nl",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
     "type": "journalArticle",
     "title": "Exclusive Dealing as a Barrier to Entry? Evidence from Automobiles",
     "authors": [
