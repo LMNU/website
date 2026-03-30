@@ -208,6 +208,25 @@
     "video": ""
   },
   {
+    "type": "blogPost",
+    "title": "The Real Digital Revolution At Work: Why Platformisation Matters More Than Robots",
+    "authors": [
+      "Enrique Fernández-Macías",
+      "Laura Nurski"
+    ],
+    "date": "2025-10-21T06:00:00+00:00",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.socialeurope.eu/the-real-digital-revolution-at-work-why-platformisation-matters-more-than-robots",
+    "source": "Social Europe",
+    "abstract": "The digital transformation of work isn’t destroying jobs through automation—it’s fundamentally reshaping how work is organised, managed and controlled.",
+    "cover_image": "assets/covers/the-real-digital-revolution-at-work-why-platformisation-matters-more-than-robots.jpg",
+    "language": "en-GB",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
     "type": "report",
     "title": "Implications of AI for work, employment and social dialogue: Literature review.",
     "authors": [
@@ -815,6 +834,24 @@
     "abstract": "",
     "cover_image": "assets/covers/werkbaarheid-in-vlaamse-woonzorgcentra-inzichten-vanuit-een-werkbaarheidsmeting.jpg",
     "language": "nl",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
+    "type": "computerProgram",
+    "title": "Werkmeter - psychosocial risk survey",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2018",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://workitects.be/oplossingen/psychosociale-risicoanalyse",
+    "source": "Worktitects",
+    "abstract": "Werkmeter is een unieke online medewerkersbevraging, die je een betrouwbaar zicht geeft op o.a. de werkdruk, tevredenheid en betrokkenheid van de werknemers en op de structurele risico’s voor stress op het werk.",
+    "cover_image": "assets/covers/werkmeter-psychosocial-risk-survey.jpg",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
