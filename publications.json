@@ -246,7 +246,7 @@
   },
   {
     "type": "podcast",
-    "title": "Episode 8",
+    "title": "Steering the AI revolution - With Daron Acemoğlu and Carlota Perez",
     "authors": [
       "Laura Nurski",
       "Tom Parker",
@@ -255,7 +255,7 @@
     ],
     "date": "2025-07-11",
     "forthcoming": false,
-    "featured": false,
+    "featured": true,
     "url": "https://open.spotify.com/episode/3zD50FpsbWOEnwUeiABoLy",
     "source": "CEPS Tech Podcast",
     "abstract": "In the fourth episode of the CEPS Tech Podcast series on “the Future of Work and AI”, we explore how artificial intelligence fits into a longer history of technological change — and why institutions, organisational models, and public policy are central to shaping its impact on the future of work. Our hosts, Tom Parker and Laura Nurski, are joined by , Institute Professor at MIT, Co-Director of MIT’s Shaping the Future of Work Initiative and, of course, Nobel laureate in Economics and , Honorary Professor at University College London and the University of Sussex as well as Adjunct Professor of Technology and Socio-Economic Development at TalTech, Estonia.\nThe episode looks at how to steer the current wave of technological change, especially looking at artificial intelligence, toward more inclusive outcomes, by analysing past tech revolutions, looking at the role of institutions in guiding AI in the public interested as well as the role of organisations in managing the technology and adapting their way of work to the technology.\n\nWe discuss:\n\nWhy AI matters – but isn’t the whole story \nHow institutions steer the direction and distribution of innovation \nThe often-overlooked role of management models in shaping work and inequality \nWhether organisational design should be treated as a public concern \n\nThis conversation connects the dots between past and future, theory and policy — and asks what kind of state we need to make the most of the AI era.",
@@ -422,7 +422,7 @@
   },
   {
     "type": "podcast",
-    "title": "Episode 3: Future of work: Looking back & moving forward",
+    "title": "Future of work: Looking back & moving forward - With Carl Frey and Nicky Dries",
     "authors": [
       "Laura Nurski",
       "Tom Parker",
@@ -479,7 +479,7 @@
   },
   {
     "type": "podcast",
-    "title": "Episode 5: Can AI rebuild middle-class jobs?",
+    "title": "Can AI rebuild middle-class jobs? - With David Autor and Sabine Köszegi",
     "authors": [
       "Laura Nurski",
       "Tom Parker",
@@ -500,12 +500,12 @@
   },
   {
     "type": "podcast",
-    "title": "Episode 4",
+    "title": "Future skills for a competitive EU - With Mauro Pelucchi and Cinzia Alcidi",
     "authors": [
       "Laura Nurski",
       "Tom Parker",
       "Cinzia Alcidi",
-      "Marco Pelucchi"
+      "Mauro Pelucchi"
     ],
     "date": "2024-09-06",
     "forthcoming": false,
