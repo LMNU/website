@@ -499,6 +499,27 @@
     "video": ""
   },
   {
+    "type": "podcast",
+    "title": "Episode 4: Future skills for a competitive EU - CEPS Tech Podcast | Podcast on Spotify",
+    "authors": [
+      "Laura Nurski",
+      "Tom Parker",
+      "Cinzia Alcidi",
+      "Marco Pelucchi"
+    ],
+    "date": "2024-09-06",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://open.spotify.com/show/2xL0bgJHXlJveEWyfcVY1s",
+    "source": "CEPS Tech Podcast",
+    "abstract": "In this second episode of the CEPS Tech Podcast series on “the Future of Work and AI” we are exploring the relationship between skills and competitiveness in Europe. We look at different strategies for competitiveness, such as operational excellence, product leadership, and customer intimacy, and how they require different types of skills. Furthermore, we closely look at the impact of AI on skill demand and how this is transformation the operations and strategies of companies. Finally, we discuss the importance of regional skills intelligence in building future-ready workforces.\n\nOur host Tom Parker is joined by co-host  Associate Research Fellow and Head of Programme on Future of Work at . Joining them both to help unpack this topic are , Senior Research Fellow at CEPS and the Head of the Economic Policy and Jobs & Skills unit at CEPS and  who is the Head of Global Data Science at Lightcast, a global leader in Labour Market Analytics in Europe.",
+    "cover_image": "assets/covers/episode-4-future-skills-for-a-competitive-eu-ceps-tech-podcast-podcast-on-spotif.jpg",
+    "language": "en-GB",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
     "type": "report",
     "title": "AI at Work - Why there's more to it than task automation",
     "authors": [
@@ -523,7 +544,7 @@
       "Laura Nurski",
       "Nina Ruer"
     ],
-    "date": "2024",
+    "date": "2024-03-07",
     "forthcoming": false,
     "featured": false,
     "url": "https://www.bruegel.org/working-paper/exposure-generative-artificial-intelligence-european-labour-market",
@@ -574,6 +595,42 @@
     "video": ""
   },
   {
+    "type": "report",
+    "title": "New technologies in the workplace: a round-up of project research",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2023-12-14",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.bruegel.org/analysis/new-technologies-workplace-round-project-research",
+    "source": "Bruegel",
+    "abstract": "The slow but steady uptake of artificial intelligence in Europe impacts the quantity, quality and nature of jobs as well as worker wellbeing.",
+    "cover_image": "assets/covers/new-technologies-in-the-workplace-a-round-up-of-project-research.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
+    "type": "report",
+    "title": "New ways of working: a round-up of project research",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2023-12-14",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.bruegel.org/analysis/new-ways-working-round-project-research",
+    "source": "Bruegel",
+    "abstract": "Remote work, platform work and self-employment are on the rise in Europe, necessitating new EU policies and new forms of labour protection.",
+    "cover_image": "assets/covers/new-ways-of-working-a-round-up-of-project-research.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
     "type": "journalArticle",
     "title": "Risks to job quality from digital technologies: Are industrial relations in Europe ready for the challenge?",
     "authors": [
@@ -589,6 +646,24 @@
     "source": "European Journal of Industrial Relations",
     "abstract": "We examine job quality effects of new digital technologies, using the European frame of seven job quality domains: Pay, Working Time Quality, Prospects, Skills and Discretion, Work Intensity, Social Environment, and Physical Environment. Theoretical effects are ambivalent across all domains. The analysis of these effects confirms that digital technologies can both improve and harm job quality depending on how they are used. In light of this analysis and to think through the challenge of regulating digital technologies, we review emerging regulations across several European countries. Drawing on the principles of human-centred design, we argue that worker participation is important for securing good job quality outcomes, at both the innovation and adoption stages. We also consider the application of data protection legislation to the regulation of job quality. Overall, the paper extends debate about the future of work beyond employment and pay, on to a consideration of job quality more broadly.",
     "cover_image": "assets/covers/risks-to-job-quality-from-digital-technologies-are-industrial-relations-in-europ.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
+    "type": "report",
+    "title": "Artificial intelligence adoption in the public sector: a case study",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "2023-03-16",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.bruegel.org/working-paper/artificial-intelligence-adoption-public-sector-case-study",
+    "source": "Bruegel",
+    "abstract": "This case study illustrates the drivers of and barriers to AI adoption by organisations, and acceptance of AI by workers in the public sector.",
+    "cover_image": "assets/covers/artificial-intelligence-adoption-in-the-public-sector-a-case-study.jpg",
     "language": "en",
     "url_or_download": "url",
     "pdf": "",
@@ -674,7 +749,7 @@
       "Laura Nurski",
       "Mia Hoffmann"
     ],
-    "date": "2022",
+    "date": "2022-07-26",
     "forthcoming": false,
     "featured": false,
     "url": "https://www.bruegel.org/working-paper/impact-artificial-intelligence-nature-and-quality-jobs",
