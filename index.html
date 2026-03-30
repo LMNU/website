@@ -198,10 +198,14 @@
   .about-text p { font-size: .93rem; color: var(--mid); line-height: 1.78; margin-bottom: .9rem; }
   .about-text a { color: var(--teal); }
   .affil-list { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.1rem; }
-  .affil {
-    font-size: .78rem; padding: .3rem .75rem;
-    background: #fff; border: 1px solid var(--border); border-radius: 2px; color: var(--mid);
+  .affil a {
+    display: inline-block;
+    font-size: .78rem; padding: .35rem .85rem;
+    background: var(--teal); border-radius: 2px;
+    color: #fff; text-decoration: none; font-weight: 500;
+    transition: background .15s;
   }
+  .affil a:hover { background: var(--teal-mid); }
   .about-photos {
     display: grid;
     grid-template-columns: 1fr 1fr;
