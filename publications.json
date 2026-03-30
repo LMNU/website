@@ -497,6 +497,26 @@
     "video": ""
   },
   {
+    "type": "presentation",
+    "title": "Intervention on Algorithmic Management",
+    "authors": [
+      "Laura Nurski",
+      "Foundation for European Progressive Studies",
+      "European Economic and Social Committee"
+    ],
+    "date": "2024-10-16",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://feps-europe.eu/event/computer-in-command/",
+    "source": "EESC & FEPS",
+    "abstract": "Do the consequences of Algorithmic Management for workers require EU policy action?",
+    "cover_image": "assets/covers/intervention-on-algorithmic-management.jpg",
+    "language": "en-US",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
     "type": "podcast",
     "title": "Can AI rebuild middle-class jobs? - With David Autor and Sabine Köszegi",
     "authors": [
