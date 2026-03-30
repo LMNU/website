@@ -1,5 +1,25 @@
 [
   {
+    "type": "bookSection",
+    "title": "Organisation design as a power structure: AI and the case for collective bargaining",
+    "authors": [
+      "Laura Nurski",
+      "Wouter Zwysen",
+      "Silvia Rainone"
+    ],
+    "date": "2026 (forthcoming)",
+    "forthcoming": true,
+    "featured": false,
+    "url": "",
+    "source": "Regulating AI through Collective Bargaining: Key Issues – Vol. II",
+    "abstract": "",
+    "cover_image": "assets/covers/organisation-design-as-a-power-structure-ai-and-the-case-for-collective-bargaini.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
     "type": "tvBroadcast",
     "title": "AI en jobmarkt",
     "authors": [
@@ -12,7 +32,7 @@
     "source": "Terzake · VRT",
     "abstract": "",
     "cover_image": "assets/covers/ai-en-jobmarkt.jpg",
-    "language": "en",
+    "language": "nl",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -66,7 +86,7 @@
     "source": "De Tijd",
     "abstract": "",
     "cover_image": "assets/covers/ai-maakt-zichtbaar-wat-al-lang-scheef-zit.jpg",
-    "language": "en",
+    "language": "nl",
     "url_or_download": "download",
     "pdf": "assets/pdfs/ai-maakt-zichtbaar-wat-al-lang-scheef-zit.pdf",
     "video": ""
@@ -84,29 +104,9 @@
     "source": "ZigZagHR",
     "abstract": "",
     "cover_image": "assets/covers/technologie-verandert-werk-maar-wij-bepalen-hoe.jpg",
-    "language": "en",
+    "language": "nl",
     "url_or_download": "download",
     "pdf": "assets/pdfs/technologie-verandert-werk-maar-wij-bepalen-hoe.pdf",
-    "video": ""
-  },
-  {
-    "type": "bookSection",
-    "title": "Organisation design as a power structure: AI and the case for collective bargaining",
-    "authors": [
-      "Laura Nurski",
-      "Wouter Zwysen",
-      "Silvia Rainone"
-    ],
-    "date": "2026 (forthcoming)",
-    "forthcoming": true,
-    "featured": false,
-    "url": "",
-    "source": "Regulating AI through Collective Bargaining: Key Issues – Vol. II",
-    "abstract": "",
-    "cover_image": "assets/covers/organisation-design-as-a-power-structure-ai-and-the-case-for-collective-bargaini.jpg",
-    "language": "en",
-    "url_or_download": "url",
-    "pdf": "",
     "video": ""
   },
   {
@@ -202,7 +202,7 @@
     "source": "Trends",
     "abstract": "",
     "cover_image": "assets/covers/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.jpg",
-    "language": "en",
+    "language": "nl",
     "url_or_download": "download",
     "pdf": "assets/pdfs/banen-verdwijnen-niet-ze-krijgen-een-andere-inhoud.pdf",
     "video": ""
