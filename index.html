@@ -377,6 +377,13 @@
     return p.source || '';
   }
 
+  function isForthcoming(p) {
+    if (p.forthcoming) return true;
+    if (!p.date) return false;
+    const parsed = new Date(p.date);
+    return !isNaN(parsed) && parsed > new Date();
+  }
+
   // ── Shared card renderer ───────────────────────────────────────
   const OUTREACH_TYPES = new Set(['magazineArticle','newspaperArticle','podcast','blogPost','presentation','tvBroadcast']);
 
@@ -384,14 +391,16 @@
     const grid = document.getElementById(containerId);
     grid.innerHTML = pubs.map(p => {
       const containClass = OUTREACH_TYPES.has(p.type) ? ' contain' : '';
-      const tag  = p.forthcoming ? 'div' : 'a';
-      const href = p.forthcoming ? '' : `href="${pubHref(p)}" target="_blank" rel="noopener"`;
+      const fc   = isForthcoming(p);
+      const hasLink = pubHref(p) !== '#';
+      const tag  = (fc && !hasLink) ? 'div' : 'a';
+      const href = (fc && !hasLink) ? '' : `href="${pubHref(p)}" target="_blank" rel="noopener"`;
       return `
       <${tag} class="pub-card" ${href}>
         <div class="pub-cover-wrap${containClass}">
           <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
           <span class="pub-tag">${typeLabel(p.type)}</span>
-          ${p.forthcoming ? '<span class="pub-forthcoming">Forthcoming</span>' : ''}
+          ${fc ? '<span class="pub-forthcoming">Forthcoming</span>' : ''}
         </div>
         <p class="pub-title">${p.title}</p>
         <p class="pub-meta">${[pubSource(p), pubYear(p)].filter(Boolean).join(' · ')}</p>

@@ -254,6 +254,13 @@
   }
   function pubYear(p) { return p.date ? p.date.slice(0, 4) : 'n.d.'; }
 
+  function isForthcoming(p) {
+    if (p.forthcoming) return true;
+    if (!p.date) return false;
+    const parsed = new Date(p.date);
+    return !isNaN(parsed) && parsed > new Date();
+  }
+
   let allPubs    = [];
   let activeLang = 'all';
   let activeType = 'all';
@@ -281,14 +288,16 @@
     noResults.style.display = 'none';
 
     grid.innerHTML = pubs.map(p => {
-      const tag  = p.forthcoming ? 'div' : 'a';
-      const href = p.forthcoming ? '' : `href="${pubHref(p)}" target="_blank" rel="noopener"`;
+      const fc   = isForthcoming(p);
+      const hasLink = pubHref(p) !== '#';
+      const tag  = (fc && !hasLink) ? 'div' : 'a';
+      const href = (fc && !hasLink) ? '' : `href="${pubHref(p)}" target="_blank" rel="noopener"`;
       return `
       <${tag} class="pub-card" ${href}>
         <div class="pub-cover-wrap">
           <img src="${p.cover_image}" alt="${p.title}" loading="lazy">
           <span class="pub-tag">${typeLabel(p.type)}</span>
-          ${p.forthcoming ? '<span class="pub-forthcoming">Forthcoming</span>' : ''}
+          ${fc ? '<span class="pub-forthcoming">Forthcoming</span>' : ''}
         </div>
         <p class="pub-title">${p.title}</p>
         <p class="pub-meta">${[p.source, pubYear(p)].filter(Boolean).join(' · ')}</p>
