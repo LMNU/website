@@ -129,6 +129,25 @@
     "video": ""
   },
   {
+    "type": "tvBroadcast",
+    "title": "Acerta explains how your company can collaborate with KU Leuven through a chair",
+    "authors": [
+      "KU Leuven",
+      "Laura Nurski"
+    ],
+    "date": "2026-01-12",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.youtube.com/watch?v=ITsVhAv-40w",
+    "source": "Trends Z",
+    "abstract": "KU Leuven and Acerta are building the future of work together. You can see this from 12 to 19 January in a spot on Kanaal Z. The Acerta Chair in AI at Work researches how artificial intelligence is shaping the work of tomorrow and helps companies prepare for a rapidly changing labour market.",
+    "cover_image": "assets/covers/acerta-explains-how-your-company-can-collaborate-with-ku-leuven-through-a-chair.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
     "type": "magazineArticle",
     "title": "\"Technologie verandert werk, maar wij bepalen hoe\"",
     "authors": [
@@ -626,7 +645,7 @@
     "url": "https://www.bruegel.org/working-paper/exposure-generative-artificial-intelligence-european-labour-market",
     "source": "Bruegel",
     "abstract": "",
-    "cover_image": "assets/covers/exposure-to-generative-artificial-intelligence-in-the-european-labour-market.jpg",
+    "cover_image": "",
     "language": "en",
     "url_or_download": "url",
     "pdf": "",
