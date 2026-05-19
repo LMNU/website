@@ -47,14 +47,14 @@
     ],
     "date": "2026-05-09T08:00:00+00:00",
     "forthcoming": false,
-    "featured": false,
+    "featured": true,
     "url": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/ai-en-jobkansen-het-ziet-er-slecht-uit-voor-wie-vandaag-zijn-werkdag-in-excel-doorbrengt/",
     "source": "Knack",
     "abstract": "Een robot die in het woonzorgcentrum steunkousen optrekt? AI-onderzoeker en arbeidsmarktspecialist Laura Nurski ziet het niet snel gebeuren.",
     "cover_image": "assets/covers/ai-en-jobkansen-het-ziet-er-slecht-uit-voor-wie-vandaag-zijn-werkdag-in-excel-do.jpg",
     "language": "nl-BE",
-    "url_or_download": "url",
-    "pdf": "",
+    "url_or_download": "download",
+    "pdf": "assets/pdfs/ai-en-jobkansen-het-ziet-er-slecht-uit-voor-wie-vandaag-zijn-werkdag-in-excel-do.pdf",
     "video": ""
   },
   {
