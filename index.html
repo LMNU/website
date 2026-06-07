@@ -356,7 +356,7 @@
     newspaperArticle: 'Newspaper',
     podcast: 'Podcast',
     blogPost: 'Blog post',
-    presentation: 'Presentation',
+    presentation: 'Talks',
     conferencePaper: 'Conference paper',
     tvBroadcast: 'TV broadcast',
     computerProgram: 'Tool',
@@ -375,6 +375,16 @@
   }
   function pubSource(p) {
     return p.source || '';
+  }
+  // Talks (Zotero type "presentation") display a different set of fields
+  function pubTitle(p) {
+    return p.type === 'presentation' ? (p.short_title || p.title) : p.title;
+  }
+  function pubMetaParts(p) {
+    if (p.type === 'presentation') {
+      return [p.meeting_name, p.organiser, p.place, pubYear(p)];
+    }
+    return [pubSource(p), pubYear(p)];
   }
 
   function isForthcoming(p) {
@@ -402,8 +412,8 @@
           <span class="pub-tag">${typeLabel(p.type)}</span>
           ${fc ? '<span class="pub-forthcoming">Forthcoming</span>' : ''}
         </div>
-        <p class="pub-title">${p.title}</p>
-        <p class="pub-meta">${[pubSource(p), pubYear(p)].filter(Boolean).join(' · ')}</p>
+        <p class="pub-title">${pubTitle(p)}</p>
+        <p class="pub-meta">${pubMetaParts(p).filter(Boolean).join(' · ')}</p>
       </${tag}>`;
     }).join('');
   }
