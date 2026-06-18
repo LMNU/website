@@ -47,6 +47,29 @@
     "video": ""
   },
   {
+    "type": "newspaperArticle",
+    "title": "'Weinig wijst op massale daling van ICT-jobs'",
+    "authors": [
+      "Dimitri Thijskens",
+      "Laura Nurski"
+    ],
+    "date": "2026-06-17",
+    "forthcoming": false,
+    "featured": false,
+    "url": "",
+    "source": "",
+    "short_title": "'Weinig wijst op massale daling van ICT-jobs'",
+    "meeting_name": "",
+    "organiser": "",
+    "place": "Brussels",
+    "abstract": "",
+    "cover_image": "assets/covers/weinig-wijst-op-massale-daling-van-ict-jobs.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
     "type": "presentation",
     "title": "AI Skills at Work",
     "authors": [
