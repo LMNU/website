@@ -233,8 +233,8 @@
   const TYPE_LABELS = {
     report:          'Report',
     journalArticle:  'Journal article',
-    book:            'Book (chapter)',
-    bookSection:     'Book (chapter)',
+    book:            'Book',
+    bookSection:     'Book chapter',
     magazineArticle: 'Magazine',
     newspaperArticle:'Newspaper',
     podcast:         'Podcast',
@@ -243,11 +243,14 @@
     conferencePaper: 'Conference paper',
   };
   const RESEARCH_TYPES = ['journalArticle','bookSection','report','conferencePaper'];
-  // Group standalone books in with book chapters under one type
+  // Group standalone books in with book chapters under one filter
   const TYPE_GROUP = { book: 'bookSection' };
   function canonType(t) { return TYPE_GROUP[t] || t; }
+  // Filter-button labels (cards keep their own per-type label)
+  const FILTER_LABELS = { bookSection: 'Book (chapter)' };
 
   function typeLabel(t) { return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1); }
+  function filterLabel(t) { return FILTER_LABELS[t] || typeLabel(t); }
   function pubHref(p)   { return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#'); }
   function pubYear(p)   { return p.date ? p.date.slice(0, 4) : 'n.d.'; }
 
@@ -326,7 +329,7 @@
       const btn = document.createElement('button');
       btn.className = 'filter-btn';
       btn.dataset.filterType = t;
-      btn.textContent = typeLabel(t);
+      btn.textContent = filterLabel(t);
       typeContainer.appendChild(btn);
     });
     typeContainer.addEventListener('click', e => {
@@ -361,7 +364,7 @@
   fetch('publications.json')
     .then(r => r.json())
     .then(pubs => {
-      allPubs = pubs.filter(p => RESEARCH_TYPES.includes(p.type));
+      allPubs = pubs.filter(p => RESEARCH_TYPES.includes(canonType(p.type)));
       buildFilters(allPubs);
       render();
     })
