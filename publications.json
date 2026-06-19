@@ -6,7 +6,7 @@
       "Laura Nurski",
       "Pierre-Alexandre Balland"
     ],
-    "date": "Forthcoming",
+    "date": "2026 (forthcoming)",
     "forthcoming": true,
     "featured": false,
     "url": "https://www.wiley.com/en-us/Microsoft+AI+Economy+Institute+Series-c-6664",
@@ -47,6 +47,31 @@
     "video": ""
   },
   {
+    "type": "book",
+    "title": "Beyond Automation: The Transformation of Work from the Microchip to Generative AI",
+    "authors": [
+      "Enrique Fernández-Macías",
+      "Ignacio Gonzalez-Vazquez",
+      "Sergio Torrejón Pérez",
+      "Laura Nurski"
+    ],
+    "date": "2026 (forthcoming)",
+    "forthcoming": true,
+    "featured": false,
+    "url": "",
+    "source": "",
+    "short_title": "Beyond Automation: The Transformation of Work from the Microchip to Generative AI",
+    "meeting_name": "",
+    "organiser": "",
+    "place": "",
+    "abstract": "",
+    "cover_image": "assets/covers/beyond-automation-the-transformation-of-work-from-the-microchip-to-generative-ai.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
     "type": "newspaperArticle",
     "title": "'Weinig wijst op massale daling van ICT-jobs'",
     "authors": [
@@ -57,7 +82,7 @@
     "forthcoming": false,
     "featured": false,
     "url": "",
-    "source": "",
+    "source": "De Morgen",
     "short_title": "'Weinig wijst op massale daling van ICT-jobs'",
     "meeting_name": "",
     "organiser": "",
@@ -720,7 +745,7 @@
     "authors": [
       "Enrique Fernández-Macías",
       "Ignacio Gonzalez-Vazquez",
-      "Sergio Torrejon Perez",
+      "Sergio Torrejón Pérez",
       "Laura Nurski"
     ],
     "date": "2025",
