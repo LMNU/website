@@ -233,16 +233,19 @@
   const TYPE_LABELS = {
     report:          'Report',
     journalArticle:  'Journal article',
-    book:            'Book',
-    bookSection:     'Book chapter',
+    book:            'Book (chapter)',
+    bookSection:     'Book (chapter)',
     magazineArticle: 'Magazine',
     newspaperArticle:'Newspaper',
     podcast:         'Podcast',
     blogPost:        'Blog post',
-    presentation:    'Presentation',
+    presentation:    'Talks',
     conferencePaper: 'Conference paper',
   };
   const RESEARCH_TYPES = ['journalArticle','bookSection','report','conferencePaper'];
+  // Group standalone books in with book chapters under one type
+  const TYPE_GROUP = { book: 'bookSection' };
+  function canonType(t) { return TYPE_GROUP[t] || t; }
 
   function typeLabel(t) { return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1); }
   function pubHref(p)   { return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#'); }
@@ -263,7 +266,7 @@
   function filtered() {
     return allPubs.filter(p => {
       if (activeLang !== 'all' && (p.language || 'en') !== activeLang) return false;
-      if (activeType !== 'all' && p.type !== activeType) return false;
+      if (activeType !== 'all' && canonType(p.type) !== activeType) return false;
       if (activeYear !== 'all' && pubYear(p) !== activeYear) return false;
       return true;
     });
@@ -317,7 +320,7 @@
     });
 
     // Type buttons — fixed order from RESEARCH_TYPES, only show types present in data
-    const presentTypes = new Set(pubs.map(p => p.type));
+    const presentTypes = new Set(pubs.map(p => canonType(p.type)));
     const typeContainer = document.getElementById('type-filters');
     RESEARCH_TYPES.filter(t => presentTypes.has(t)).forEach(t => {
       const btn = document.createElement('button');
