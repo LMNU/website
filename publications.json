@@ -1,29 +1,6 @@
 [
   {
     "type": "bookSection",
-    "title": "Rethinking AI Exposure: From Occupations to Sectors",
-    "authors": [
-      "Laura Nurski",
-      "Pierre-Alexandre Balland"
-    ],
-    "date": "2026 (forthcoming)",
-    "forthcoming": true,
-    "featured": false,
-    "url": "https://www.wiley.com/en-us/Microsoft+AI+Economy+Institute+Series-c-6664",
-    "source": "TBD",
-    "short_title": "Rethinking AI Exposure: From Occupations to Sectors",
-    "meeting_name": "",
-    "organiser": "",
-    "place": "Brussels",
-    "abstract": "",
-    "cover_image": "assets/covers/rethinking-ai-exposure-from-occupations-to-sectors.jpg",
-    "language": "en",
-    "url_or_download": "url",
-    "pdf": "",
-    "video": ""
-  },
-  {
-    "type": "bookSection",
     "title": "Organisation design as a power structure: AI and the case for collective bargaining",
     "authors": [
       "Laura Nurski",
@@ -48,7 +25,7 @@
   },
   {
     "type": "book",
-    "title": "Beyond Automation: The Transformation of Work from the Computer to Generative AI",
+    "title": "Beyond Automation: The Transformation of Work from the Microchip to Generative AI",
     "authors": [
       "Enrique Fernández-Macías",
       "Ignacio Gonzalez-Vazquez",
@@ -60,13 +37,38 @@
     "featured": false,
     "url": "",
     "source": "",
-    "short_title": "Beyond Automation: The Transformation of Work from the Computer to Generative AI",
+    "short_title": "Beyond Automation: The Transformation of Work from the Microchip to Generative AI",
     "meeting_name": "",
     "organiser": "",
     "place": "",
     "abstract": "",
-    "cover_image": "assets/covers/beyond-automation-the-transformation-of-work-from-the-computer-to-generative-ai.jpg",
+    "cover_image": "assets/covers/beyond-automation-the-transformation-of-work-from-the-microchip-to-generative-ai.jpg",
     "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
+    "type": "newspaperArticle",
+    "title": "‘Ieders job zal veranderen, die van u én die van mij’",
+    "authors": [
+      "Una Roosen",
+      "Bart Hebben",
+      "Jan Straetmans",
+      "Laura Nurski"
+    ],
+    "date": "2026-09-25T03:00:00+02:00",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.demorgen.be/redactie/specials/embeds/ai-jobs/",
+    "source": "De Morgen",
+    "short_title": "‘Ieders job zal veranderen, die van u én die van mij’",
+    "meeting_name": "",
+    "organiser": "",
+    "place": "Brussels",
+    "abstract": "Van lantaarnopstekers tot programmeurs: technologie heeft altijd werk overbodig gemaakt en nieuw werk gecreëerd. Maar met de komst van AI zijn voor het eerst niet alleen onze handen, maar ook onze hersenen inzet van de continue automatiseringsmachine. Check hier hoe automatiseerbaar jouw job is.",
+    "cover_image": "assets/covers/ieders-job-zal-veranderen-die-van-u-én-die-van-mij-deze-beroepen-zijn-in-de-toek.jpg",
+    "language": "nl",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -572,7 +574,7 @@
     "organiser": "",
     "place": "",
     "abstract": "As Europe scales up its ambition to lead in AI, understanding the structure of AI labour markets becomes essential. This study offers a comparative mapping of AI job vacancies and AI talent across European countries, using a novel three-tiered classification system that distinguishes between AI literacy (Tier 0), software and data proficiency (Tier 1), and advanced AI research and engineering (Tier 2). This approach recognises that skills are not isolated units but form-nested hierarchies and that actionable workforce policy must target coherent skill bundles rather than individual skills.\n\nDrawing on online job vacancy data from Lightcast and workforce profile data from Revelio Labs, the study quantifies AI demand and supply across 31 countries, revealing both surpluses and shortages at different proficiency levels. Tier 1 talent dominates both demand and supply, while talent shortages are most visible at the foundational (Tier 0) and advanced (Tier 2) levels. These patterns vary significantly across countries, reflecting diverse national strategies, migration flows and educational capacities. In many countries, the supply of qualified talent per vacancy is limited – especially at the high and low ends of the proficiency spectrum – indicating tight labour markets for both AI engineering and AI literacy.\n\nThe findings call for geographically differentiated and proficiency-sensitive AI skills strategies. Rather than assuming a linear pipeline from AI novice to AI expert, upskilling efforts should focus on horizontally integrating AI capabilities within existing roles. A structured, level-based understanding of AI skills can guide the implementation of key EU initiatives – from the AI Continent Action Plan to the Union of Skills strategy – by providing a clearer picture of where, and at what depth, AI skills are most needed.",
-    "cover_image": "assets/covers/solving-europs-ai-talent-equation-supply-demand-and-missing-pieces.jpg",
+    "cover_image": "assets/covers/solving-europes-ai-talent-equation-supply-demand-and-missing-pieces.jpg",
     "language": "en",
     "url_or_download": "url",
     "pdf": "",
@@ -1002,6 +1004,30 @@
   },
   {
     "type": "report",
+    "title": "Toekomstige competentienoden in Vlaamse sectoren en bedrijven. Een dwarsstudie van 27 competentieprognoses in het kader van SCOPE",
+    "authors": [
+      "Sopfie Cabus",
+      "Laura Nurski",
+      "Sarah Vansteenkiste"
+    ],
+    "date": "2024",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.steunpuntwerk.be/files/publications/WERK/WerkRapport/Werk_rapport_2024_02.pdf",
+    "source": "Steunpunt Werk",
+    "short_title": "Toekomstige competentienoden in Vlaamse sectoren en bedrijven. Een dwarsstudie van 27 competentieprognoses in het kader van SCOPE",
+    "meeting_name": "",
+    "organiser": "",
+    "place": "Leuven",
+    "abstract": "",
+    "cover_image": "assets/covers/toekomstige-competentienoden-in-vlaamse-sectoren-en-bedrijven-een-dwarsstudie-va.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
+    "type": "report",
     "title": "New technologies in the workplace: a round-up of project research",
     "authors": [
       "Laura Nurski"
@@ -1276,11 +1302,11 @@
     "type": "report",
     "title": "Werkbaarheid in Vlaamse woonzorgcentra. Inzichten vanuit een werkbaarheidsmeting.",
     "authors": [
+      "Lieven Eeckelaert",
       "Laura Nurski",
-      "Sabine Van Houdt",
-      "Lieven Eeckelaert"
+      "Sabine Van Houdt"
     ],
-    "date": "2021-05",
+    "date": "2020-05",
     "forthcoming": false,
     "featured": false,
     "url": "https://www.diverscity.be/assets/originals/1rirpM3WlXGdZQ1RFdIIHpVhDk8ItYfir.pdf",
@@ -1362,6 +1388,51 @@
     "language": "en",
     "url_or_download": "url",
     "pdf": "",
+    "video": ""
+  },
+  {
+    "type": "bookSection",
+    "title": "Rethinking AI Exposure: From Occupations to Sectors",
+    "authors": [
+      "Laura Nurski",
+      "Pierre-Alexandre Balland"
+    ],
+    "date": "September 2026",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://www.wiley.com/en-us/Microsoft+AI+Economy+Institute+Series-c-6664",
+    "source": "Learning Curves: Rethinking Education from Classrooms to Careers in an AI-driven World",
+    "short_title": "Rethinking AI Exposure: From Occupations to Sectors",
+    "meeting_name": "",
+    "organiser": "",
+    "place": "Brussels",
+    "abstract": "",
+    "cover_image": "assets/covers/rethinking-ai-exposure-from-occupations-to-sectors.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
+    "type": "thesis",
+    "title": "Data-driven Organisation Design: A blockmodeling approach to organisational structure",
+    "authors": [
+      "Laura Nurski"
+    ],
+    "date": "June 2026",
+    "forthcoming": false,
+    "featured": false,
+    "url": "",
+    "source": "",
+    "short_title": "Data-driven Organisation Design: A blockmodeling approach to organisational structure",
+    "meeting_name": "",
+    "organiser": "",
+    "place": "Leuven",
+    "abstract": "",
+    "cover_image": "assets/covers/data-driven-organisation-design-a-blockmodeling-approach-to-organisational-struc.jpg",
+    "language": "en",
+    "url_or_download": "download",
+    "pdf": "assets/pdfs/data-driven-organisation-design-a-blockmodeling-approach-to-organisational-struc.pdf",
     "video": ""
   }
 ]
