@@ -252,7 +252,7 @@
     }
     return p.url || '#';
   }
-  function pubYear(p) { return p.date ? p.date.slice(0, 4) : 'n.d.'; }
+  function pubYear(p) { const m = (p.date || '').match(/\d{4}/); return m ? m[0] : 'n.d.'; }
   // Talks (Zotero type "presentation") display a different set of fields
   function pubTitle(p) {
     return p.type === 'presentation' ? (p.short_title || p.title) : p.title;

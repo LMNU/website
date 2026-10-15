@@ -241,8 +241,9 @@
     blogPost:        'Blog post',
     presentation:    'Talks',
     conferencePaper: 'Conference paper',
+    thesis:          'Thesis',
   };
-  const RESEARCH_TYPES = ['journalArticle','bookSection','report','conferencePaper'];
+  const RESEARCH_TYPES = ['journalArticle','bookSection','report','conferencePaper','thesis'];
   // Group standalone books in with book chapters under one filter
   const TYPE_GROUP = { book: 'bookSection' };
   function canonType(t) { return TYPE_GROUP[t] || t; }
@@ -252,7 +253,7 @@
   function typeLabel(t) { return TYPE_LABELS[t] || t.charAt(0).toUpperCase() + t.slice(1); }
   function filterLabel(t) { return FILTER_LABELS[t] || typeLabel(t); }
   function pubHref(p)   { return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || '#'); }
-  function pubYear(p)   { return p.date ? p.date.slice(0, 4) : 'n.d.'; }
+  function pubYear(p)   { const m = (p.date || '').match(/\d{4}/); return m ? m[0] : 'n.d.'; }
 
   function isForthcoming(p) {
     if (p.forthcoming) return true;

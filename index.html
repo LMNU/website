@@ -393,7 +393,8 @@
     return p.url || '#';
   }
   function pubYear(p) {
-    return p.date ? p.date.slice(0, 4) : '';
+    const m = (p.date || '').match(/\d{4}/);  // year anywhere in the date, e.g. 'June 2026'
+    return m ? m[0] : '';
   }
   function pubSource(p) {
     return p.source || '';
