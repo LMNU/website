@@ -136,7 +136,7 @@
     "place": "Brussels",
     "abstract": "",
     "cover_image": "assets/covers/weinig-wijst-op-massale-daling-van-ict-jobs.jpg",
-    "language": "en",
+    "language": "nl",
     "url_or_download": "download",
     "pdf": "assets/pdfs/weinig-wijst-op-massale-daling-van-ict-jobs.pdf",
     "video": ""
@@ -250,7 +250,7 @@
     "place": "",
     "abstract": "Een robot die in het woonzorgcentrum steunkousen optrekt? AI-onderzoeker en arbeidsmarktspecialist Laura Nurski ziet het niet snel gebeuren.",
     "cover_image": "assets/covers/ai-en-jobkansen-het-ziet-er-slecht-uit-voor-wie-vandaag-zijn-werkdag-in-excel-do.jpg",
-    "language": "nl-BE",
+    "language": "nl",
     "url_or_download": "download",
     "pdf": "assets/pdfs/ai-en-jobkansen-het-ziet-er-slecht-uit-voor-wie-vandaag-zijn-werkdag-in-excel-do.pdf",
     "video": ""
@@ -286,7 +286,7 @@
     ],
     "date": "2026-03-10",
     "forthcoming": false,
-    "featured": true,
+    "featured": false,
     "url": "https://www.dropbox.com/scl/fi/2245gs3nzotgsydkb08rg/20260310_Terzake_subtitled.mov?rlkey=vm7wow0jtvqndrs0dn9jmg53t&dl=0",
     "source": "Terzake · VRT",
     "short_title": "AI en jobmarkt",
@@ -317,7 +317,7 @@
     "place": "",
     "abstract": "The headlines are clear: women are burning out at higher rates than men. From the  BBC  to  CNBC  and  Psychology Today , media outlets have sounded the alarm,",
     "cover_image": "assets/covers/built-for-burnout-how-job-design-fails-women.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -339,7 +339,7 @@
     "place": "",
     "abstract": "When social scientists engage in public debates on AI, they often do so because they’re concerned. Bias, degraded work quality and opaque systems – these risks",
     "cover_image": "assets/covers/ai-reveals-whats-broken-about-organisations-today-but-the-power-to-act-on-it-rem.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -428,7 +428,7 @@
     "place": "",
     "abstract": "Algorithmic management (AM) can undermine job quality when it’s built solely around efficiency – but it can also improve work when human goals and ambitions are",
     "cover_image": "assets/covers/algorithmic-management-isnt-the-problem-what-it-optimises-is.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -451,7 +451,7 @@
     "place": "",
     "abstract": "There is a need to better understand the potential and the misconceptions surrounding upskilling, reskilling, and broader skill development. While skills have taken centre stage in the EU policy debate, misunderstandings about their role persist. First, skills are fundamentally about people, and as such, they play a crucial role in fostering innovation-driven competitiveness. Innovation is not just about capital; it is also shaped by people and the places in which they work. Second, skills have the potential to support social mobility and reduce labour market inequalities. However, while skilling can improve access to opportunities, it alone cannot resolve deeper structural inequalities. Finally, skills should not be seen as fixed assets but as dynamic capabilities that evolve over time. Education and training are important, but skills are primarily shaped through work environments. This has important implications for the design of skill policies and their intended purpose.",
     "cover_image": "assets/covers/skills-between-reality-and-misconceptions-what-they-can-and-cannot-solve.jpg",
-    "language": "eng",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -503,7 +503,7 @@
     "place": "",
     "abstract": "We conducted a foresight exercise to explore how AI could reshape Europe’s innovation systems and labour markets by 2045, for the CEPS project on a European Eco",
     "cover_image": "assets/covers/building-a-european-ai-ecosystem-of-excellence-foresight-report.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -548,7 +548,7 @@
     "place": "",
     "abstract": "The digital transformation of work isn’t destroying jobs through automation—it’s fundamentally reshaping how work is organised, managed and controlled.",
     "cover_image": "assets/covers/the-real-digital-revolution-at-work-why-platformisation-matters-more-than-robots.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -593,7 +593,7 @@
     "place": "Brussels",
     "abstract": "Recent shocks and disruptions – from pandemics to technological breakthroughs – have made clear that simply waiting until a crisis hits is no longer an option.",
     "cover_image": "assets/covers/preparedness-in-the-labour-market-a-toolkit-for-anticipating-the-future-of-work.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -618,7 +618,7 @@
     "place": "",
     "abstract": "In the fourth episode of the CEPS Tech Podcast series on “the Future of Work and AI”, we explore how artificial intelligence fits into a longer history of technological change — and why institutions, organisational models, and public policy are central to shaping its impact on the future of work. Our hosts, Tom Parker and Laura Nurski, are joined by , Institute Professor at MIT, Co-Director of MIT’s Shaping the Future of Work Initiative and, of course, Nobel laureate in Economics and , Honorary Professor at University College London and the University of Sussex as well as Adjunct Professor of Technology and Socio-Economic Development at TalTech, Estonia.\nThe episode looks at how to steer the current wave of technological change, especially looking at artificial intelligence, toward more inclusive outcomes, by analysing past tech revolutions, looking at the role of institutions in guiding AI in the public interested as well as the role of organisations in managing the technology and adapting their way of work to the technology.\n\nWe discuss:\n\nWhy AI matters – but isn’t the whole story \nHow institutions steer the direction and distribution of innovation \nThe often-overlooked role of management models in shaping work and inequality \nWhether organisational design should be treated as a public concern \n\nThis conversation connects the dots between past and future, theory and policy — and asks what kind of state we need to make the most of the AI era.",
     "cover_image": "assets/covers/episode-8-steering-the-ai-revolution.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -687,7 +687,7 @@
     "place": "",
     "abstract": "In recent weeks, headlines have taken a sharp turn, with Anthropic’s CEO warning that AI could eliminate half of all entry-level white-collar jobs within five y",
     "cover_image": "assets/covers/stop-techwashing-layoffs-and-start-co-designing-the-future-of-work.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -709,7 +709,7 @@
     "place": "",
     "abstract": "Skills have become a central pillar in policy discussions on the future of work. Since the 2000 Lisbon Strategy , the EU has gradually shifted from focusing on",
     "cover_image": "assets/covers/skills-arent-your-plug-and-play-solution-for-inclusive-competitiveness.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -803,7 +803,7 @@
     "place": "Luxembourg",
     "abstract": "Key megatrends – including technological, environmental, geopolitical, and demographic changes – are likely to reshape labour markets and social inclusion in Europe over the next decade. This study explores projected shifts in labour and skills demand and supply, the structural drivers influencing equality of opportunity, and the challenges these trends pose for the sustainable development of inclusive societies. The study anticipates major sectoral and occupational transformations, with a declining working-age population and persistent mismatches and shortages likely to exacerbate labour market pressures. Technological change, especially AI advances, is expected to alter task composition within occupations, with uneven impacts by gender, region and skill level.\n\nBeyond employment, megatrends are likely to affect job quality, access to services, and the adequacy of social protection systems, creating further risks for inclusion and equality. The study also identifies three self-reinforcing vicious cycles linked to intergenerational poverty and social exclusion, low-quality employment, and skills underutilisation, stressing the need for targeted – yet systemic – interventions. The findings aim to inform future programming of the European Social Fund Plus (ESF+).",
     "cover_image": "assets/covers/study-on-the-challenges-and-impacts-to-a-social-and-inclusive-europe-in-the-next.jpg",
-    "language": "eng",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -828,31 +828,6 @@
     "place": "Luxembourg",
     "abstract": "This report provides a comprehensive analysis of the impact of digital technologies on work and occupations in Europe, critically reassessing dominant narratives of mass unemployment and job polarisation. The report synthesises work done by the JRC Employment team over the last years. Drawing on a wide range of empirical research, the report introduces an analytical framework distinguishing three main vectors of change: automation, the replacement of labour by machines; digitisation, the increasing use of digital tools in work processes; and platformisation, the use of digital platforms for coordinating work. Contrary to widespread fears, our research finds that the impact of automation, such as industrial robots, on net employment levels in recent decades has been modest and often positive. While specific tasks are automated, this has primarily boosted productivity and led to a reallocation of labour rather than a net destruction of jobs. The most profound transformation stems from digitisation. This process, while enhancing efficiency, has fundamentally altered work organisation by enabling unprecedented levels of standardisation, monitoring, and managerial control. This creates a central paradox: while employment shifts away from routine occupations, work processes within many non-routine professional roles are becoming increasingly routinised and subject to digital control, impacting worker autonomy and job quality. Finally, the report identifies the rise of platformisation, not just in the gig economy, but as a logic of algorithmic management and surveillance extending into traditional workplaces. This trend is reshaping the nature of workplace control across the economy. Analysis of occupational structures reveals that job upgrading, rather than job polarisation, has been the most common pattern of change across the EU, driven largely by the growth of high-skilled service sector jobs. The report concludes that the primary impact of the digital era on work is a qualitative transformation in its nature, focusing on coordination, control, and job quality. The effects of technology are not deterministic; they are strongly mediated by institutional frameworks, with regulation and collective bargaining playing a crucial role in shaping outcomes for workers in the digital age.",
     "cover_image": "assets/covers/work-in-the-digital-era-how-technology-is-transforming-work-and-occupations.jpg",
-    "language": "en",
-    "url_or_download": "url",
-    "pdf": "",
-    "video": ""
-  },
-  {
-    "type": "podcast",
-    "title": "Future of work: Looking back & moving forward - With Carl Frey and Nicky Dries",
-    "authors": [
-      "Laura Nurski",
-      "Tom Parker",
-      "Carl Benedikt Frey",
-      "Nicky Dries"
-    ],
-    "date": "2024-9-9",
-    "forthcoming": false,
-    "featured": false,
-    "url": "https://open.spotify.com/episode/3zD50FpsbWOEnwUeiABoLy?si=MZDjdub3TgC03Whm5qcKXQ",
-    "source": "CEPS Tech Podcast",
-    "short_title": "Future of work: Looking back & moving forward - With Carl Frey and Nicky Dries",
-    "meeting_name": "",
-    "organiser": "",
-    "place": "",
-    "abstract": "In this first episode of the CEPS Tech Podcast series on “the Future of Work and AI” we are discussing the hopes and fears in the labour market, the impact of AI on jobs and employment, and the changing task content and skills required in jobs of the future. Additionally, we examine historical perspectives on technological change and the importance of policy in shaping the future of work. The conversation highlights the need for interdisciplinary collaboration, monitoring of psychosocial risks, and shaping the reward function of society to create a better future of work.  \nOur host Tom Parker is joined by co-host Laura Nurski, Associate Research Fellow and Head of Programme on Future of Work at CEPS. Joining them both to help unpick this topic are two leading experts on the Future of Work and AI. Carl Frey, Dieter Schwarz Associate Professor of AI & Work at the Oxford Internet Institute and a Fellow of Mansfield College, University of Oxford (UK). He is also Director of the Future of Work Programme and Oxford Martin Citi Fellow at the Oxford Martin School. Nicky Dries is a Professor of Organisational Behaviour at the Department of Work & Organisation Studies at KU Leuven (Belgium) and at the Department of Leadership & Organisational Behaviour at BI Norwegian Business School (Norway). In Leuven, she runs the Future of Work Lab within the Faculty of Economics, that studies social imaginaries for the future. \nThis episode is part of the CEPS activities under the Global Partnership on Artificial Intelligence (GPAI) which brings together OECD members and GPAI countries to advance an ambitious agenda for implementing human-centric, safe, secure and trustworthy AI. You can find more information on GPAI and the Future of Work working group here.",
-    "cover_image": "assets/covers/episode-3-future-of-work-looking-back-moving-forward.jpg",
     "language": "en",
     "url_or_download": "url",
     "pdf": "",
@@ -923,7 +898,7 @@
     "place": "Brussels",
     "abstract": "Do the consequences of Algorithmic Management for workers require EU policy action?",
     "cover_image": "assets/covers/intervention-on-algorithmic-management.jpg",
-    "language": "en-US",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -955,6 +930,31 @@
   },
   {
     "type": "podcast",
+    "title": "Future of work: Looking back & moving forward - With Carl Frey and Nicky Dries",
+    "authors": [
+      "Laura Nurski",
+      "Tom Parker",
+      "Carl Benedikt Frey",
+      "Nicky Dries"
+    ],
+    "date": "2024-9-9",
+    "forthcoming": false,
+    "featured": false,
+    "url": "https://open.spotify.com/episode/3zD50FpsbWOEnwUeiABoLy?si=MZDjdub3TgC03Whm5qcKXQ",
+    "source": "CEPS Tech Podcast",
+    "short_title": "Future of work: Looking back & moving forward - With Carl Frey and Nicky Dries",
+    "meeting_name": "",
+    "organiser": "",
+    "place": "",
+    "abstract": "In this first episode of the CEPS Tech Podcast series on “the Future of Work and AI” we are discussing the hopes and fears in the labour market, the impact of AI on jobs and employment, and the changing task content and skills required in jobs of the future. Additionally, we examine historical perspectives on technological change and the importance of policy in shaping the future of work. The conversation highlights the need for interdisciplinary collaboration, monitoring of psychosocial risks, and shaping the reward function of society to create a better future of work.  \nOur host Tom Parker is joined by co-host Laura Nurski, Associate Research Fellow and Head of Programme on Future of Work at CEPS. Joining them both to help unpick this topic are two leading experts on the Future of Work and AI. Carl Frey, Dieter Schwarz Associate Professor of AI & Work at the Oxford Internet Institute and a Fellow of Mansfield College, University of Oxford (UK). He is also Director of the Future of Work Programme and Oxford Martin Citi Fellow at the Oxford Martin School. Nicky Dries is a Professor of Organisational Behaviour at the Department of Work & Organisation Studies at KU Leuven (Belgium) and at the Department of Leadership & Organisational Behaviour at BI Norwegian Business School (Norway). In Leuven, she runs the Future of Work Lab within the Faculty of Economics, that studies social imaginaries for the future. \nThis episode is part of the CEPS activities under the Global Partnership on Artificial Intelligence (GPAI) which brings together OECD members and GPAI countries to advance an ambitious agenda for implementing human-centric, safe, secure and trustworthy AI. You can find more information on GPAI and the Future of Work working group here.",
+    "cover_image": "assets/covers/episode-3-future-of-work-looking-back-moving-forward.jpg",
+    "language": "en",
+    "url_or_download": "url",
+    "pdf": "",
+    "video": ""
+  },
+  {
+    "type": "podcast",
     "title": "Future skills for a competitive EU - With Mauro Pelucchi and Cinzia Alcidi",
     "authors": [
       "Laura Nurski",
@@ -973,7 +973,7 @@
     "place": "",
     "abstract": "In this second episode of the CEPS Tech Podcast series on “the Future of Work and AI” we are exploring the relationship between skills and competitiveness in Europe. We look at different strategies for competitiveness, such as operational excellence, product leadership, and customer intimacy, and how they require different types of skills. Furthermore, we closely look at the impact of AI on skill demand and how this is transformation the operations and strategies of companies. Finally, we discuss the importance of regional skills intelligence in building future-ready workforces.\n\nOur host Tom Parker is joined by co-host  Associate Research Fellow and Head of Programme on Future of Work at . Joining them both to help unpack this topic are , Senior Research Fellow at CEPS and the Head of the Economic Policy and Jobs & Skills unit at CEPS and  who is the Head of Global Data Science at Lightcast, a global leader in Labour Market Analytics in Europe.",
     "cover_image": "assets/covers/episode-4-future-skills-for-a-competitive-eu.jpg",
-    "language": "en-GB",
+    "language": "en",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
@@ -1406,7 +1406,7 @@
     "place": "Leuven",
     "abstract": "Werkmeter is een unieke online medewerkersbevraging, die je een betrouwbaar zicht geeft op o.a. de werkdruk, tevredenheid en betrokkenheid van de werknemers en op de structurele risico’s voor stress op het werk.",
     "cover_image": "assets/covers/werkmeter-psychosocial-risk-survey.jpg",
-    "language": "en",
+    "language": "nl",
     "url_or_download": "url",
     "pdf": "",
     "video": ""
