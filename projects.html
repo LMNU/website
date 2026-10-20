@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Laura Nurski</title>
+<meta name="description" content="Research projects by Laura Nurski at CEPS, KU Leuven, Bruegel and Workitects on AI, work organisation and the labour market.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --teal:      #007074;
+    --teal-mid:  #005c60;
+    --dark:      #111;
+    --mid:       #555;
+    --warm:      #f9f7f4;
+    --border:    #e8e8e8;
+    --sans:      'Inter', system-ui, sans-serif;
+    --serif:     'Georgia', serif;
+  }
+
+  body { font-family: var(--sans); color: var(--dark); background: #fff; line-height: 1.6; }
+
+  /* ── Nav ─────────────────────────────────────────────────────── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 5%; height: 64px;
+    background: #fff; border-bottom: 1px solid var(--border);
+  }
+  .nav-name { font-size: 1.05rem; font-weight: 700; color: var(--dark); text-decoration: none; }
+  .nav-links { display: flex; gap: 2.2rem; }
+  .nav-links a { font-size: .875rem; color: var(--mid); text-decoration: none; font-weight: 500; }
+  .nav-links a:hover, .nav-links a.active { color: var(--teal); }
+
+  /* ── Page header ─────────────────────────────────────────────── */
+  .page-header {
+    padding: 52px 5% 36px;
+    border-bottom: 1px solid var(--border);
+    max-width: 1160px; margin: 0 auto;
+  }
+  .page-header h1 {
+    font-family: var(--serif); font-weight: normal;
+    font-size: clamp(1.6rem, 3vw, 2.4rem); line-height: 1.2;
+    margin-bottom: .5rem;
+  }
+  .page-header p { font-size: .95rem; color: var(--mid); max-width: 620px; }
+
+  /* ── Filters ─────────────────────────────────────────────────── */
+  .filters-wrap { padding: 24px 5%; border-bottom: 1px solid var(--border); background: var(--warm); }
+  .filters { max-width: 1160px; margin: 0 auto; display: flex; flex-direction: column; gap: .65rem; }
+  .filter-row { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
+  .filter-group { display: flex; gap: .4rem; flex-wrap: wrap; }
+  .filter-label {
+    font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--mid); flex-shrink: 0; width: 5.5rem;
+  }
+  .filter-btn {
+    font-size: .78rem; padding: .3rem .8rem;
+    border: 1.5px solid var(--border); border-radius: 2px;
+    background: #fff; color: var(--mid); cursor: pointer;
+    transition: border-color .15s, color .15s, background .15s;
+    font-family: var(--sans);
+  }
+  .filter-btn:hover { border-color: var(--teal); color: var(--teal); }
+  .filter-btn.active { background: var(--teal); border-color: var(--teal); color: #fff; }
+  .filter-btn:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+
+  /* ── Project cards ───────────────────────────────────────────── */
+  .proj-section { padding: 40px 5% 8px; max-width: 1160px; margin: 0 auto; }
+  .proj-section h2 { font-family: var(--serif); font-weight: normal; font-size: 1.35rem; margin-bottom: 1.25rem; }
+  .proj-section h2 .count { font-family: var(--sans); font-size: .8rem; color: var(--mid); margin-left: .5rem; }
+
+  .proj-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+  .proj-card {
+    --inst: var(--teal);
+    border: 1px solid var(--border); border-top: 3px solid var(--inst);
+    padding: 1.4rem 1.5rem 1.2rem; display: flex; flex-direction: column;
+  }
+  .proj-top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: .4rem; }
+  .proj-inst { font-size: .8rem; font-weight: 600; color: var(--inst); }
+  .proj-years { font-size: .8rem; color: var(--mid); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .proj-title { font-family: var(--serif); font-weight: normal; font-size: 1.2rem; line-height: 1.3; margin-bottom: .7rem; }
+  .proj-summary { font-size: .88rem; color: #333; margin-bottom: 1rem; max-width: 62ch; }
+  .proj-summary a { color: var(--teal); }
+
+  .proj-facts { display: grid; grid-template-columns: 5.6rem 1fr; gap: .25rem .75rem; font-size: .8rem; margin-bottom: 1rem; }
+  .proj-facts dt { color: var(--mid); }
+
+  .proj-outputs { font-size: .8rem; margin-bottom: 1rem; border-top: 1px solid var(--border); padding-top: .7rem; }
+  .proj-outputs summary { cursor: pointer; color: var(--mid); font-weight: 500; }
+  .proj-outputs ul { list-style: none; margin-top: .5rem; }
+  .proj-outputs li { padding: .2rem 0; }
+  .proj-outputs a { color: var(--dark); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 3px; }
+  .proj-outputs a:hover { color: var(--teal); text-decoration-color: var(--teal); }
+  .out-meta { color: var(--mid); }
+  .out-group { margin-top: .8rem; color: var(--mid); font-weight: 500; }
+  .out-group + ul { margin-top: .2rem; }
+
+  .proj-links { margin-top: auto; display: flex; gap: 1.2rem; flex-wrap: wrap; font-size: .8rem; }
+  .proj-links a { color: var(--teal); text-decoration: none; font-weight: 500; }
+  .proj-links a:hover { text-decoration: underline; }
+  .proj-links .soon { color: var(--mid); }
+
+  /* ── Footer ──────────────────────────────────────────────────── */
+  footer {
+    padding: 1.8rem 5%; border-top: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: .8rem; color: var(--mid); margin-top: 3rem;
+  }
+  footer a { color: var(--mid); text-decoration: none; }
+  footer a:hover { color: var(--teal); }
+  .footer-links { display: flex; gap: 1.5rem; }
+
+  /* ── Hamburger ───────────────────────────────────────────────── */
+  .nav-toggle {
+    display: none; flex-direction: column; justify-content: space-between;
+    width: 24px; height: 18px; background: none; border: none; cursor: pointer;
+    padding: 0; flex-shrink: 0;
+  }
+  .nav-toggle span {
+    display: block; height: 2px; width: 100%; background: var(--dark);
+    border-radius: 2px; transition: transform .2s, opacity .2s;
+  }
+
+  /* ── Mobile ──────────────────────────────────────────────────── */
+  @media (max-width: 800px) {
+    .proj-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 700px) {
+    .nav-toggle { display: flex; }
+    .nav-links {
+      display: none; flex-direction: column; gap: 0;
+      position: absolute; top: 64px; left: 0; right: 0;
+      background: #fff; border-bottom: 1px solid var(--border);
+      padding: .5rem 5% 1rem; z-index: 99;
+    }
+    .nav-links.open { display: flex; }
+    .nav-links a { padding: .6rem 0; font-size: 1rem; border-bottom: 1px solid var(--border); }
+    .nav-links a:last-child { border-bottom: none; }
+    nav { position: relative; }
+
+    .filters-wrap { padding: 16px 5%; }
+    .filter-label { width: 4.5rem; font-size: .7rem; }
+    .filter-btn { font-size: .75rem; padding: .28rem .65rem; }
+    .proj-card { padding: 1.2rem 1.1rem 1rem; }
+
+    footer { flex-direction: column; gap: 1rem; text-align: center; }
+    .footer-links { flex-wrap: wrap; justify-content: center; gap: 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <a class="nav-name" href="index.html">Laura Nurski</a>
+  <div class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="outreach.html">Outreach</a>
+    <a href="about.html">About</a>
+  </div>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<script>
+  document.getElementById('nav-toggle').addEventListener('click', function() {
+    document.getElementById('nav-links').classList.toggle('open');
+  });
+</script>
+
+<!-- Page header -->
+<div class="page-header">
+  <h1>Projects</h1>
+  <p>Research projects I lead or contribute to at CEPS and KU Leuven, my work as an independent expert, and earlier work at Bruegel and Workitects.</p>
+</div>
+
+<!-- Filters -->
+<div class="filters-wrap">
+  <div class="filters">
+    <div class="filter-row">
+      <span class="filter-label">Institution</span>
+      <div class="filter-group" id="inst-filters">
+        <button class="filter-btn active" data-inst="all">All</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sections"></div>
+
+<!-- Footer -->
+<footer>
+  <span>© 2026 Laura Nurski</span>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/lauranurski" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://scholar.google.com/citations?user=cryM1s4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    <a href="https://orcid.org/0000-0003-1085-730X" target="_blank" rel="noopener">ORCID</a>
+    <a href="https://bsky.app/profile/lauranurski.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+    <a href="about.html#contact">Contact</a>
+  </div>
+</footer>
+
+<script>
+  // Outputs come from publications.json: an item shows on a card when its
+  // Zotero Extra field contains "project: <id>" (see build_publications.py).
+
+  // Group labels, in display order, used when a card's outputs are split by type
+  const GROUPS = [
+    ['report',          'Reports'],
+    ['journalArticle',  'Journal articles'],
+    ['bookSection',     'Books and chapters'],
+    ['conferencePaper', 'Conference papers'],
+    ['preprint',        'Working papers'],
+    ['thesis',          'Theses'],
+    ['blogPost',        'Blog posts'],
+    ['magazineArticle', 'Magazine articles'],
+    ['newspaperArticle','Newspaper articles'],
+    ['podcast',         'Podcasts'],
+    ['presentation',    'Talks'],
+    ['tvBroadcast',     'TV and video'],
+    ['computerProgram', 'Tools'],
+  ];
+  const TYPE_GROUP = { book: 'bookSection' };
+  const TYPE_LABELS = {
+    report: 'Report', journalArticle: 'Journal article', book: 'Book', bookSection: 'Book chapter',
+    conferencePaper: 'Conference paper', preprint: 'Working paper', thesis: 'Thesis',
+    blogPost: 'Blog post', magazineArticle: 'Magazine', newspaperArticle: 'Newspaper',
+    podcast: 'Podcast', presentation: 'Talk', tvBroadcast: 'TV', computerProgram: 'Tool',
+  };
+  const GROUP_MIN = 6;   // split by type only when a card has more than 5 outputs of more than one type
+
+  function canonType(t) { return TYPE_GROUP[t] || t; }
+  function typeLabel(t) { return TYPE_LABELS[t] || t; }
+  function pubHref(p)   { return (p.url_or_download === 'download' && p.pdf) ? p.pdf : (p.url || ''); }
+  function pubYear(p)   { const m = (p.date || '').match(/\d{4}/); return m ? m[0] : ''; }
+  function isForthcoming(p) {
+    if (p.forthcoming) return true;
+    if (/forthcoming/i.test(p.date || '')) return true;
+    const d = new Date(p.date);
+    return !isNaN(d) && d > new Date();
+  }
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  let PROJECTS = [], INSTITUTIONS = [], PUBS = [];
+  let activeInst = 'all';
+
+  function outputsFor(proj) {
+    const fromZotero = PUBS.filter(p => (p.projects || []).includes(proj.id));
+    const extra = (proj.extra_outputs || []).map(o => ({
+      title: o.title, type: o.type || 'report', url: o.url || '', date: '', forthcoming: /forthcoming/i.test(o.note || ''), _note: o.note || ''
+    }));
+    return [...fromZotero, ...extra];
+  }
+
+  function outputItem(p, showType) {
+    const when = isForthcoming(p) ? 'forthcoming' : pubYear(p);
+    const meta = [showType ? typeLabel(p.type) : '', when].filter(Boolean).join(', ');
+    const href = pubHref(p);
+    const title = esc(p.title);
+    const link = href ? `<a href="${esc(href)}" target="_blank" rel="noopener">${title}</a>` : title;
+    return `<li>${link}${meta ? ` <span class="out-meta">(${meta})</span>` : ''}</li>`;
+  }
+
+  function outputsBlock(proj) {
+    const outs = outputsFor(proj);
+    if (!outs.length) return '';
+    const types = [...new Set(outs.map(o => canonType(o.type)))];
+    let body;
+    if (outs.length >= GROUP_MIN && types.length > 1) {
+      const order = GROUPS.map(g => g[0]);
+      const sorted = types.sort((a, b) => (order.indexOf(a) + 99 * (order.indexOf(a) < 0)) - (order.indexOf(b) + 99 * (order.indexOf(b) < 0)));
+      body = sorted.map(t => {
+        const label = (GROUPS.find(g => g[0] === t) || [t, typeLabel(t)])[1];
+        const items = outs.filter(o => canonType(o.type) === t);
+        return `<p class="out-group">${label}</p><ul>${items.map(o => outputItem(o, false)).join('')}</ul>`;
+      }).join('');
+    } else {
+      body = `<ul>${outs.map(o => outputItem(o, types.length > 1)).join('')}</ul>`;
+    }
+    return `<details class="proj-outputs"><summary>Outputs (${outs.length})</summary>${body}</details>`;
+  }
+
+  function card(proj) {
+    const inst = INSTITUTIONS.find(i => i.name === proj.institution);
+    const color = inst ? inst.color : 'var(--teal)';
+    const years = proj.end ? `${proj.start}–${proj.end}` : `${proj.start}–present`;
+    const facts = (proj.facts || []).map(f => `<dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd>`).join('');
+    const links = (proj.links || []).map(l => l.url
+      ? `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`
+      : `<span class="soon">${esc(l.label)}</span>`).join('');
+    return `
+    <article class="proj-card" style="--inst:${color}">
+      <div class="proj-top"><span class="proj-inst">${esc(proj.institution)}</span><span class="proj-years">${years}</span></div>
+      <h3 class="proj-title">${esc(proj.title)}</h3>
+      <p class="proj-summary">${proj.summary}</p>
+      ${facts ? `<dl class="proj-facts">${facts}</dl>` : ''}
+      ${outputsBlock(proj)}
+      ${links ? `<div class="proj-links">${links}</div>` : ''}
+    </article>`;
+  }
+
+  function render() {
+    const list = PROJECTS
+      .filter(p => activeInst === 'all' || p.institution === activeInst)
+      .map((p, i) => [p, i])
+      .sort((a, b) => (b[0].start - a[0].start) || (a[1] - b[1]))
+      .map(x => x[0]);
+    const groups = [['Ongoing', list.filter(p => p.status === 'ongoing')],
+                    ['Completed', list.filter(p => p.status !== 'ongoing')]];
+    document.getElementById('sections').innerHTML = groups.filter(g => g[1].length).map(([name, items]) => `
+      <section class="proj-section">
+        <h2>${name}<span class="count">${items.length} ${items.length === 1 ? 'project' : 'projects'}</span></h2>
+        <div class="proj-grid">${items.map(card).join('')}</div>
+      </section>`).join('');
+  }
+
+  function buildFilters() {
+    const box = document.getElementById('inst-filters');
+    INSTITUTIONS.filter(i => PROJECTS.some(p => p.institution === i.name)).forEach(i => {
+      const b = document.createElement('button');
+      b.className = 'filter-btn';
+      b.dataset.inst = i.name;
+      b.textContent = i.name;
+      box.appendChild(b);
+    });
+    box.addEventListener('click', e => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      box.querySelectorAll('.filter-btn').forEach(x => x.classList.remove('active'));
+      btn.classList.add('active');
+      activeInst = btn.dataset.inst;
+      render();
+    });
+  }
+
+  Promise.all([
+    fetch('projects.json').then(r => r.json()),
+    fetch('publications.json').then(r => r.json()).catch(() => []),
+  ]).then(([data, pubs]) => {
+    PROJECTS = data.projects;
+    INSTITUTIONS = data.institutions;
+    PUBS = pubs;
+    buildFilters();
+    render();
+  }).catch(err => console.error('Could not load projects.json:', err));
+</script>
+</body>
+</html>

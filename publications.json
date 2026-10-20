@@ -11,6 +11,9 @@
     "date": "2027 (Forthcoming)",
     "forthcoming": true,
     "featured": false,
+    "projects": [
+      "nsfe"
+    ],
     "url": "",
     "source": "Eurofound",
     "short_title": "Analysis of trends in prevalence of key types of non-standard work:  Conceptual framework and data mapping strategy",
@@ -33,6 +36,9 @@
     "date": "2027 (Forthcoming)",
     "forthcoming": true,
     "featured": false,
+    "projects": [
+      "nsfe"
+    ],
     "url": "",
     "source": "Eurofound",
     "short_title": "Working conditions and work organisation of non-standard workers in the EU",
@@ -57,6 +63,9 @@
     "date": "2026 (forthcoming)",
     "forthcoming": true,
     "featured": false,
+    "projects": [
+      "independent-expert"
+    ],
     "url": "",
     "source": "Regulating AI through Collective Bargaining: Key Issues – Vol. II",
     "short_title": "Organisation design as a power structure: AI and the case for collective bargaining",
@@ -82,6 +91,9 @@
     "date": "2026 (forthcoming)",
     "forthcoming": true,
     "featured": false,
+    "projects": [
+      "independent-expert"
+    ],
     "url": "",
     "source": "",
     "short_title": "Beyond Automation: The Transformation of Work from the Microchip to Generative AI",
@@ -104,6 +116,7 @@
     "date": "2026-10-06",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.agoria.be/bright-new-world",
     "source": "Bright New World | Engineering the AI-driven economy",
     "short_title": "Drafting a new social contract",
@@ -129,6 +142,7 @@
     "date": "2026-09-25T03:00:00+02:00",
     "forthcoming": false,
     "featured": true,
+    "projects": [],
     "url": "https://www.demorgen.be/redactie/specials/embeds/ai-jobs/",
     "source": "De Morgen",
     "short_title": "‘Ieders job zal veranderen, die van u én die van mij’",
@@ -152,6 +166,9 @@
     "date": "2026-09",
     "forthcoming": false,
     "featured": true,
+    "projects": [
+      "aiei2"
+    ],
     "url": "https://www.wiley.com/en-us/Microsoft+AI+Economy+Institute+Series-c-6664",
     "source": "Learning Curves: Rethinking Education from Classrooms to Careers in an AI-driven World",
     "short_title": "Rethinking AI Exposure: From Occupations to Sectors",
@@ -175,6 +192,7 @@
     "date": "2026-06-17",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "",
     "source": "De Morgen",
     "short_title": "'Weinig wijst op massale daling van ICT-jobs'",
@@ -198,6 +216,7 @@
     "date": "2026-06-11",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://aiskillsatwork.live.ft.com",
     "source": "FT Live",
     "short_title": "AI Skills at Work",
@@ -221,6 +240,7 @@
     "date": "2026-06-10",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.eurofound.europa.eu/en/news-and-events/events/tripartite-exchange-seminar-tes-2026",
     "source": "Tripartite Exchange Seminar (TES)",
     "short_title": "Digitalisation and AI: where are we now?",
@@ -244,6 +264,7 @@
     "date": "2026-06-05",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.oecd.org/en/events/2026/06/artificial-intelligence-and-skills-what-we-know-so-far.html",
     "source": "AI and skills: What we know so far",
     "short_title": "AI and skills: What we know so far",
@@ -266,6 +287,9 @@
     "date": "2026-06",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "independent-expert"
+    ],
     "url": "",
     "source": "",
     "short_title": "Data-driven Organisation Design: A blockmodeling approach to organisational structure",
@@ -289,6 +313,7 @@
     "date": "2026-05-09T08:00:00+00:00",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.knack.be/nieuws/technologie-ai-sociale-media-digitaal/ai-en-jobkansen-het-ziet-er-slecht-uit-voor-wie-vandaag-zijn-werkdag-in-excel-doorbrengt/",
     "source": "Knack",
     "short_title": "AI en jobkansen",
@@ -312,6 +337,7 @@
     "date": "2026-04-21",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.eurofound.europa.eu/en/news-and-events/events/working-in-the-age-of-ai-how-are-working-conditions-changing-across-europe",
     "source": "Working in the age of AI – How are working conditions changing across Europe?",
     "short_title": "Reflections on the findings of EWCS 2024",
@@ -334,6 +360,7 @@
     "date": "2026-03-10",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.dropbox.com/scl/fi/2245gs3nzotgsydkb08rg/20260310_Terzake_subtitled.mov?rlkey=vm7wow0jtvqndrs0dn9jmg53t&dl=0",
     "source": "Terzake · VRT",
     "short_title": "AI en jobmarkt",
@@ -356,6 +383,7 @@
     "date": "2026-03-06T10:06:13+01:00",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.ceps.eu/built-for-burnout-how-job-design-fails-women/",
     "source": "CEPS In Brief",
     "short_title": "Built for burnout – how job design fails women",
@@ -378,6 +406,7 @@
     "date": "2026-02-26T15:37:32+01:00",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.ceps.eu/ai-reveals-whats-broken-about-organisations-today-but-the-power-to-act-on-it-remains-in-too-few-hands/",
     "source": "CEPS In Brief",
     "short_title": "AI reveals what’s broken about organisations today",
@@ -400,6 +429,7 @@
     "date": "2026-01-20",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "",
     "source": "De Tijd",
     "short_title": "AI maakt zichtbaar wat al lang scheef zit",
@@ -423,6 +453,9 @@
     "date": "2026-01-12",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "acerta-chair"
+    ],
     "url": "https://www.youtube.com/watch?v=ITsVhAv-40w",
     "source": "Trends Z",
     "short_title": "Acerta legt uit hoe uw bedrijf via een leerstoel kan samenwerken met KU Leuven",
@@ -445,6 +478,7 @@
     "date": "2026-01",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "",
     "source": "ZigZagHR",
     "short_title": "\"Technologie verandert werk, maar wij bepalen hoe\"",
@@ -467,6 +501,7 @@
     "date": "2025-12-12T10:55:14+01:00",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.ceps.eu/algorithmic-management-isnt-the-problem-what-it-optimises-is/",
     "source": "CEPS In Brief",
     "short_title": "Algorithmic management isn’t the problem – what it optimises is.",
@@ -490,6 +525,9 @@
     "date": "2025-12-09",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "gi-ni"
+    ],
     "url": "https://www.elgaronline.com/edcollchap-oa/book/9781035373659/chapter8.xml",
     "source": "Technology, Globalisation and Migration",
     "short_title": "Skills between reality and misconceptions",
@@ -513,6 +551,7 @@
     "date": "2025-11-20",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.eurofound.europa.eu/en/news-and-events/events/foundation-forum-2025-europes-social-model-key-competitive-growth",
     "source": "Eurofound Foundation Forum",
     "short_title": "Future-proofing work: The role of job quality",
@@ -542,6 +581,9 @@
     "date": "2025-11-06",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "eee-ai"
+    ],
     "url": "https://www.ceps.eu/ceps-publications/building-a-european-ai-ecosystem-of-excellence/",
     "source": "Centre for European Policy Studies",
     "short_title": "Building a European AI Ecosystem of Excellence: Foresight Report",
@@ -564,6 +606,7 @@
     "date": "2025-10-30",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "",
     "source": "Trends",
     "short_title": "\"Banen verdwijnen niet, ze krijgen een andere inhoud\"",
@@ -587,6 +630,9 @@
     "date": "2025-10-21T06:00:00+00:00",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "independent-expert"
+    ],
     "url": "https://www.socialeurope.eu/the-real-digital-revolution-at-work-why-platformisation-matters-more-than-robots",
     "source": "Social Europe",
     "short_title": "The Real Digital Revolution At Work: Why Platformisation Matters More Than Robots",
@@ -609,6 +655,9 @@
     "date": "2025-09-26",
     "forthcoming": false,
     "featured": true,
+    "projects": [
+      "independent-expert"
+    ],
     "url": "https://www.eurofound.europa.eu/en/publications/all/implications-of-ai-for-work-employment-and-social-dialogue-literature-review",
     "source": "Eurofound",
     "short_title": "Implications of AI for work, employment and social dialogue: Literature review.",
@@ -632,6 +681,9 @@
     "date": "2025-09-24",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "eee-ai"
+    ],
     "url": "https://www.ceps.eu/ceps-publications/preparedness-in-the-labour-market-a-toolkit-for-anticipating-the-future-of-work/",
     "source": "Centre for European Policy Studies",
     "short_title": "Preparedness in the labour market: a toolkit for anticipating the future of work",
@@ -657,6 +709,9 @@
     "date": "2025-07-11",
     "forthcoming": false,
     "featured": true,
+    "projects": [
+      "eee-ai"
+    ],
     "url": "https://open.spotify.com/episode/3zD50FpsbWOEnwUeiABoLy",
     "source": "CEPS Tech Podcast",
     "short_title": "Steering the AI revolution - With Daron Acemoğlu and Carlota Perez",
@@ -681,6 +736,9 @@
     "date": "2025-07-09",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "eee-ai"
+    ],
     "url": "https://www.ceps.eu/ceps-publications/solving-europes-ai-talent-equation/",
     "source": "CEPS & interface",
     "short_title": "Solving Europ's AI talent equation: Supply, demand and missing pieces",
@@ -704,6 +762,9 @@
     "date": "2025-06-17",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "independent-expert"
+    ],
     "url": "https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.13650abstract",
     "source": "Academy of Management Proceedings",
     "short_title": "Defining the Structure-Control Connection in Job Design",
@@ -726,6 +787,7 @@
     "date": "2025-06-04T13:55:50+01:00",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.ceps.eu/stop-techwashing-layoffs-and-start-co-designing-the-future-of-work/",
     "source": "CEPS In Brief",
     "short_title": "Stop ‘techwashing’ layoffs – and start co-designing the future of work",
@@ -748,6 +810,7 @@
     "date": "2025-03-10T14:06:39+01:00",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://www.ceps.eu/skills-arent-your-plug-and-play-solution-for-inclusive-competitiveness",
     "source": "CEPS In Brief",
     "short_title": "Skills aren’t your plug-and-play solution for inclusive competitiveness",
@@ -771,6 +834,9 @@
     "date": "2025-01",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "gpai"
+    ],
     "url": "https://cdn.ceps.eu/wp-content/uploads/2025/03/20250128_GPAI_GenAI_FoW_report_final_VOECD.pdf",
     "source": "OECD/Global Partnership on AI",
     "short_title": "Generative AI and the future of work global dialogue: Perceptions and prospects.",
@@ -794,6 +860,9 @@
     "date": "2025-01",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "gi-ni"
+    ],
     "url": "https://gini-research.org/wp-content/uploads/2025/03/SINN25_GINI_D.8.3.pdf",
     "source": "Centre for European Policy Studies",
     "short_title": "Policy Toolkit to use EU policies for addressing structural challenges in the labour market",
@@ -817,6 +886,9 @@
     "date": "2025",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "gi-ni"
+    ],
     "url": "https://www.intereconomics.eu/contents/year/2025/number/1/article/how-to-ensure-a-skills-based-future-for-european-competitiveness.html",
     "source": "Intereconomics",
     "short_title": "How to Ensure a Skills-Based Future for European Competitiveness",
@@ -842,6 +914,9 @@
     "date": "2025",
     "forthcoming": false,
     "featured": true,
+    "projects": [
+      "sieu"
+    ],
     "url": "https://data.europa.eu/doi/10.2767/4609973",
     "source": "Publications Office of the European Union",
     "short_title": "Study on the challenges and impacts to a social and inclusive Europe in the next decade",
@@ -867,6 +942,9 @@
     "date": "2025",
     "forthcoming": false,
     "featured": true,
+    "projects": [
+      "independent-expert"
+    ],
     "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC141451",
     "source": "Publications Office of the European Union",
     "short_title": "Work in the Digital Era: How Technology is Transforming Work and Occupations",
@@ -891,6 +969,9 @@
     "date": "2024-11-17",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "eee-ai"
+    ],
     "url": "https://www.ceps.eu/ceps-events/a-future-ready-workforce-optimising-ai-for-people-and-places/",
     "source": "CEPS event",
     "short_title": "AI & complementary skills: the role of transversal skills",
@@ -913,6 +994,7 @@
     "date": "2024-11",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "",
     "source": "ZigZagHR",
     "short_title": "5 methodes om de toekomst van werk te verkennen en te voorspellen",
@@ -937,6 +1019,7 @@
     "date": "2024-10-16",
     "forthcoming": false,
     "featured": false,
+    "projects": [],
     "url": "https://feps-europe.eu/event/computer-in-command/",
     "source": "EESC & FEPS",
     "short_title": "Intervention on Algorithmic Management",
@@ -962,6 +1045,9 @@
     "date": "2024-10-11",
     "forthcoming": false,
     "featured": true,
+    "projects": [
+      "eee-ai"
+    ],
     "url": "https://open.spotify.com/episode/4BlF8lB1HMyjNtL0bmwan3?si=fOOUyR9aTnWMisq0FRrq7w",
     "source": "CEPS Tech Podcast",
     "short_title": "Can AI rebuild middle-class jobs? - With David Autor and Sabine Köszegi",
@@ -987,6 +1073,9 @@
     "date": "2024-09-06",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "eee-ai"
+    ],
     "url": "https://open.spotify.com/episode/3iWN5hjTu1nyfZCGFNP5AM?si=0QsQF-QuSfysZNSRPFfD2w",
     "source": "CEPS Tech Podcast",
     "short_title": "Future skills for a competitive EU - With Mauro Pelucchi and Cinzia Alcidi",
@@ -1012,6 +1101,9 @@
     "date": "2024-8-9",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "eee-ai"
+    ],
     "url": "https://open.spotify.com/episode/3zD50FpsbWOEnwUeiABoLy?si=MZDjdub3TgC03Whm5qcKXQ",
     "source": "CEPS Tech Podcast",
     "short_title": "Future of work: Looking back & moving forward - With Carl Frey and Nicky Dries",
@@ -1034,6 +1126,9 @@
     "date": "2024-06",
     "forthcoming": false,
     "featured": true,
+    "projects": [
+      "eee-ai"
+    ],
     "url": "https://www.ceps.eu/ceps-publications/ai-at-work/",
     "source": "Centre for European Policy Studies",
     "short_title": "AI at Work - Why there's more to it than task automation",
@@ -1057,6 +1152,9 @@
     "date": "2024-03-07",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/working-paper/exposure-generative-artificial-intelligence-european-labour-market",
     "source": "Bruegel",
     "short_title": "Exposure to generative artificial intelligence in the European labour market",
@@ -1080,6 +1178,9 @@
     "date": "2024",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "steunpunt-werk"
+    ],
     "url": "https://www.steunpuntwerk.be/files/publications/OW/OW_2024_1/OverWerk_2024_1_07.pdf",
     "source": "Over.Werk. Tijdschrift van het Steunpunt Werk",
     "short_title": "De taken(dis)balans in Vlaamse beroepen.",
@@ -1103,6 +1204,9 @@
     "date": "2024",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "steunpunt-werk"
+    ],
     "url": "https://www.steunpuntwerk.be/files/publications/OW/OW_2024_1/OverWerk_2024_1_06.pdf",
     "source": "Over.Werk. Tijdschrift van het Steunpunt Werk",
     "short_title": "De impact van technologie op beroepen.",
@@ -1127,6 +1231,9 @@
     "date": "2024",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "steunpunt-werk"
+    ],
     "url": "https://www.steunpuntwerk.be/files/publications/WERK/WerkRapport/Werk_rapport_2024_02.pdf",
     "source": "Steunpunt Werk",
     "short_title": "Toekomstige competentienoden in Vlaamse sectoren en bedrijven. Een dwarsstudie van 27 competentieprognoses in het kader van SCOPE",
@@ -1149,6 +1256,9 @@
     "date": "2023-12-14",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/analysis/new-technologies-workplace-round-project-research",
     "source": "Bruegel",
     "short_title": "New technologies in the workplace: a round-up of project research",
@@ -1171,6 +1281,9 @@
     "date": "2023-12-14",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/analysis/new-ways-working-round-project-research",
     "source": "Bruegel",
     "short_title": "New ways of working: a round-up of project research",
@@ -1196,6 +1309,9 @@
     "date": "2023-12",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "http://journals.sagepub.com/doi/10.1177/09596801231178904",
     "source": "European Journal of Industrial Relations",
     "short_title": "Risks to job quality from digital technologies",
@@ -1218,6 +1334,9 @@
     "date": "2023-03-16",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/working-paper/artificial-intelligence-adoption-public-sector-case-study",
     "source": "Bruegel",
     "short_title": "Artificial intelligence adoption in the public sector: a case study",
@@ -1241,6 +1360,9 @@
     "date": "2023-01-16",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/blog-post/understanding-barriers-and-resistance-training-european-union",
     "source": "Bruegel Blog",
     "short_title": "Understanding barriers and resistance to training in the European Union",
@@ -1263,6 +1385,9 @@
     "date": "2022-12-17",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "phd"
+    ],
     "url": "https://www.degruyter.com/document/doi/10.1515/rne-2023-0063/html",
     "source": "Review of Network Economics",
     "short_title": "Net Neutrality and Online Innovation: An Empirical Study of the UK",
@@ -1285,6 +1410,9 @@
     "date": "2022-11-08",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/blog-post/beyond-training-gap-learning-foundational-skills-job",
     "source": "Bruegel Blog",
     "short_title": "Beyond the training gap: learning foundational skills on the job",
@@ -1308,6 +1436,9 @@
     "date": "2022-07-26",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/working-paper/impact-artificial-intelligence-nature-and-quality-jobs",
     "source": "Bruegel",
     "short_title": "The impact of artificial intelligence on the nature and quality of jobs",
@@ -1331,6 +1462,9 @@
     "date": "2022",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/policy-brief/beating-burnout-identifying-bad-jobs-and-improving-job-quality",
     "source": "Bruegel",
     "short_title": "Beating burnout: identifying bad jobs and improving job quality",
@@ -1354,6 +1488,9 @@
     "date": "2021-12-06",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/blog-post/triple-constraint-artificial-intelligence-advancement-europe",
     "source": "Bruegel | The Brussels-based economic think tank",
     "short_title": "The triple constraint on artificial-intelligence advancement in Europe",
@@ -1377,6 +1514,9 @@
     "date": "2021-11-30",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/policy-brief/what-holding-back-artificial-intelligence-adoption-europe",
     "source": "Bruegel",
     "short_title": "What is holding back artificial intelligence adoption in Europe?",
@@ -1400,6 +1540,9 @@
     "date": "2021-06-30",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/blog-post/workers-can-unlock-artificial-intelligence-revolution",
     "source": "Bruegel Blog",
     "short_title": "Workers can unlock the artificial intelligence revolution",
@@ -1423,6 +1566,9 @@
     "date": "2021-06",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "wifi2020"
+    ],
     "url": "https://workitects.be/werkbaarheidsrapport-vlaamse-voedingsindustrie",
     "source": "Workitects",
     "short_title": "Arbeidsorganisatie en werkbaarheid in negen Vlaamse voedingsbedrijven.",
@@ -1445,6 +1591,9 @@
     "date": "2021-05-06",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "bruegel-fowig"
+    ],
     "url": "https://www.bruegel.org/blog-post/algorithmic-management-past-not-future-work",
     "source": "Bruegel Blog",
     "short_title": "Algorithmic management is the past, not the future of work",
@@ -1469,6 +1618,9 @@
     "date": "2020-05",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "iao-woonzorg"
+    ],
     "url": "https://www.diverscity.be/assets/originals/1rirpM3WlXGdZQ1RFdIIHpVhDk8ItYfir.pdf",
     "source": "Workitects",
     "short_title": "Werkbaarheid in Vlaamse woonzorgcentra. Inzichten vanuit een werkbaarheidsmeting.",
@@ -1492,6 +1644,9 @@
     "date": "2020",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "manuwin"
+    ],
     "url": "https://www.workitects.be/sites/default/files/media/2020-06/Job_design_autonomy_task-level_approach_0.pdf",
     "source": "",
     "short_title": "Job design and autonomy: A task-level approach",
@@ -1514,6 +1669,9 @@
     "date": "2018",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "manuwin"
+    ],
     "url": "https://workitects.be/oplossingen/psychosociale-risicoanalyse",
     "source": "Worktitects",
     "short_title": "Werkmeter - psychosocial risk survey",
@@ -1537,6 +1695,9 @@
     "date": "2016-07",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "phd"
+    ],
     "url": "https://doi.org/10.1093/restud/rdw002",
     "source": "The Review of Economic Studies",
     "short_title": "Exclusive Dealing as a Barrier to Entry? Evidence from Automobiles",
@@ -1560,6 +1721,9 @@
     "date": "2014-05",
     "forthcoming": false,
     "featured": false,
+    "projects": [
+      "phd"
+    ],
     "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167718714000265",
     "source": "International Journal of Industrial Organization",
     "short_title": "Incumbency advantages, distribution networks and exclusivity — Evidence from the European car markets",

@@ -1,0 +1,554 @@
+{
+  "_readme": "Card data for projects.html. Each project's 'id' must match the 'project:' label in Zotero's Extra field. 'end': null means ongoing with no end date ('present'). 'status' is 'ongoing' or 'completed'. 'summary' may contain simple HTML links. 'extra_outputs' are outputs not (yet) in Zotero.",
+  "institutions": [
+    {
+      "name": "KU Leuven",
+      "color": "#1d4f91"
+    },
+    {
+      "name": "CEPS",
+      "color": "#007074"
+    },
+    {
+      "name": "Bruegel",
+      "color": "#7b2337"
+    },
+    {
+      "name": "Workitects",
+      "color": "#a8460b"
+    },
+    {
+      "name": "Independent",
+      "color": "#4a4a4a"
+    }
+  ],
+  "projects": [
+    {
+      "id": "acerta-chair",
+      "institution": "KU Leuven",
+      "title": "Acerta Chair AI at Work",
+      "start": 2024,
+      "end": 2029,
+      "status": "ongoing",
+      "summary": "How can organisations use AI to make work more meaningful, autonomous and accessible? The chair studies three routes: employees crafting their own jobs with generative AI, organisations redesigning repetitive tasks with automation, and AI-supported knowledge sharing that lets non-experts take on specialised tasks. It combines surveys and small field experiments in organisations, and it supports a PhD project by Melissa Gheyle (2025–2029).",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Acerta"
+        },
+        {
+          "label": "Partners",
+          "value": "Co-chairholders Rein De Cooman and Sophie De Winne"
+        },
+        {
+          "label": "My role",
+          "value": "Chairholder"
+        }
+      ],
+      "links": [
+        {
+          "label": "Chair page",
+          "url": "https://giving.kuleuven.be/how-to-support/chairs/faculty-of-economics-business/acerta-chair-ai-at-work"
+        },
+        {
+          "label": "Research portal",
+          "url": "https://research.kuleuven.be/portal/en/project/3H250312"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "bel-ai",
+      "institution": "CEPS",
+      "title": "BEL-AI: Leveraging AI for Belgium",
+      "start": 2025,
+      "end": 2029,
+      "status": "ongoing",
+      "summary": "Evidence for Belgium's ambition to become a \"Smart AI Nation\". The project maps Belgium's AI research, investment and adoption gaps, then studies whether AI raises productivity, how firms adjust their workforce, and how AI changes skill needs, autonomy and job quality for workers. A final pillar turns the findings into policy recommendations with policymakers, social partners and industry, to support AI diffusion while managing the risks for workers.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Belgian Science Policy Office (BELSPO)"
+        },
+        {
+          "label": "Partners",
+          "value": "KU Leuven, UCLouvain"
+        },
+        {
+          "label": "My role",
+          "value": "Overall project lead; leads several work packages; main proposal writer"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.ceps.eu/ceps-projects/bel-ai/"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "welfair",
+      "institution": "CEPS",
+      "title": "WELFAIR: Intergenerational fairness and the welfare state",
+      "start": 2026,
+      "end": 2030,
+      "status": "ongoing",
+      "summary": "How do inequality, technological change and demographic change affect fairness between generations? WELFAIR builds an indicator of intergenerational fairness to compare countries and social groups, and develops a social investment policy framework.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Horizon Europe"
+        },
+        {
+          "label": "Partners",
+          "value": "Coordinated by the European University Institute; 13 partners"
+        },
+        {
+          "label": "My role",
+          "value": "Task leader (two tasks); contributor to other tasks"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page (coming soon)",
+          "url": ""
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "ai-exposure-productivity",
+      "institution": "CEPS",
+      "title": "AI exposure and productivity",
+      "start": 2026,
+      "end": 2027,
+      "status": "ongoing",
+      "summary": "Which jobs can AI partly do, and what is happening to the people who hold them? The project builds a single EU AI exposure score from existing measures, separating substitution from support. It then looks at wages, employment and working conditions in the most exposed occupations and sectors, and runs a meta-analysis of the productivity literature.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Eurofound"
+        },
+        {
+          "label": "My role",
+          "value": "Task leader (Task 1); contributor to Tasks 2 and 3; main proposal writer"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.ceps.eu/ceps-projects/literature-review-and-empirical-analyses-of-ai-exposure-and-productivity/"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "ai-youth-employment",
+      "institution": "CEPS",
+      "title": "AI and youth employment",
+      "start": 2026,
+      "end": 2027,
+      "status": "ongoing",
+      "summary": "How is AI affecting young people's jobs, and entry-level jobs in particular? This study for the European Commission covers the EU27 from 2019 to today and looks ahead to 2035. It measures which sectors and entry-level jobs are exposed to AI, looks at working conditions and new tasks, reviews EU policy and legislation, and builds future scenarios, drawing on surveys of businesses and young people.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "European Commission, DG EMPL"
+        },
+        {
+          "label": "Partners",
+          "value": "Led by Open Evidence, with ICF; CEPS and RPA as subcontractors"
+        },
+        {
+          "label": "My role",
+          "value": "Contributor (thematic expert in labour economics)"
+        }
+      ],
+      "links": [],
+      "extra_outputs": []
+    },
+    {
+      "id": "uneven-diffusion",
+      "institution": "CEPS",
+      "title": "Uneven diffusion: why AI does not spread equally",
+      "start": 2026,
+      "end": 2027,
+      "status": "ongoing",
+      "summary": "AI is often seen as one technological wave centred on a few hubs. This project tests whether cities instead build AI specialisations on their existing industries, using data on publications, patents and startup investment. The aim is a framework for regional smart specialisation in the AI era.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Microsoft AI Economy Institute"
+        },
+        {
+          "label": "My role",
+          "value": "Senior Fellow, co-lead with Pierre-Alexandre Balland"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.ceps.eu/ceps-projects/uneven-diffusion-why-ai-does-not-spread-equally/"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "nsfe",
+      "institution": "CEPS",
+      "title": "Trends in non-standard work",
+      "start": 2025,
+      "end": 2026,
+      "status": "ongoing",
+      "summary": "Current classifications miss how insecurity in contracts, working time and income can pile up in one job. The study develops an updated typology of non-standard employment and uses EU-LFS, EU-SILC and EWCS data to look at job creation since 2010, economic well-being and working conditions.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Eurofound"
+        },
+        {
+          "label": "My role",
+          "value": "Task leader (Task 4); contributor to Tasks 1 and 5"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.ceps.eu/ceps-projects/analysis-of-trends-in-prevalence-of-key-types-of-non-standard-work/"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "aiei2",
+      "institution": "CEPS",
+      "title": "AI and early careers in Europe",
+      "start": 2025,
+      "end": 2026,
+      "status": "ongoing",
+      "summary": "US studies find falling employment for young workers in AI-exposed roles. This project is a first European replication, using payroll data from Acerta (2021–2025) combined with sectoral AI exposure measures developed at CEPS. It compares Europe with the US and asks whether European labour market institutions soften the effect. A book chapter presents the sectoral measures; the working paper with the replication is in progress.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Microsoft AI Economy Institute"
+        },
+        {
+          "label": "My role",
+          "value": "Senior Fellow, co-lead with Pierre-Alexandre Balland"
+        }
+      ],
+      "extra_outputs": [
+        {
+          "title": "Working paper on AI and early careers in Europe",
+          "type": "report",
+          "note": "Forthcoming",
+          "url": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.ceps.eu/ceps-projects/ai-economy-institute-aiei-program/"
+        }
+      ]
+    },
+    {
+      "id": "independent-expert",
+      "institution": "Independent",
+      "title": "Independent expert on AI, technological change and the future of work",
+      "start": 2024,
+      "end": null,
+      "status": "ongoing",
+      "summary": "Commissioned research and expert advice for European institutions and agencies on how AI, and technology more broadly, changes work. My work looks at two levels: the labour market, including occupational change and skills, and the organisation of work, including job design and organisation design.",
+      "facts": [
+        {
+          "label": "Clients",
+          "value": "European Commission (JRC), Eurofound, ETUI"
+        },
+        {
+          "label": "My role",
+          "value": "Independent expert"
+        }
+      ],
+      "links": [],
+      "extra_outputs": []
+    },
+    {
+      "id": "sieu",
+      "institution": "CEPS",
+      "title": "A social and inclusive Europe in the next decade",
+      "start": 2024,
+      "end": 2025,
+      "status": "completed",
+      "summary": "A synthesis of research on the changes facing the European Pillar of Social Rights and the ESF+, covering future skill needs, skill supply, equality of opportunity and inclusion. The goal was to help target ESF+ funding.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "European Commission, DG EMPL"
+        },
+        {
+          "label": "My role",
+          "value": "Task leader; main proposal writer"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.ceps.eu/ceps-projects/the-challenges-and-impacts-to-a-social-and-inclusive-europe-in-the-next-decade/"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "eee-ai",
+      "institution": "CEPS",
+      "title": "European Ecosystem of Excellence in AI",
+      "start": 2024,
+      "end": 2025,
+      "status": "completed",
+      "summary": "The EU has no coordinated approach to AI development, which leaves a fragmented ecosystem. The project mapped Europe's AI landscape, built datasets on AI jobs and industrial specialisation, and ran foresight workshops, podcasts and events on a future-ready workforce.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Google.org"
+        },
+        {
+          "label": "My role",
+          "value": "Work package / task leader"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.ceps.eu/ceps-projects/european-ecosystem-of-excellence-in-ai/"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "gpai",
+      "institution": "CEPS",
+      "title": "Generative AI and the future of work dialogue (GPAI)",
+      "start": 2020,
+      "end": 2025,
+      "status": "completed",
+      "summary": "Roundtables and interviews in Asia, Europe and Latin America on what generative AI means for working conditions, future skills and job design.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Global Partnership on AI (OECD/GPAI)"
+        },
+        {
+          "label": "My role",
+          "value": "Work package / task leader"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.ceps.eu/ceps-projects/gpai/"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "gi-ni",
+      "institution": "CEPS",
+      "title": "GI-NI: Growing inequality",
+      "start": 2021,
+      "end": 2023,
+      "status": "completed",
+      "summary": "How do technological change, globalisation and migration together affect work, skills and inequality in Europe? GI-NI measured these effects and developed policy options for inclusion.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Horizon 2020 (grant 101004494)"
+        },
+        {
+          "label": "Partners",
+          "value": "Eight universities and research centres"
+        },
+        {
+          "label": "My role",
+          "value": "Contributor"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.ceps.eu/ceps-projects/gi-ni/"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "steunpunt-werk",
+      "institution": "KU Leuven",
+      "title": "Labour market projection model for Flanders",
+      "start": 2023,
+      "end": 2024,
+      "status": "completed",
+      "summary": "A forecasting model for the Flemish labour market at Steunpunt Werk. It matches projections of labour demand and supply across sectors, occupations and skills to map future shortages and mismatches, so that education, training and lifelong learning can be better aligned with labour market needs.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Flemish government (Departement WSE)"
+        },
+        {
+          "label": "My role",
+          "value": "Research expert"
+        }
+      ],
+      "links": [
+        {
+          "label": "Steunpunt Werk",
+          "url": "https://www.steunpuntwerk.be"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "bruegel-fowig",
+      "institution": "Bruegel",
+      "title": "Future of Work and Inclusive Growth in Europe",
+      "start": 2021,
+      "end": 2023,
+      "status": "completed",
+      "summary": "A research-to-action project on how AI and technology affect work, welfare systems and inclusive growth, with four strands: new technologies in the workplace, new ways of working, reskilling and mobility, and an inclusive digital economy. The project built a network of academics, policymakers and businesses, and a Future of Work dashboard.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Mastercard Center for Inclusive Growth"
+        },
+        {
+          "label": "My role",
+          "value": "Project lead (team of six)"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.bruegel.org/future-work/future-work-and-inclusive-growth-europe"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "manuwin",
+      "institution": "Workitects",
+      "title": "MANUWIN: workplace innovation in industrial manufacturing",
+      "start": 2018,
+      "end": 2022,
+      "status": "completed",
+      "summary": "Seven Flemish manufacturers redesigned their work organisation with support from Workitects. The project developed data-driven tools for information flow mapping, team design, team KPIs and workability measurement.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Flanders Make (HBC.2017.0311)"
+        },
+        {
+          "label": "Partners",
+          "value": "FlandersMake@UGent"
+        },
+        {
+          "label": "My role",
+          "value": "Lead researcher"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.workitects.be/project/manuwin"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "iao-woonzorg",
+      "institution": "Workitects",
+      "title": "IAO woonzorg: workplace innovation in residential care",
+      "start": 2018,
+      "end": 2022,
+      "status": "completed",
+      "summary": "Twenty residential care homes went through a change process towards a new way of organising work, aiming at better care for residents and workable jobs for staff. Workability was measured at the start and end with the <a href=\"https://workitects.be/oplossingen/psychosociale-risicoanalyse\" target=\"_blank\" rel=\"noopener\">Werkmeter</a> survey.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "Flemish government"
+        },
+        {
+          "label": "My role",
+          "value": "Lead researcher"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.workitects.be/project/iao-binnen-de-woonzorgsector"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "wifi2020",
+      "institution": "Workitects",
+      "title": "WIFI2020: workplace innovation in food manufacturing",
+      "start": 2017,
+      "end": 2020,
+      "status": "completed",
+      "summary": "Seven food companies in two learning networks moved from hierarchical to more self-organising structures. Nine companies took part in the <a href=\"https://workitects.be/oplossingen/psychosociale-risicoanalyse\" target=\"_blank\" rel=\"noopener\">Werkmeter</a> workability survey: among 400 employees, average workability rose by 10% and the need for recovery fell by 12%.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "VLAIO (HBC.2016.0500)"
+        },
+        {
+          "label": "Partners",
+          "value": "Flanders' FOOD, Alimento"
+        },
+        {
+          "label": "My role",
+          "value": "Lead researcher"
+        }
+      ],
+      "links": [
+        {
+          "label": "Project page",
+          "url": "https://www.workitects.be/project/wifi-2020"
+        }
+      ],
+      "extra_outputs": []
+    },
+    {
+      "id": "phd",
+      "institution": "KU Leuven",
+      "title": "PhD: Exclusive dealing and foreclosure in the automotive industry",
+      "start": 2009,
+      "end": 2015,
+      "status": "completed",
+      "summary": "Do exclusive contracts between car makers and their dealers keep new competitors out? Using a spatial model of consumer demand for new cars, the PhD estimated whether exclusive dealing raises entry costs for new manufacturers and gives domestic firms an advantage. A second study looked at net neutrality and online innovation in the UK. Defended in June 2015.",
+      "facts": [
+        {
+          "label": "Funder",
+          "value": "FWO (PhD fellowship, Aspirant Fundamenteel Onderzoek)"
+        },
+        {
+          "label": "Supervisor",
+          "value": "Frank Verboven"
+        },
+        {
+          "label": "My role",
+          "value": "PhD researcher"
+        }
+      ],
+      "links": [
+        {
+          "label": "Research portal",
+          "url": "https://research.kuleuven.be/portal/en/project/3H070786"
+        }
+      ],
+      "extra_outputs": []
+    }
+  ]
+}
