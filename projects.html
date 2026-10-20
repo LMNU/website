@@ -315,7 +315,7 @@
       .sort((a, b) => (b[0].start - a[0].start) || (a[1] - b[1]))
       .map(x => x[0]);
     const groups = [['Ongoing', list.filter(p => p.status === 'ongoing')],
-                    ['Completed', list.filter(p => p.status !== 'ongoing')]];
+                    ['Past work', list.filter(p => p.status !== 'ongoing')]];
     document.getElementById('sections').innerHTML = groups.filter(g => g[1].length).map(([name, items]) => `
       <section class="proj-section">
         <h2>${name}<span class="count">${items.length} ${items.length === 1 ? 'project' : 'projects'}</span></h2>
